@@ -12,11 +12,13 @@ const OUT = new URL("../news.json", import.meta.url).pathname;
 const LIMIT = 6;
 const MAX_AGE_DAYS = 21;
 
+/* Kanały tematyczne (ethOnly: false) dotyczą wyłącznie Ethereum — bierzemy z nich wszystko.
+   Kanały ogólne (ethOnly: true) przepuszczamy przez filtr niżej.                        */
 const FEEDS = [
-  { url: "https://cointelegraph.com/rss/tag/ethereum", name: "Cointelegraph", ethOnly: false },
-  { url: "https://decrypt.co/feed",                    name: "Decrypt",       ethOnly: true  },
-  { url: "https://cryptoslate.com/feed/",              name: "CryptoSlate",   ethOnly: true  },
-  { url: "https://www.coindesk.com/arc/outboundfeeds/rss/", name: "CoinDesk", ethOnly: true  }
+  { url: "https://cointelegraph.com/rss/tag/ethereum",       name: "Cointelegraph", ethOnly: false },
+  { url: "https://cryptoslate.com/coins/ethereum/feed/",     name: "CryptoSlate",   ethOnly: false },
+  { url: "https://decrypt.co/feed",                          name: "Decrypt",       ethOnly: true  },
+  { url: "https://www.coindesk.com/arc/outboundfeeds/rss/",  name: "CoinDesk",      ethOnly: true  }
 ];
 
 const MONTHS = [
@@ -62,7 +64,40 @@ function plDate(d) {
   return d.getDate() + " " + MONTHS[d.getMonth()];
 }
 
-const ETH_RE = /\beth\b|ethereum|ether\b|vitalik|erc-?20|layer ?2|l2\b|staking|glamsterdam|pectra|dencun/i;
+/* Filtr trafności dla kanałów ogólnych.
+
+   Wcześniejsza wersja szukała byle wzmianki o "ether" czy "staking" gdziekolwiek
+   w tekście — przez co przechodziły artykuły o XRP, bitcoinie czy regulacjach UE,
+   które ETH tylko mijały po drodze. Teraz decyduje przede wszystkim tytuł.        */
+
+// jednoznacznie o Ethereum
+const ETH_STRONG = /ethereum|\beth\b|\bether\b|vitalik|erc-?20|\beip-?\d+|glamsterdam|pectra|dencun/i;
+
+// w treści wymagamy terminów, których nie da się pomylić z niczym innym
+const ETH_CLEAR = /ethereum|vitalik/i;
+
+// tytuł o innej monecie — odrzucamy, choćby ETH było wspomniane w środku
+const OTHER_COIN = /\b(xrp|ripple|solana|\bsol\b|cardano|\bada\b|dogecoin|\bdoge\b|bnb|tron|\btrx\b|litecoin|\bltc\b|polkadot|avalanche|\bavax\b|chainlink|shiba|pepe|monero)\b/i;
+
+const BITCOIN = /\bbitcoin\b|\bbtc\b/i;
+
+function at(re, text) {
+  const m = text.match(re);
+  return m ? m.index : Infinity;
+}
+
+function isRelevant(title, body) {
+  const eth = at(ETH_STRONG, title);
+  const rival = Math.min(at(OTHER_COIN, title), at(BITCOIN, title));
+
+  // obie monety w tytule — temat wyznacza ta wymieniona wcześniej
+  if (eth !== Infinity && rival !== Infinity) return eth < rival;
+
+  if (eth !== Infinity) return true;      // tytuł mówi wprost o ETH
+  if (rival !== Infinity) return false;   // tytuł o innej monecie
+
+  return ETH_CLEAR.test(body);            // inaczej: wyraźna wzmianka w treści
+}
 
 /* ---------- pobieranie ---------- */
 
@@ -87,8 +122,7 @@ async function readFeed(feed) {
     const when = new Date(pub);
     if (isNaN(when)) continue;
 
-    const haystack = title + " " + desc;
-    if (feed.ethOnly && !ETH_RE.test(haystack)) continue;
+    if (feed.ethOnly && !isRelevant(title, desc)) continue;
 
     items.push({
       title,
