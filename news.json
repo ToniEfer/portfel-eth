@@ -1,10 +1,25 @@
 {
-  "updated": "2026-09-21T07:54:39.217Z",
+  "updated": "2026-09-21T18:28:30.133Z",
   "sources": [
-    "Cointelegraph",
-    "Decrypt"
+    "Decrypt",
+    "CoinDesk",
+    "Cointelegraph"
   ],
   "items": [
+    {
+      "title": "Tom Lee's Bitmine Adds $74M in Ethereum, Declares a Crypto Bull Market 'Underway'",
+      "url": "https://decrypt.co/378754/tom-lee-bitmine-adds-ethereum-crypto-bull-market",
+      "source": "Decrypt",
+      "date": "21 września",
+      "body": "The purchase lifts Bitmine's stash to nearly 5.99 million ETH—4.9% of supply—as chairman Tom Lee argues Ethereum's outperformance signals a stronger move ahead and institutions remain…"
+    },
+    {
+      "title": "Bitmine bought $75 million ether as Tom Lee says institutions are still underweight crypto",
+      "url": "https://www.coindesk.com/business/2026/09/21/bitmine-bought-usd75-million-ether-as-tom-lee-says-institutions-are-still-underweight-crypto",
+      "source": "CoinDesk",
+      "date": "21 września",
+      "body": "The largest Ethereum-centric treasury firm kept buying, while its chairman argued ETH’s strong third quarter could push institutions to increase crypto exposure."
+    },
     {
       "title": "Ethereum Institutional signals support for Ethlabs’ motion to reduce Ethereum block times",
       "url": "https://cointelegraph.com/news/ethereum-institutional-support-ethlabs-reduce-ethereum-block-times?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
@@ -32,20 +47,6 @@
       "source": "Cointelegraph",
       "date": "14 września",
       "body": "Bitmine now has more than 5 million ETH staked, turning most of its Ether holdings into a recurring income stream as it continues to accumulate."
-    },
-    {
-      "title": "Consensys to split into MetaMask and institutional blockchain company",
-      "url": "https://cointelegraph.com/news/consensys-to-split-into-metamask-and-institutional-blockchain-company?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "9 września",
-      "body": "The restructuring will separate MetaMask’s consumer business from Consensys’ Ethereum protocols and institutional blockchain infrastructure operations."
-    },
-    {
-      "title": "Bitmine buys 28k ETH, completes 97% of treasury accumulation goal",
-      "url": "https://cointelegraph.com/news/bitmine-buys-28k-eth-completes-97-treasury-goal?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "8 września",
-      "body": "While Bitmine’s completed 97% of its goal to acquire 5% of Ether’s supply, Tom Lee’s team faces a $5.1 billion unrealized loss on its main treasury asset."
     }
   ]
 }
