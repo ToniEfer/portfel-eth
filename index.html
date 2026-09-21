@@ -325,7 +325,14 @@
   #ohlc-chg.up { color: var(--up); }
   #ohlc-chg.down { color: var(--down); }
 
-  #ohlc-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0 10px; }
+  /* Cztery wartości w rzędzie mieszczą się tylko na szerokich ekranach.
+     Kwoty w złotówkach są o kilka znaków dłuższe niż dolarowe, więc niżej
+     siatka przechodzi na dwa rzędy po dwie wartości. */
+  #ohlc-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0 10px;
+  }
   #ohlc-grid .k {
     display: block;
     font-size: 9.5px;
@@ -339,6 +346,17 @@
     font-weight: 700;
     letter-spacing: -0.03em;
     color: var(--ink);
+    white-space: nowrap;
+  }
+
+  @media (max-width: 560px) {
+    #ohlc-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 9px 14px;
+    }
+    #ohlc-grid > div { display: flex; align-items: baseline; gap: 7px; }
+    #ohlc-grid .k { font-size: 10px; min-width: 9px; }
+    #ohlc-grid .v { font-size: 13.5px; }
   }
   #ohlc-grid .v.up { color: var(--up); }
   #ohlc-grid .v.down { color: var(--down); }
