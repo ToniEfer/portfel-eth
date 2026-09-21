@@ -1,0 +1,39 @@
+name: Odświeżanie wiadomości ETH
+
+on:
+  schedule:
+    # co 6 godzin (czas UTC)
+    - cron: "17 */6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: news
+  cancel-in-progress: false
+
+jobs:
+  news:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Pobierz wiadomości
+        run: node scripts/fetch-news.mjs
+
+      - name: Zapisz zmiany
+        run: |
+          if [ -n "$(git status --porcelain news.json)" ]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add news.json
+            git commit -m "Aktualizacja wiadomości ETH"
+            git push
+          else
+            echo "Brak zmian w news.json."
+          fi
