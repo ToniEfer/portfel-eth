@@ -1,45 +1,53 @@
 {
-  "updated": "2026-09-15T12:00:00.000Z",
+  "updated": "2026-09-21T07:43:05.877Z",
   "sources": [
-    "CoinMarketCap",
-    "ethereum.org",
-    "CryptoRank"
+    "CoinDesk",
+    "CryptoSlate",
+    "Decrypt",
+    "Cointelegraph"
   ],
   "items": [
     {
-      "title": "Kapitał przenosi się z ETF-ów bitcoina do ETH",
-      "url": "https://coinmarketcap.com/cmc-ai/ethereum/latest-updates/",
-      "source": "CoinMarketCap",
-      "date": "14 września",
-      "body": "W minionym tygodniu fundusze ETF na Ethereum przyciągnęły 197 mln USD, podczas gdy z bitcoinowych odpłynęło 463 mln USD."
+      "title": "Kalshi faces ‘fake crypto volume’ allegations as critic flags identical $5,500 trades",
+      "url": "https://www.coindesk.com/markets/2026/09/21/kalshi-s-crypto-chief-responds-to-fake-crypto-volume-allegations-as-critic-flags-identical-usd5-500-trades",
+      "source": "CoinDesk",
+      "date": "21 września",
+      "body": "A trader alleged on X that Kalshi is inflating trading volumes in its ether perpetual futures."
     },
     {
-      "title": "Rekordowy dzień napływów — 216 mln USD",
-      "url": "https://coinmarketcap.com/cmc-ai/ethereum/latest-updates/",
-      "source": "CoinMarketCap",
-      "date": "11 września",
-      "body": "Z tego 148,8 mln USD trafiło do funduszu ETHA BlackRocka. To jego najlepszy dzień od stycznia."
+      "title": "EU staking review threatens crypto yields and network security could pay the price",
+      "url": "https://cryptoslate.com/staking-is-becoming-too-large-for-europe-to-leave-alone/",
+      "source": "CryptoSlate",
+      "date": "20 września",
+      "body": "Some of the most consequential financial rules begin with surprisingly little text. For example, on page 36 of the European Commission's current MiCA review, item 66 asks whether Europe's…"
     },
     {
-      "title": "Postęp w Clarity Act",
-      "url": "https://coinmarketcap.com/cmc-ai/ethereum/latest-updates/",
-      "source": "CoinMarketCap",
-      "date": "14 września",
-      "body": "Poprawiona wersja ustawy w Senacie, z ustępstwami popartymi przez Biały Dom, poprawiła nastroje wokół regulacji rynku kryptowalut w USA."
+      "title": "Ripple says asset managers are preparing for XRP Ledger’s next payments upgrade",
+      "url": "https://www.coindesk.com/tech/2026/09/19/ripple-says-asset-managers-are-preparing-for-xrp-ledger-s-next-payments-upgrade",
+      "source": "CoinDesk",
+      "date": "19 września",
+      "body": "The upcoming Batch V1.1 can make linked asset and payment transfers succeed together or fail together, and Ripple says commercial projects are already being built around the feature after…"
     },
     {
-      "title": "Glamsterdam przesunięty na IV kwartał",
-      "url": "https://ethereum.org/roadmap/glamsterdam/",
-      "source": "ethereum.org",
-      "date": "15 września",
-      "body": "Uruchomienie na mainnecie opóźnione; fork testnetu Sepolia planowany na 28 września, ale deweloperzy zastrzegają, że termin może się zmienić. Uaktualnienie wprowadza równoległe wykonywanie transakcji i ePBS."
+      "title": "Bitcoin Will Hit $1 Million, Says Kevin O’Leary—But There’s a Quantum Catch",
+      "url": "https://decrypt.co/378664/kevin-oleary-bitcoin-1-million-quantum-catch",
+      "source": "Decrypt",
+      "date": "18 września",
+      "body": "Kevin O'Leary believes Bitcoin could hit $1 million if crypto beats its quantum computing problem, and explained why he's ditching Ethereum."
     },
     {
-      "title": "Odbicie z 1 900 do ponad 2 500 USD",
-      "url": "https://cryptorank.io/news/feed/5a816-ethereum-price-prediction-september-2026-eth-targets-2800-as-wedge-breakout-nears",
-      "source": "CryptoRank",
-      "date": "31 sierpnia",
-      "body": "ETH ustanowiło pierwszy wyższy szczyt tego cyklu — bitcoin jeszcze nie. Opór przy 2 550 USD odrzucił dwie próby wybicia."
+      "title": "Ethereum Institutional signals support for Ethlabs’ motion to reduce Ethereum block times",
+      "url": "https://cointelegraph.com/news/ethereum-institutional-support-ethlabs-reduce-ethereum-block-times?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "18 września",
+      "body": "The non-profit signaled support for reducing Ethereum block times, citing increasing institutional activity moving onto the smart-contract network."
+    },
+    {
+      "title": "Ethereum Founder Vitalik Buterin Says AI Won’t Doom Crypto Security",
+      "url": "https://decrypt.co/378544/ethereum-vitalik-buterin-ai-crypto-security",
+      "source": "Decrypt",
+      "date": "17 września",
+      "body": "The Ethereum co-founder said AI could help developers mathematically verify entire software systems, turning the same technology powering new attacks into a tool for defense."
     }
   ]
 }
