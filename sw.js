@@ -3,7 +3,7 @@
    i uruchamia bez sieci. Dane rynkowe zawsze próbujemy pobrać z sieci;
    z cache korzystamy tylko wtedy, gdy sieci nie ma, i oznaczamy je jako nieaktualne. */
 
-var VERSION = "eth-portfel-v1";
+var VERSION = "eth-portfel-v2";
 var SHELL_CACHE = VERSION + "-shell";
 var DATA_CACHE = VERSION + "-data";
 
@@ -39,7 +39,9 @@ self.addEventListener("activate", function (e) {
 });
 
 function isApi(url) {
-  return /api\.crypto\.com|api\.nbp\.pl|api\.coingecko\.com|api\.coinbase\.com/.test(url);
+  // news.json też traktujemy jak dane: zawsze próbujemy pobrać świeży,
+  // inaczej cache powłoki serwowałby stare wiadomości w nieskończoność
+  return /api\.crypto\.com|api\.nbp\.pl|api\.coingecko\.com|api\.coinbase\.com|news\.json/.test(url);
 }
 
 self.addEventListener("fetch", function (e) {

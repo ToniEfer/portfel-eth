@@ -1,0 +1,45 @@
+{
+  "updated": "2026-09-15T12:00:00.000Z",
+  "sources": [
+    "CoinMarketCap",
+    "ethereum.org",
+    "CryptoRank"
+  ],
+  "items": [
+    {
+      "title": "Kapitał przenosi się z ETF-ów bitcoina do ETH",
+      "url": "https://coinmarketcap.com/cmc-ai/ethereum/latest-updates/",
+      "source": "CoinMarketCap",
+      "date": "14 września",
+      "body": "W minionym tygodniu fundusze ETF na Ethereum przyciągnęły 197 mln USD, podczas gdy z bitcoinowych odpłynęło 463 mln USD."
+    },
+    {
+      "title": "Rekordowy dzień napływów — 216 mln USD",
+      "url": "https://coinmarketcap.com/cmc-ai/ethereum/latest-updates/",
+      "source": "CoinMarketCap",
+      "date": "11 września",
+      "body": "Z tego 148,8 mln USD trafiło do funduszu ETHA BlackRocka. To jego najlepszy dzień od stycznia."
+    },
+    {
+      "title": "Postęp w Clarity Act",
+      "url": "https://coinmarketcap.com/cmc-ai/ethereum/latest-updates/",
+      "source": "CoinMarketCap",
+      "date": "14 września",
+      "body": "Poprawiona wersja ustawy w Senacie, z ustępstwami popartymi przez Biały Dom, poprawiła nastroje wokół regulacji rynku kryptowalut w USA."
+    },
+    {
+      "title": "Glamsterdam przesunięty na IV kwartał",
+      "url": "https://ethereum.org/roadmap/glamsterdam/",
+      "source": "ethereum.org",
+      "date": "15 września",
+      "body": "Uruchomienie na mainnecie opóźnione; fork testnetu Sepolia planowany na 28 września, ale deweloperzy zastrzegają, że termin może się zmienić. Uaktualnienie wprowadza równoległe wykonywanie transakcji i ePBS."
+    },
+    {
+      "title": "Odbicie z 1 900 do ponad 2 500 USD",
+      "url": "https://cryptorank.io/news/feed/5a816-ethereum-price-prediction-september-2026-eth-targets-2800-as-wedge-breakout-nears",
+      "source": "CryptoRank",
+      "date": "31 sierpnia",
+      "body": "ETH ustanowiło pierwszy wyższy szczyt tego cyklu — bitcoin jeszcze nie. Opór przy 2 550 USD odrzucił dwie próby wybicia."
+    }
+  ]
+}

@@ -1441,32 +1441,68 @@
     });
   }
 
-  function renderNews() {
-    $("news-date").textContent = "stan na " + NEWS_DATE;
+  function renderNews(items, updated) {
+    var list = items && items.length ? items : NEWS;
+
+    $("news-date").textContent = updated
+      ? "aktualizacja " + new Date(updated).toLocaleString("pl-PL", {
+          day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit"
+        })
+      : "stan na " + NEWS_DATE;
+
     var box = $("news");
     box.innerHTML = "";
 
-    NEWS.forEach(function (n) {
+    list.forEach(function (n) {
       var item = document.createElement("div");
       item.className = "news-item";
 
       var d = document.createElement("div");
       d.className = "news-date";
-      d.textContent = n.date;
+      d.textContent = n.source ? n.date + " · " + n.source : n.date;
 
       var h = document.createElement("div");
       h.className = "news-head";
-      h.textContent = n.head;
+      h.textContent = n.title || n.head;
 
       var b = document.createElement("div");
       b.className = "news-body";
-      b.innerHTML = n.body;
+
+      if (n.url) {
+        // pozycje z news.json: treść jako tekst, tytuł jako odnośnik
+        b.textContent = n.body ? n.body + " " : "";
+        var a = document.createElement("a");
+        a.href = n.url;
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        a.textContent = "czytaj dalej";
+        b.appendChild(a);
+      } else {
+        // wbudowany zapas — zawiera gotowy odnośnik w treści
+        b.innerHTML = n.body;
+      }
 
       item.appendChild(d);
       item.appendChild(h);
       item.appendChild(b);
       box.appendChild(item);
     });
+  }
+
+  // news.json jest odświeżany automatycznie przez GitHub Actions.
+  // Leży pod tym samym adresem co aplikacja, więc nie dotyczy go blokada CORS.
+  function fetchNews() {
+    return fetch("./news.json?t=" + Date.now(), { cache: "no-store" })
+      .then(function (r) {
+        if (!r.ok) throw new Error("news " + r.status);
+        return r.json();
+      })
+      .then(function (j) {
+        if (j && j.items && j.items.length) renderNews(j.items, j.updated);
+      })
+      .catch(function () {
+        // brak pliku albo brak sieci — zostają wiadomości wbudowane w aplikację
+      });
   }
 
   /* ---------- przełącznik waluty ---------- */
@@ -1554,16 +1590,18 @@
   }
 
   // odświeżaj po powrocie sieci i po wyjściu aplikacji z tła
-  window.addEventListener("online", fetchAll);
+  window.addEventListener("online", function () { fetchAll(); fetchNews(); });
   document.addEventListener("visibilitychange", function () {
-    if (!document.hidden) fetchAll();
+    if (!document.hidden) { fetchAll(); fetchNews(); }
   });
 
   renderNews();
   renderScenarios();
   renderLevels();
   fetchAll();
+  fetchNews();
   setInterval(fetchAll, 60000);
+  setInterval(fetchNews, 30 * 60000);
 })();
 
 /* rejestracja service workera — powłoka offline + instalacja na telefonie */
