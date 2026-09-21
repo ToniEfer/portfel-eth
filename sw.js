@@ -3,7 +3,7 @@
    i uruchamia bez sieci. Dane rynkowe zawsze próbujemy pobrać z sieci;
    z cache korzystamy tylko wtedy, gdy sieci nie ma, i oznaczamy je jako nieaktualne. */
 
-var VERSION = "eth-portfel-v2";
+var VERSION = "eth-portfel-v4";
 var SHELL_CACHE = VERSION + "-shell";
 var DATA_CACHE = VERSION + "-data";
 
