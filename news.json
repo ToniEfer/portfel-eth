@@ -1,40 +1,10 @@
 {
-  "updated": "2026-09-21T07:43:05.877Z",
+  "updated": "2026-09-21T07:54:39.217Z",
   "sources": [
-    "CoinDesk",
-    "CryptoSlate",
-    "Decrypt",
-    "Cointelegraph"
+    "Cointelegraph",
+    "Decrypt"
   ],
   "items": [
-    {
-      "title": "Kalshi faces ‘fake crypto volume’ allegations as critic flags identical $5,500 trades",
-      "url": "https://www.coindesk.com/markets/2026/09/21/kalshi-s-crypto-chief-responds-to-fake-crypto-volume-allegations-as-critic-flags-identical-usd5-500-trades",
-      "source": "CoinDesk",
-      "date": "21 września",
-      "body": "A trader alleged on X that Kalshi is inflating trading volumes in its ether perpetual futures."
-    },
-    {
-      "title": "EU staking review threatens crypto yields and network security could pay the price",
-      "url": "https://cryptoslate.com/staking-is-becoming-too-large-for-europe-to-leave-alone/",
-      "source": "CryptoSlate",
-      "date": "20 września",
-      "body": "Some of the most consequential financial rules begin with surprisingly little text. For example, on page 36 of the European Commission's current MiCA review, item 66 asks whether Europe's…"
-    },
-    {
-      "title": "Ripple says asset managers are preparing for XRP Ledger’s next payments upgrade",
-      "url": "https://www.coindesk.com/tech/2026/09/19/ripple-says-asset-managers-are-preparing-for-xrp-ledger-s-next-payments-upgrade",
-      "source": "CoinDesk",
-      "date": "19 września",
-      "body": "The upcoming Batch V1.1 can make linked asset and payment transfers succeed together or fail together, and Ripple says commercial projects are already being built around the feature after…"
-    },
-    {
-      "title": "Bitcoin Will Hit $1 Million, Says Kevin O’Leary—But There’s a Quantum Catch",
-      "url": "https://decrypt.co/378664/kevin-oleary-bitcoin-1-million-quantum-catch",
-      "source": "Decrypt",
-      "date": "18 września",
-      "body": "Kevin O'Leary believes Bitcoin could hit $1 million if crypto beats its quantum computing problem, and explained why he's ditching Ethereum."
-    },
     {
       "title": "Ethereum Institutional signals support for Ethlabs’ motion to reduce Ethereum block times",
       "url": "https://cointelegraph.com/news/ethereum-institutional-support-ethlabs-reduce-ethereum-block-times?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
@@ -48,6 +18,34 @@
       "source": "Decrypt",
       "date": "17 września",
       "body": "The Ethereum co-founder said AI could help developers mathematically verify entire software systems, turning the same technology powering new attacks into a tool for defense."
+    },
+    {
+      "title": "Ethereum, Base wallet standards talks fail, Ethlabs researcher says",
+      "url": "https://cointelegraph.com/news/ethereum-base-wallet-standards-collaboration-breaks?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "15 września",
+      "body": "Ethereum and Base are pursuing different account abstraction designs after talks failed, according to Ethlabs researcher Derek Chiang."
+    },
+    {
+      "title": "Bitmine projects $334M in annual staking revenue from $15.8B crypto treasury",
+      "url": "https://cointelegraph.com/news/bitmine-5-million-eth-staked-334-million-revenue?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "14 września",
+      "body": "Bitmine now has more than 5 million ETH staked, turning most of its Ether holdings into a recurring income stream as it continues to accumulate."
+    },
+    {
+      "title": "Consensys to split into MetaMask and institutional blockchain company",
+      "url": "https://cointelegraph.com/news/consensys-to-split-into-metamask-and-institutional-blockchain-company?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "9 września",
+      "body": "The restructuring will separate MetaMask’s consumer business from Consensys’ Ethereum protocols and institutional blockchain infrastructure operations."
+    },
+    {
+      "title": "Bitmine buys 28k ETH, completes 97% of treasury accumulation goal",
+      "url": "https://cointelegraph.com/news/bitmine-buys-28k-eth-completes-97-treasury-goal?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "8 września",
+      "body": "While Bitmine’s completed 97% of its goal to acquire 5% of Ether’s supply, Tom Lee’s team faces a $5.1 billion unrealized loss on its main treasury asset."
     }
   ]
 }
