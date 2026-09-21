@@ -1,0 +1,1580 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Portfel ETH</title>
+
+<!-- aplikacja instalowalna (PWA) -->
+<link rel="manifest" href="./manifest.webmanifest">
+<meta name="theme-color" content="#FAF0DC" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#14130D" media="(prefers-color-scheme: dark)">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Portfel ETH">
+<link rel="apple-touch-icon" href="./apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 44'%3E%3Crect x='2' y='2' width='40' height='40' rx='8' fill='%23FFD62B' stroke='%2316150F' stroke-width='3'/%3E%3Cpath d='M22 8l-8 13.3L22 26l8-4.7L22 8z' fill='%2316150F'/%3E%3Cpath d='M22 28l-8-4.7L22 36l8-12.7L22 28z' fill='%2316150F'/%3E%3C/svg%3E">
+<style>
+  /* ---------- tokeny: jasny (domyślny) ---------- */
+  :root {
+    --paper:      #FAF0DC;
+    --panel:      #FFFBF0;
+    --panel-2:    #F3E7CD;
+    --ink:        #16150F;
+    --ink-2:      #5A5646;
+    --ink-3:      #8B8672;
+    --on-accent:  #16150F;
+
+    --yellow:     #FFD62B;
+    --mint:       #9FE4B9;
+    --pink:       #F7A9DF;
+    --sky:        #92D2F3;
+    --coral:      #FF7A62;
+
+    --up:         #17924F;
+    --down:       #D63E22;
+    --warn:       #C97A12;
+
+    --dot:        rgba(22,21,15,0.11);
+    --bw:         2.5px;
+    --radius:     10px;
+    --shadow:     4px 4px 0 var(--ink);
+    --shadow-sm:  3px 3px 0 var(--ink);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper:   #14130D;
+      --panel:   #201E15;
+      --panel-2: #2B2818;
+      --ink:     #F8F0DA;
+      --ink-2:   #BDB6A2;
+      --ink-3:   #8E8875;
+      --up:      #5CD68D;
+      --down:    #FF7A62;
+      --warn:    #F0B24A;
+      --mint:    #63C98F;
+      --pink:    #E08ACB;
+      --sky:     #6FB9E2;
+      --dot:     rgba(248,240,218,0.10);
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper:   #14130D;
+    --panel:   #201E15;
+    --panel-2: #2B2818;
+    --ink:     #F8F0DA;
+    --ink-2:   #BDB6A2;
+    --ink-3:   #8E8875;
+    --up:      #5CD68D;
+    --down:    #FF7A62;
+    --warn:    #F0B24A;
+    --mint:    #63C98F;
+    --pink:    #E08ACB;
+    --sky:     #6FB9E2;
+    --dot:     rgba(248,240,218,0.10);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background-color: var(--paper);
+    background-image: radial-gradient(var(--dot) 1.4px, transparent 1.5px);
+    background-size: 19px 19px;
+    color: var(--ink);
+    font-family: "DM Sans", -apple-system, "Segoe UI", Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+    padding-block: 34px 56px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  /* w trybie zainstalowanej aplikacji omijamy notch i pasek gestów */
+  @supports (padding: env(safe-area-inset-top)) {
+    body {
+      padding-top: calc(34px + env(safe-area-inset-top));
+      padding-bottom: calc(56px + env(safe-area-inset-bottom));
+      padding-left: calc(16px + env(safe-area-inset-left));
+      padding-right: calc(16px + env(safe-area-inset-right));
+    }
+  }
+
+  .wrap { max-width: 620px; margin: 0 auto; display: flex; flex-direction: column; gap: 26px; }
+
+  /* ---------- nagłówek ---------- */
+  .masthead { display: flex; align-items: center; gap: 12px; }
+
+  .mark {
+    width: 44px; height: 44px; flex: none;
+    border: var(--bw) solid var(--ink);
+    border-radius: var(--radius);
+    background: var(--yellow);
+    box-shadow: var(--shadow-sm);
+    display: grid; place-items: center;
+  }
+  .mark svg { width: 22px; height: 22px; display: block; }
+
+  .masthead h1 {
+    font-family: "Space Mono", ui-monospace, monospace;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+    text-wrap: balance;
+  }
+  .masthead .tagline {
+    font-size: 12px;
+    color: var(--ink-3);
+    letter-spacing: 0.02em;
+  }
+
+  /* ---------- sekcje ---------- */
+  .section { display: flex; flex-direction: column; gap: 12px; }
+
+  .section > h2 {
+    font-family: "Space Mono", ui-monospace, monospace;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -0.035em;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .section > h2 .sub {
+    font-family: "DM Sans", sans-serif;
+    font-size: 11.5px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    color: var(--ink-3);
+  }
+  .sec-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+
+  /* ---------- panele ---------- */
+  .panel {
+    background: var(--panel);
+    border: var(--bw) solid var(--ink);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 18px 18px;
+  }
+  .panel.flat { box-shadow: none; }
+  .panel.accent { background: var(--yellow); color: var(--on-accent); }
+  .panel.accent-pink { background: var(--pink); color: var(--on-accent); }
+
+  /* ---------- kurs ---------- */
+  .price-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+
+  #price {
+    font-family: "Space Mono", ui-monospace, monospace;
+    font-size: clamp(34px, 9vw, 46px);
+    font-weight: 700;
+    letter-spacing: -0.045em;
+    line-height: 1;
+  }
+  #price-alt {
+    font-family: "Space Mono", ui-monospace, monospace;
+    font-size: 14px;
+    margin-top: 6px;
+    color: var(--on-accent);
+    opacity: 0.72;
+  }
+
+  #change {
+    font-family: "Space Mono", ui-monospace, monospace;
+    font-size: 12.5px;
+    font-weight: 700;
+    padding: 5px 10px;
+    border: 2px solid var(--on-accent);
+    border-radius: 999px;
+    white-space: nowrap;
+    background: transparent;
+  }
+  #change.up   { background: var(--mint);  }
+  #change.down { background: var(--coral); }
+  #change:empty { display: none; }
+
+  /* kafelki statystyk — jak boksy w referencji */
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin-top: 16px;
+  }
+  .stat {
+    border: 2px solid var(--on-accent);
+    border-radius: 7px;
+    padding: 8px 9px;
+    background: transparent;
+    min-width: 0;
+  }
+  .stat .v {
+    font-family: "Space Mono", ui-monospace, monospace;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .stat .k {
+    font-size: 9.5px;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    opacity: 0.66;
+    display: block;
+    margin-top: 2px;
+  }
+
+  /* ---------- przełączniki ---------- */
+  .seg { display: flex; gap: 6px; flex: none; }
+
+  button {
+    font: inherit;
+    font-family: "DM Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--ink);
+    background: var(--panel);
+    border: 2px solid var(--ink);
+    border-radius: 7px;
+    padding: 4px 11px;
+    cursor: pointer;
+    box-shadow: 2px 2px 0 var(--ink);
+    transition: transform 0.08s ease, box-shadow 0.08s ease, background 0.12s ease;
+  }
+  button:hover { background: var(--panel-2); }
+  button:active { transform: translate(2px, 2px); box-shadow: 0 0 0 var(--ink); }
+  button:focus-visible { outline: 3px solid var(--sky); outline-offset: 2px; }
+  button.on { background: var(--yellow); color: var(--on-accent); }
+  button:disabled { opacity: 0.4; cursor: default; box-shadow: none; transform: none; }
+  button:disabled:hover { background: var(--panel); }
+
+  .panel.accent button {
+    color: var(--on-accent);
+    background: rgba(255,255,255,0.55);
+    border-color: var(--on-accent);
+    box-shadow: 2px 2px 0 var(--on-accent);
+  }
+  .panel.accent button:hover { background: rgba(255,255,255,0.85); }
+  .panel.accent button:active { box-shadow: 0 0 0 var(--on-accent); }
+  .panel.accent button.on { background: var(--on-accent); color: var(--yellow); }
+
+  /* ---------- wykres ---------- */
+  #chart-wrap { margin-top: 18px; }
+
+  #chart-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+  }
+  #chart-title {
+    font-family: "Space Mono", ui-monospace, monospace;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .chart-box {
+    border: 2px solid var(--ink);
+    border-radius: 8px;
+    background: var(--panel);
+    padding: 8px 8px 2px;
+    overflow: hidden;
+  }
+  #chart { display: block; width: 100%; cursor: crosshair; touch-action: none; }
+  #chart-msg { font-size: 12.5px; color: var(--ink-3); padding: 34px 0; text-align: center; }
+
+  /* panel OHLC */
+  #ohlc {
+    margin-top: 12px;
+    border: 2px solid var(--ink);
+    border-radius: 8px;
+    background: var(--panel);
+    padding: 10px 12px 11px;
+  }
+  #ohlc-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 8px;
+    font-family: "Space Mono", ui-monospace, monospace;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: var(--ink);
+    margin-bottom: 9px;
+    padding-bottom: 8px;
+    border-bottom: 1.5px dashed var(--ink-3);
+  }
+  #ohlc-chg.up { color: var(--up); }
+  #ohlc-chg.down { color: var(--down); }
+
+  #ohlc-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0 10px; }
+  #ohlc-grid .k {
+    display: block;
+    font-size: 9.5px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    color: var(--ink-3);
+  }
+  #ohlc-grid .v {
+    font-family: "Space Mono", ui-monospace, monospace;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    color: var(--ink);
+  }
+  #ohlc-grid .v.up { color: var(--up); }
+  #ohlc-grid .v.down { color: var(--down); }
+  #ohlc-alt { margin-top: 7px; font-size: 11.5px; color: var(--ink-3); }
+
+  #meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 16px;
+    font-size: 11.5px;
+    flex-wrap: wrap;
+  }
+  #stamp {
+    font-family: "Space Mono", ui-monospace, monospace;
+    font-size: 11px;
+    letter-spacing: -0.01em;
+  }
+
+  /* ---------- portfel ---------- */
+  #amount-row { display: flex; align-items: stretch; gap: 9px; }
+
+  input {
+    font-family: "Space Mono", ui-monospace, monospace;
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    color: var(--on-accent);
+    background: rgba(255,255,255,0.6);
+    border: 2px solid var(--on-accent);
+    border-radius: 8px;
+    padding: 10px 13px;
+    width: 100%;
+    min-width: 0;
+    outline: none;
+  }
+  input:focus { background: #fff; box-shadow: inset 0 0 0 2px var(--on-accent); }
+
+  .unit {
+    font-family: "Space Mono", ui-monospace, monospace;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: var(--on-accent);
+    background: var(--yellow);
+    border: 2px solid var(--on-accent);
+    border-radius: 8px;
+    display: grid;
+    place-items: center;
+    padding: 0 13px;
+    flex: none;
+  }
+
+  #saved {
+    font-size: 11.5px;
+    font-weight: 700;
+    color: var(--on-accent);
+    margin-top: 8px;
+    height: 17px;
+    opacity: 0;
+    transition: opacity 0.25s ease;
+  }
+  #saved.show { opacity: 0.8; }
+
+  #pf-value { margin-top: 10px; padding-top: 14px; border-top: 2px dashed var(--on-accent); }
+
+  .mini-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    opacity: 0.66;
+    margin-bottom: 6px;
+  }
+  #value-main {
+    font-family: "Space Mono", ui-monospace, monospace;
+    font-size: clamp(30px, 8vw, 38px);
+    font-weight: 700;
+    letter-spacing: -0.045em;
+    line-height: 1.05;
+  }
+  #value-alt {
+    font-family: "Space Mono", ui-monospace, monospace;
+    font-size: 15px;
+    opacity: 0.72;
+    margin-top: 4px;
+  }
+
+  /* ---------- tabele ---------- */
+  .table-box { border: var(--bw) solid var(--ink); border-radius: var(--radius); box-shadow: var(--shadow); background: var(--panel); overflow: hidden; }
+  .table-scroll { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; }
+
+  th {
+    font-size: 9.5px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--on-accent);
+    background: var(--sky);
+    text-align: right;
+    padding: 9px 12px;
+    border-bottom: 2px solid var(--ink);
+    white-space: nowrap;
+  }
+  th:first-child { text-align: left; }
+
+  td {
+    font-family: "Space Mono", ui-monospace, monospace;
+    font-size: 13px;
+    letter-spacing: -0.03em;
+    text-align: right;
+    padding: 11px 12px;
+    border-bottom: 1.5px solid var(--ink);
+    white-space: nowrap;
+  }
+  tr:last-child td { border-bottom: none; }
+  tbody tr:nth-child(even) td { background: var(--panel-2); }
+
+  td:first-child { text-align: left; font-weight: 700; }
+  .alt-cell { color: var(--ink-3); }
+  .sub-alt { display: block; font-size: 11px; color: var(--ink-3); margin-top: 2px; letter-spacing: -0.02em; }
+
+  .delta { font-weight: 700; }
+  .delta.up { color: var(--up); }
+  .delta.down { color: var(--down); }
+
+  /* poziomy techniczne */
+  #levels td:first-child { white-space: normal; min-width: 150px; }
+  .tag {
+    display: inline-block;
+    font-family: "DM Sans", sans-serif;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--on-accent);
+    padding: 2px 7px;
+    border: 1.5px solid var(--on-accent);
+    border-radius: 999px;
+  }
+  .tag.res { background: var(--mint); }
+  .tag.sup { background: var(--coral); }
+  .lvl-note {
+    font-family: "DM Sans", sans-serif;
+    font-size: 11px;
+    line-height: 1.4;
+    color: var(--ink-3);
+    font-weight: 400;
+    letter-spacing: 0;
+    margin-top: 5px;
+    white-space: normal;
+  }
+
+  /* ---------- newsy ---------- */
+  .news-list { display: flex; flex-direction: column; gap: 10px; }
+  .news-item {
+    border: 2px solid var(--ink);
+    border-radius: 9px;
+    background: var(--panel);
+    box-shadow: var(--shadow-sm);
+    padding: 13px 14px;
+  }
+  .news-date {
+    display: inline-block;
+    font-size: 9.5px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--on-accent);
+    background: var(--yellow);
+    border: 1.5px solid var(--on-accent);
+    border-radius: 999px;
+    padding: 2px 9px;
+    margin-bottom: 7px;
+  }
+  .news-head { font-size: 15px; font-weight: 700; line-height: 1.3; margin-bottom: 5px; text-wrap: balance; }
+  .news-body { font-size: 13px; color: var(--ink-2); }
+  .news-body a {
+    color: var(--ink);
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: inset 0 -3px 0 var(--sky);
+    padding: 0 1px;
+  }
+  .news-body a:hover { box-shadow: inset 0 -8px 0 var(--sky); }
+  .news-body a:focus-visible { outline: 3px solid var(--sky); outline-offset: 2px; }
+
+  /* ---------- analiza ---------- */
+  .an-list { display: flex; flex-direction: column; gap: 12px; }
+  .an-block {
+    border: 2px solid var(--ink);
+    border-radius: 9px;
+    background: var(--panel);
+    box-shadow: var(--shadow-sm);
+    padding: 13px 14px;
+  }
+  .an-head {
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+  }
+  .dot {
+    width: 13px; height: 13px; flex: none;
+    border: 1.5px solid var(--ink);
+    border-radius: 3px;
+  }
+  .dot.up { background: var(--mint); }
+  .dot.down { background: var(--coral); }
+  .dot.warn { background: var(--yellow); }
+  .an-body { font-size: 13px; color: var(--ink-2); }
+
+  .disclaimer {
+    border: 2px dashed var(--ink-3);
+    border-radius: 9px;
+    padding: 12px 14px;
+    font-size: 11.5px;
+    color: var(--ink-3);
+    line-height: 1.6;
+  }
+
+  /* ---------- błąd ---------- */
+  #err {
+    display: none;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--on-accent);
+    background: var(--coral);
+    border: var(--bw) solid var(--ink);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 12px 14px;
+  }
+  #err.show { display: block; }
+
+  footer {
+    font-size: 11px;
+    color: var(--ink-3);
+    text-align: center;
+    line-height: 1.8;
+    padding-top: 4px;
+  }
+
+  @media (max-width: 420px) {
+    .stats { grid-template-columns: repeat(2, 1fr); }
+    .stat:last-child { grid-column: 1 / -1; }
+    .panel { padding: 15px 14px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; animation: none !important; }
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <span class="mark" aria-hidden="true">
+      <svg viewBox="0 0 44 44" fill="none"><path d="M22 6l-9 15 9 5.3 9-5.3L22 6z" fill="#16150F"/><path d="M22 28.8l-9-5.3L22 38l9-14.5-9 5.3z" fill="#16150F"/></svg>
+    </span>
+    <div>
+      <h1>Portfel ETH</h1>
+      <div class="tagline">kurs na żywo · scenariusze · poziomy</div>
+    </div>
+  </header>
+
+  <div id="err" role="alert"></div>
+
+  <!-- ===== KURS ===== -->
+  <section class="section">
+    <div class="sec-head">
+      <h2>Kurs ETH <span class="sub" id="source"></span></h2>
+      <span class="seg" id="cur">
+        <button type="button" data-cur="USD" class="on">USD</button>
+        <button type="button" data-cur="PLN">PLN</button>
+      </span>
+    </div>
+
+    <div class="panel accent">
+      <div class="price-top">
+        <div>
+          <div id="price">—</div>
+          <div id="price-alt">—</div>
+        </div>
+        <span id="change"></span>
+      </div>
+
+      <div class="stats">
+        <div class="stat"><span class="v" id="st-low">—</span><span class="k">24 h min</span></div>
+        <div class="stat"><span class="v" id="st-high">—</span><span class="k">24 h max</span></div>
+        <div class="stat"><span class="v" id="st-fx">—</span><span class="k">USD / PLN</span></div>
+      </div>
+
+      <div id="chart-wrap">
+        <div id="chart-head">
+          <span id="chart-title">Świece dzienne</span>
+          <span class="seg" id="tf">
+            <button type="button" data-days="30" class="on">30 D</button>
+            <button type="button" data-days="90">90 D</button>
+            <button type="button" data-days="180">180 D</button>
+          </span>
+        </div>
+
+        <div class="chart-box">
+          <svg id="chart" role="img" aria-label="Wykres świecowy kursu ETH"></svg>
+          <div id="chart-msg">wczytywanie wykresu…</div>
+        </div>
+
+        <div id="ohlc">
+          <div id="ohlc-head">
+            <span id="ohlc-date">—</span>
+            <span id="ohlc-chg"></span>
+          </div>
+          <div id="ohlc-grid">
+            <div><span class="k">O</span><span class="v" id="ohlc-o">—</span></div>
+            <div><span class="k">H</span><span class="v" id="ohlc-h">—</span></div>
+            <div><span class="k">L</span><span class="v" id="ohlc-l">—</span></div>
+            <div><span class="k">C</span><span class="v" id="ohlc-c">—</span></div>
+          </div>
+          <div id="ohlc-alt"></div>
+        </div>
+      </div>
+
+      <div id="meta">
+        <span id="stamp">wczytywanie…</span>
+        <button id="refresh" type="button">Odśwież</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PORTFEL ===== -->
+  <section class="section">
+    <h2>Twój portfel</h2>
+
+    <div class="panel accent-pink">
+      <div id="amount-row">
+        <input id="amount" type="text" inputmode="decimal" autocomplete="off" spellcheck="false" aria-label="Ilość ETH">
+        <span class="unit">ETH</span>
+      </div>
+      <div id="saved">Zapisano</div>
+
+      <div id="pf-value">
+        <div class="mini-label">Wartość</div>
+        <div id="value-main">—</div>
+        <div id="value-alt">—</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SCENARIUSZE ===== -->
+  <section class="section">
+    <h2>Scenariusze</h2>
+    <div class="table-box">
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th>Kurs ETH</th>
+              <th id="th-main">Wartość</th>
+              <th id="th-alt">Wartość</th>
+              <th>Zmiana</th>
+            </tr>
+          </thead>
+          <tbody id="scenarios"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== POZIOMY ===== -->
+  <section class="section">
+    <h2>Poziomy techniczne <span class="sub">wg analiz rynkowych</span></h2>
+    <div class="table-box">
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th>Poziom</th>
+              <th>Kurs ETH</th>
+              <th>Twój portfel</th>
+              <th>Dystans</th>
+            </tr>
+          </thead>
+          <tbody id="levels"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NEWSY ===== -->
+  <section class="section">
+    <h2>Co się dzieje <span class="sub" id="news-date"></span></h2>
+    <div class="news-list" id="news"></div>
+  </section>
+
+  <!-- ===== ANALIZA ===== -->
+  <section class="section">
+    <h2>Co dalej z ceną</h2>
+
+    <div class="an-list">
+      <div class="an-block">
+        <div class="an-head"><span class="dot up"></span>Co ciągnie w górę</div>
+        <div class="an-body">
+          Popyt instytucjonalny jest realny i widoczny w liczbach: fundusze ETF na ETH przyciągają kapitał
+          wtedy, gdy z bitcoinowych odpływa. To odwrócenie relacji, które przez większość ostatnich dwóch lat
+          działało na niekorzyść Ethereum. Do tego dochodzi postęp regulacyjny w USA i perspektywa dużego
+          uaktualnienia sieci w czwartym kwartale. ETH ustanowiło też wyższy szczyt cyklu, czego bitcoin
+          jeszcze nie zrobił — to sygnał relatywnej siły.
+        </div>
+      </div>
+
+      <div class="an-block">
+        <div class="an-head"><span class="dot down"></span>Co ciągnie w dół</div>
+        <div class="an-body">
+          Rejon 2 550 USD odrzucił już dwie próby wybicia i pozostaje głównym sufitem. Dopóki nie zostanie
+          pokonany zamknięciem dziennym, rajd z końca sierpnia wygląda na korektę w szerszym trendzie
+          bocznym, a nie na początek nowej fali. Przesunięcie Glamsterdamu na czwarty kwartał odsuwa
+          w czasie najmocniejszy katalizator fundamentalny, a termin forka testnetu wciąż może się zmienić.
+        </div>
+      </div>
+
+      <div class="an-block">
+        <div class="an-head"><span class="dot warn"></span>Na co patrzeć</div>
+        <div class="an-body">
+          Cała gra toczy się między 2 438 a 2 550 USD. Wybicie górą otwiera drogę w rejon 2 800–2 920 USD.
+          Utrata 2 438 USD przenosi uwagę na 2 000 USD, czyli mniej więcej tam, skąd ruch się zaczął.
+          Warto śledzić dzienne przepływy do ETF-ów — ostatnio to one wyznaczały kierunek —
+          oraz zachowanie bitcoina, bo ETH rzadko idzie długo pod prąd rynkowi.
+        </div>
+      </div>
+
+      <div class="disclaimer">
+        To zestawienie publicznie dostępnych analiz i danych rynkowych, nie porada inwestycyjna.
+        Nie jestem doradcą finansowym, a prognozy cenowe — również te cytowane — regularnie się nie
+        sprawdzają. Decyzję podejmujesz sam, na własną odpowiedzialność.
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    Kurs i świece: crypto.com (zapasowo CoinGecko, Coinbase)<br>
+    Kurs USD/PLN: NBP, tabela A · odświeżanie co 60 s
+  </footer>
+</div>
+
+<script>
+(function () {
+  var KEY_AMOUNT = "eth-portfolio-amount";
+  var KEY_CUR = "eth-portfolio-currency";
+  var DEFAULT_AMOUNT = 2.1384544;
+  var TARGETS = [1000, 2000, 3000, 4000, 5000, 6000];
+  var SVG_NS = "http://www.w3.org/2000/svg";
+
+  /* Poziomy i newsy — stan na datę NEWS_DATE. Aktualizowane ręcznie.
+     Ceny poziomów podajemy zawsze w USD; przeliczenie na PLN dzieje się przy wyświetlaniu. */
+  var NEWS_DATE = "15 września 2026";
+
+  var LEVELS = [
+    { price: 2920, kind: "res", note: "Górny cel wrześniowych prognoz" },
+    { price: 2800, kind: "res", note: "Cel po wybiciu z klina" },
+    { price: 2550, kind: "res", note: "Kluczowy opór, dwa odrzucenia" },
+    { price: 2438, kind: "sup", note: "Wsparcie utrzymujące scenariusz wzrostowy" },
+    { price: 2000, kind: "sup", note: "Cel przy utracie wsparcia" }
+  ];
+
+  var NEWS = [
+    {
+      date: "14 września",
+      head: "Kapitał przenosi się z ETF-ów bitcoina do ETH",
+      body: 'W minionym tygodniu fundusze ETF na Ethereum przyciągnęły 197 mln USD, podczas gdy z bitcoinowych odpłynęło 463 mln USD. <a href="https://coinmarketcap.com/cmc-ai/ethereum/latest-updates/" target="_blank" rel="noopener">CoinMarketCap</a>'
+    },
+    {
+      date: "11 września",
+      head: "Rekordowy dzień napływów — 216 mln USD",
+      body: 'Z tego 148,8 mln USD trafiło do funduszu ETHA BlackRocka. To jego najlepszy dzień od stycznia. <a href="https://coinmarketcap.com/cmc-ai/ethereum/latest-updates/" target="_blank" rel="noopener">CoinMarketCap</a>'
+    },
+    {
+      date: "14 września",
+      head: "Postęp w Clarity Act",
+      body: 'Poprawiona wersja ustawy w Senacie, z ustępstwami popartymi przez Biały Dom, poprawiła nastroje wokół regulacji rynku kryptowalut w USA. <a href="https://coinmarketcap.com/cmc-ai/ethereum/latest-updates/" target="_blank" rel="noopener">CoinMarketCap</a>'
+    },
+    {
+      date: "Wrzesień",
+      head: "Glamsterdam przesunięty na IV kwartał",
+      body: 'Uruchomienie na mainnecie opóźnione; fork testnetu Sepolia planowany na 28 września, ale deweloperzy zastrzegają, że termin może się jeszcze zmienić. Uaktualnienie wprowadza równoległe wykonywanie transakcji i ePBS. <a href="https://ethereum.org/roadmap/glamsterdam/" target="_blank" rel="noopener">ethereum.org</a>'
+    },
+    {
+      date: "Koniec sierpnia",
+      head: "Odbicie z 1 900 do ponad 2 500 USD",
+      body: 'ETH ustanowiło pierwszy wyższy szczyt tego cyklu — bitcoin jeszcze nie. Opór przy 2 550 USD odrzucił dwie próby wybicia. <a href="https://cryptorank.io/news/feed/5a816-ethereum-price-prediction-september-2026-eth-targets-2800-as-wedge-breakout-nears" target="_blank" rel="noopener">CryptoRank</a>'
+    }
+  ];
+
+  var state = {
+    usd: null, change24h: null, high: null, low: null,
+    usdPln: null, plnDate: null, source: "", amount: DEFAULT_AMOUNT,
+    candles: [], days: 30, currency: "USD"
+  };
+
+  var F = {
+    USD:  new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", minimumFractionDigits: 2, maximumFractionDigits: 2 }),
+    USD0: new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", maximumFractionDigits: 0 }),
+    PLN:  new Intl.NumberFormat("pl-PL", { style: "currency", currency: "PLN", minimumFractionDigits: 2, maximumFractionDigits: 2 }),
+    PLN0: new Intl.NumberFormat("pl-PL", { style: "currency", currency: "PLN", maximumFractionDigits: 0 })
+  };
+
+  function $(id) { return document.getElementById(id); }
+
+  /* kolory bierzemy z tokenów CSS, żeby wykres działał w obu motywach */
+  function tok(name, fallback) {
+    var v = getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+    return v || fallback;
+  }
+  function withAlpha(hex, a) {
+    var h = hex.replace("#", "");
+    if (h.length === 3) h = h[0] + h[0] + h[1] + h[1] + h[2] + h[2];
+    var n = parseInt(h, 16);
+    if (!isFinite(n)) return hex;
+    return "rgba(" + ((n >> 16) & 255) + "," + ((n >> 8) & 255) + "," + (n & 255) + "," + a + ")";
+  }
+
+  function showError(msg) {
+    var e = $("err");
+    if (msg) { e.textContent = msg; e.classList.add("show"); }
+    else { e.classList.remove("show"); }
+  }
+
+  function num(v) {
+    var n = parseFloat(v);
+    return isFinite(n) ? n : null;
+  }
+
+  function el(tag, attrs) {
+    var n = document.createElementNS(SVG_NS, tag);
+    for (var k in attrs) n.setAttribute(k, attrs[k]);
+    return n;
+  }
+
+  /* ---------- waluty ----------
+     Wszystkie wartości w stanie trzymamy w USD.
+     main = waluta dominująca (wybrana), alt = ta druga.            */
+
+  function altCur() { return state.currency === "PLN" ? "USD" : "PLN"; }
+  function hasPln() { return state.usdPln !== null; }
+
+  function toCur(usdValue, cur) {
+    return cur === "PLN" ? usdValue * state.usdPln : usdValue;
+  }
+
+  function fmt(usdValue, cur, cents) {
+    if (cur === "PLN" && !hasPln()) return "—";
+    return F[cur + (cents ? "" : "0")].format(toCur(usdValue, cur));
+  }
+
+  function fMain(usdValue, cents) { return fmt(usdValue, state.currency, cents); }
+  function fAlt(usdValue, cents)  { return fmt(usdValue, altCur(), cents); }
+
+  /* ---------- zapamiętywanie ---------- */
+
+  function loadAmount() {
+    try {
+      var raw = localStorage.getItem(KEY_AMOUNT);
+      if (raw !== null) {
+        var n = parseFloat(raw);
+        if (isFinite(n) && n >= 0) return n;
+      }
+    } catch (e) { /* localStorage niedostępny */ }
+    return DEFAULT_AMOUNT;
+  }
+
+  function saveAmount(n) {
+    try { localStorage.setItem(KEY_AMOUNT, String(n)); } catch (e) { /* ignorujemy */ }
+  }
+
+  function loadCurrency() {
+    try {
+      var c = localStorage.getItem(KEY_CUR);
+      if (c === "PLN" || c === "USD") return c;
+    } catch (e) { /* ignorujemy */ }
+    return "USD";
+  }
+
+  function saveCurrency(c) {
+    try { localStorage.setItem(KEY_CUR, c); } catch (e) { /* ignorujemy */ }
+  }
+
+  var savedTimer = null;
+  function flashSaved() {
+    var s = $("saved");
+    s.classList.add("show");
+    clearTimeout(savedTimer);
+    savedTimer = setTimeout(function () { s.classList.remove("show"); }, 1400);
+  }
+
+  function parseAmount(text) {
+    var cleaned = String(text).replace(/\s/g, "").replace(",", ".");
+    var n = parseFloat(cleaned);
+    return isFinite(n) && n >= 0 ? n : null;
+  }
+
+  /* ---------- źródła kursu ETH ---------- */
+
+  // crypto.com — to samo publiczne API, z którego korzysta connector.
+  // Pola: a = last, c = zmiana 24h (ułamek), h = high, l = low
+  function fromCryptoCom() {
+    var url = "https://api.crypto.com/exchange/v1/public/get-tickers?instrument_name=ETH_USD";
+    return fetch(url, { cache: "no-store" })
+      .then(function (r) {
+        if (!r.ok) throw new Error("crypto.com " + r.status);
+        return r.json();
+      })
+      .then(function (j) {
+        var d = j && j.result && j.result.data && j.result.data[0];
+        var last = d && num(d.a);
+        if (!last) throw new Error("Zły format crypto.com");
+        var c = num(d.c);
+        return {
+          usd: last,
+          change24h: c === null ? null : c * 100,
+          high: num(d.h),
+          low: num(d.l),
+          source: "crypto.com"
+        };
+      });
+  }
+
+  function fromCoinGecko() {
+    var url = "https://api.coingecko.com/api/v3/simple/price"
+      + "?ids=ethereum&vs_currencies=usd&include_24hr_change=true";
+    return fetch(url, { cache: "no-store" })
+      .then(function (r) {
+        if (!r.ok) throw new Error("CoinGecko " + r.status);
+        return r.json();
+      })
+      .then(function (j) {
+        var e = j && j.ethereum;
+        if (!e || typeof e.usd !== "number") throw new Error("Zły format CoinGecko");
+        return {
+          usd: e.usd,
+          change24h: typeof e.usd_24h_change === "number" ? e.usd_24h_change : null,
+          high: null, low: null,
+          source: "CoinGecko"
+        };
+      });
+  }
+
+  function fromCoinbase() {
+    return fetch("https://api.coinbase.com/v2/prices/ETH-USD/spot", { cache: "no-store" })
+      .then(function (r) {
+        if (!r.ok) throw new Error("Coinbase " + r.status);
+        return r.json();
+      })
+      .then(function (j) {
+        var v = j && j.data && num(j.data.amount);
+        if (!v) throw new Error("Brak ceny z Coinbase");
+        return { usd: v, change24h: null, high: null, low: null, source: "Coinbase" };
+      });
+  }
+
+  /* ---------- świece dzienne ---------- */
+
+  function fetchCandles() {
+    var url = "https://api.crypto.com/exchange/v1/public/get-candlestick"
+      + "?instrument_name=ETH_USD&timeframe=1D&count=" + state.days;
+    return fetch(url, { cache: "no-store" })
+      .then(function (r) {
+        if (!r.ok) throw new Error("candlestick " + r.status);
+        return r.json();
+      })
+      .then(function (j) {
+        var rows = j && j.result && j.result.data;
+        if (!rows || !rows.length) throw new Error("Brak świec");
+        state.candles = rows.map(function (d) {
+          return { o: num(d.o), h: num(d.h), l: num(d.l), c: num(d.c), t: num(d.t) };
+        }).filter(function (d) {
+          return d.o !== null && d.h !== null && d.l !== null && d.c !== null;
+        }).sort(function (a, b) { return a.t - b.t; });
+        $("chart-msg").style.display = "none";
+        $("chart").style.display = "block";
+        $("ohlc").style.display = "block";
+      })
+      .catch(function () {
+        state.candles = [];
+        chartGeom = null;
+        $("chart").style.display = "none";
+        $("ohlc").style.display = "none";
+        var m = $("chart-msg");
+        m.style.display = "block";
+        m.textContent = "Nie udało się wczytać wykresu.";
+      });
+  }
+
+  /* ---------- kurs USD/PLN z NBP ---------- */
+
+  function fetchUsdPln() {
+    return fetch("https://api.nbp.pl/api/exchangerates/rates/a/usd/?format=json", { cache: "no-store" })
+      .then(function (r) {
+        if (!r.ok) throw new Error("NBP " + r.status);
+        return r.json();
+      })
+      .then(function (j) {
+        var rate = j && j.rates && j.rates[0];
+        var mid = rate && num(rate.mid);
+        if (!mid) throw new Error("Zły format NBP");
+        state.usdPln = mid;
+        state.plnDate = rate.effectiveDate || null;
+      })
+      .catch(function () { /* PLN po prostu się nie pokaże */ });
+  }
+
+  /* ---------- pobranie całości ---------- */
+
+  function fetchAll() {
+    $("stamp").textContent = "odświeżanie…";
+
+    var price = fromCryptoCom()
+      .catch(function () { return fromCoinGecko(); })
+      .catch(function () { return fromCoinbase(); })
+      .then(function (p) {
+        state.usd = p.usd;
+        state.change24h = p.change24h;
+        state.high = p.high;
+        state.low = p.low;
+        state.source = p.source;
+      });
+
+    return Promise.all([price, fetchUsdPln(), fetchCandles()])
+      .then(function () {
+        var offline = ("onLine" in navigator) && !navigator.onLine;
+        showError(offline
+          ? "Brak połączenia — pokazuję ostatnie zapisane notowania."
+          : "");
+        // bez kursu NBP tryb PLN nie ma sensu — wracamy do dolarów
+        if (!hasPln() && state.currency === "PLN") setCurrency("USD", false);
+        syncCurrencyButtons();
+        $("stamp").textContent = offline
+          ? "Dane z pamięci podręcznej"
+          : "Aktualizacja " + new Date().toLocaleTimeString("pl-PL", {
+              hour: "2-digit", minute: "2-digit", second: "2-digit"
+            });
+        render();
+      })
+      .catch(function () {
+        showError("Nie udało się pobrać kursu. Sprawdź połączenie i kliknij Odśwież.");
+        $("stamp").textContent = "brak połączenia";
+      });
+  }
+
+  /* ---------- wykres świecowy ---------- */
+
+  var chartGeom = null;
+
+  function drawChart() {
+    var svg = $("chart");
+    while (svg.firstChild) svg.removeChild(svg.firstChild);
+    chartGeom = null;
+
+    var data = state.candles;
+    if (!data.length) return;
+
+    var W = svg.parentNode.clientWidth - 16;
+    if (!W || W < 40) return;
+    var H = 200;
+    var padR = state.currency === "PLN" ? 70 : 58;
+    var padT = 10, padB = 22;
+    var plotW = W - padR;
+    var plotH = H - padT - padB;
+    if (plotW < 40) return;
+
+    svg.setAttribute("width", W);
+    svg.setAttribute("height", H);
+    svg.setAttribute("viewBox", "0 0 " + W + " " + H);
+
+    var INK   = tok("--ink", "#16150F");
+    var INK3  = tok("--ink-3", "#8B8672");
+    var UP    = tok("--up", "#17924F");
+    var DOWN  = tok("--down", "#D63E22");
+    var PAPER = tok("--panel", "#FFFBF0");
+    var SKY   = tok("--sky", "#92D2F3");
+
+    // skala liczona w USD; na PLN przeliczamy dopiero etykiety
+    var lo = Infinity, hi = -Infinity;
+    data.forEach(function (d) {
+      if (d.l < lo) lo = d.l;
+      if (d.h > hi) hi = d.h;
+    });
+
+    var span0 = hi - lo;
+    LEVELS.forEach(function (L) {
+      if (L.price > lo - span0 * 0.25 && L.price < hi + span0 * 0.25) {
+        if (L.price < lo) lo = L.price;
+        if (L.price > hi) hi = L.price;
+      }
+    });
+
+    var pad = (hi - lo) * 0.06 || 1;
+    lo -= pad; hi += pad;
+    var span = hi - lo;
+
+    function y(v) { return padT + (hi - v) / span * plotH; }
+    var slot = plotW / data.length;
+    function x(i) { return i * slot + slot / 2; }
+
+    // siatka pozioma + etykiety cen
+    var STEPS = 4;
+    for (var g = 0; g <= STEPS; g++) {
+      var val = lo + span * (g / STEPS);
+      var yy = y(val);
+      svg.appendChild(el("line", {
+        x1: 0, x2: plotW, y1: yy, y2: yy,
+        stroke: withAlpha(INK, 0.14), "stroke-width": 1, "stroke-dasharray": "2 4"
+      }));
+      var lbl = el("text", {
+        x: plotW + 8, y: yy + 3.5,
+        fill: INK3, "font-size": 10, "font-family": "Space Mono, monospace"
+      });
+      lbl.textContent = fMain(val, false);
+      svg.appendChild(lbl);
+    }
+
+    // linie poziomów technicznych
+    LEVELS.forEach(function (L) {
+      if (L.price <= lo || L.price >= hi) return;
+      var yy = y(L.price);
+      var col = L.kind === "res" ? UP : DOWN;
+      svg.appendChild(el("line", {
+        x1: 0, x2: plotW, y1: yy, y2: yy,
+        stroke: col, "stroke-width": 1.5, "stroke-dasharray": "5 4", opacity: 0.65
+      }));
+      var t = el("text", {
+        x: 4, y: yy - 5,
+        fill: col, "font-size": 9.5, "font-weight": 700, "font-family": "Space Mono, monospace"
+      });
+      t.textContent = fMain(L.price, false);
+      svg.appendChild(t);
+    });
+
+    // świece
+    var bodyW = Math.max(1, Math.min(12, slot * 0.64));
+    var outline = bodyW >= 5;
+    data.forEach(function (d, i) {
+      var up = d.c >= d.o;
+      var col = up ? UP : DOWN;
+      var cx = x(i);
+
+      svg.appendChild(el("line", {
+        x1: cx, x2: cx, y1: y(d.h), y2: y(d.l),
+        stroke: col, "stroke-width": outline ? 1.5 : 1, "shape-rendering": "crispEdges"
+      }));
+
+      var yo = y(d.o), yc = y(d.c);
+      var top = Math.min(yo, yc);
+      var hgt = Math.max(1.5, Math.abs(yc - yo));
+      var rect = { x: cx - bodyW / 2, y: top, width: bodyW, height: hgt, fill: col, rx: 1 };
+      if (outline) { rect.stroke = INK; rect["stroke-width"] = 1; }
+      svg.appendChild(el("rect", rect));
+    });
+
+    // etykiety dat
+    var ticks = Math.min(5, data.length);
+    for (var k = 0; k < ticks; k++) {
+      var idx = Math.round(k * (data.length - 1) / (ticks - 1 || 1));
+      var dt = new Date(data[idx].t);
+      var tx = el("text", {
+        x: Math.min(Math.max(x(idx), 16), plotW - 16),
+        y: H - 6,
+        fill: INK3, "font-size": 10, "text-anchor": "middle",
+        "font-family": "Space Mono, monospace"
+      });
+      tx.textContent = dt.toLocaleDateString("pl-PL", { day: "2-digit", month: "2-digit" });
+      svg.appendChild(tx);
+    }
+
+    // krzyżyk pionowy
+    var cross = el("line", {
+      x1: 0, x2: 0, y1: padT, y2: padT + plotH,
+      stroke: INK, "stroke-width": 1, "stroke-dasharray": "3 3", opacity: 0.55,
+      visibility: "hidden"
+    });
+    svg.appendChild(cross);
+
+    // krzyżyk poziomy — na wysokości kursora
+    var hcross = el("line", {
+      x1: 0, x2: plotW, y1: 0, y2: 0,
+      stroke: INK, "stroke-width": 1, "stroke-dasharray": "3 3", opacity: 0.55,
+      visibility: "hidden"
+    });
+    svg.appendChild(hcross);
+
+    // plakietka z ceną na prawym marginesie
+    var tagW = padR - 8;
+    var tagG = el("g", { visibility: "hidden" });
+    var tagRect = el("rect", {
+      x: plotW + 4, y: 0, width: tagW, height: 17, rx: 4,
+      fill: SKY, stroke: INK, "stroke-width": 1.5
+    });
+    var tagText = el("text", {
+      x: plotW + 4 + tagW / 2, y: 0,
+      fill: "#16150F", "font-size": 9.5, "font-weight": 700, "text-anchor": "middle",
+      "font-family": "Space Mono, monospace"
+    });
+    tagG.appendChild(tagRect);
+    tagG.appendChild(tagText);
+    svg.appendChild(tagG);
+
+    chartGeom = {
+      W: W, H: H, plotW: plotW, slot: slot, data: data,
+      padT: padT, plotH: plotH, hi: hi, span: span,
+      cross: cross, hcross: hcross, tagG: tagG, tagRect: tagRect, tagText: tagText
+    };
+
+    showCandle(data[data.length - 1]);
+  }
+
+  // wypełnia panel pod wykresem wartościami wskazanej świecy
+  function showCandle(d) {
+    if (!d) return;
+
+    $("ohlc-date").textContent = new Date(d.t).toLocaleDateString("pl-PL",
+      { day: "2-digit", month: "2-digit", year: "numeric" });
+
+    var pct = (d.c / d.o - 1) * 100;
+    var up = pct >= 0;
+
+    var chg = $("ohlc-chg");
+    chg.textContent = (up ? "+" : "") + pct.toFixed(2) + "%";
+    chg.className = up ? "up" : "down";
+
+    $("ohlc-o").textContent = fMain(d.o, true);
+    $("ohlc-h").textContent = fMain(d.h, true);
+    $("ohlc-l").textContent = fMain(d.l, true);
+
+    var c = $("ohlc-c");
+    c.textContent = fMain(d.c, true);
+    c.className = "v " + (up ? "up" : "down");
+
+    $("ohlc-alt").textContent = (state.currency === "USD" && !hasPln())
+      ? "" : "Zamknięcie: " + fAlt(d.c, true);
+  }
+
+  function onChartMove(ev) {
+    if (!chartGeom) return;
+    var rect = $("chart").getBoundingClientRect();
+    var pt = ev.touches ? ev.touches[0] : ev;
+    var px = pt.clientX - rect.left;
+    var py = pt.clientY - rect.top;
+    if (px < 0 || px > chartGeom.plotW) return hideCross();
+
+    // pionowa kreska na środku najbliższej świecy
+    var i = Math.floor(px / chartGeom.slot);
+    i = Math.max(0, Math.min(chartGeom.data.length - 1, i));
+    var cx = i * chartGeom.slot + chartGeom.slot / 2;
+
+    chartGeom.cross.setAttribute("x1", cx);
+    chartGeom.cross.setAttribute("x2", cx);
+    chartGeom.cross.setAttribute("visibility", "visible");
+
+    // pozioma kreska na wysokości kursora + cena na prawym marginesie
+    var cy = Math.max(chartGeom.padT,
+             Math.min(chartGeom.padT + chartGeom.plotH, py));
+
+    chartGeom.hcross.setAttribute("y1", cy);
+    chartGeom.hcross.setAttribute("y2", cy);
+    chartGeom.hcross.setAttribute("visibility", "visible");
+
+    var val = chartGeom.hi - (cy - chartGeom.padT) / chartGeom.plotH * chartGeom.span;
+    chartGeom.tagRect.setAttribute("y", cy - 8.5);
+    chartGeom.tagText.setAttribute("y", cy + 3.5);
+    chartGeom.tagText.textContent = fMain(val, false);
+    chartGeom.tagG.setAttribute("visibility", "visible");
+
+    showCandle(chartGeom.data[i]);
+  }
+
+  function hideCross() {
+    if (!chartGeom) return;
+    chartGeom.cross.setAttribute("visibility", "hidden");
+    chartGeom.hcross.setAttribute("visibility", "hidden");
+    chartGeom.tagG.setAttribute("visibility", "hidden");
+    showCandle(chartGeom.data[chartGeom.data.length - 1]);
+  }
+
+  /* ---------- render ---------- */
+
+  function render() {
+    if (state.usd === null) return;
+
+    $("source").textContent = state.source ? "źródło: " + state.source : "";
+    $("price").textContent = fMain(state.usd, true);
+    $("price-alt").textContent = fAlt(state.usd, true);
+
+    var ch = $("change");
+    if (state.change24h !== null) {
+      var up = state.change24h >= 0;
+      ch.textContent = (up ? "+" : "") + state.change24h.toFixed(2) + "% · 24 h";
+      ch.className = up ? "up" : "down";
+    } else {
+      ch.textContent = "";
+      ch.className = "";
+    }
+
+    $("st-low").textContent  = state.low  !== null ? fMain(state.low, true)  : "—";
+    $("st-high").textContent = state.high !== null ? fMain(state.high, true) : "—";
+    $("st-fx").textContent   = hasPln() ? state.usdPln.toFixed(4) : "—";
+
+    $("value-main").textContent = fMain(state.amount * state.usd, true);
+    $("value-alt").textContent = fAlt(state.amount * state.usd, true);
+
+    $("th-main").textContent = "Wartość " + state.currency;
+    $("th-alt").textContent = "Wartość " + altCur();
+
+    renderScenarios();
+    renderLevels();
+    drawChart();
+  }
+
+  function renderScenarios() {
+    var tbody = $("scenarios");
+    tbody.innerHTML = "";
+
+    TARGETS.forEach(function (target) {
+      var tr = document.createElement("tr");
+
+      var tdTarget = document.createElement("td");
+      tdTarget.textContent = F.USD0.format(target);
+
+      var tdMain = document.createElement("td");
+      tdMain.textContent = fMain(state.amount * target, true);
+
+      var tdAlt = document.createElement("td");
+      tdAlt.className = "alt-cell";
+      tdAlt.textContent = fAlt(state.amount * target, true);
+
+      var tdDelta = document.createElement("td");
+      if (state.usd) {
+        var pct = (target / state.usd - 1) * 100;
+        var up = pct >= 0;
+        tdDelta.className = "delta " + (up ? "up" : "down");
+        tdDelta.textContent = (up ? "+" : "") + Math.round(pct) + "%";
+      } else {
+        tdDelta.textContent = "—";
+      }
+
+      tr.appendChild(tdTarget);
+      tr.appendChild(tdMain);
+      tr.appendChild(tdAlt);
+      tr.appendChild(tdDelta);
+      tbody.appendChild(tr);
+    });
+  }
+
+  function twoLine(usdValue, cents) {
+    // komórka: waluta dominująca w pierwszej linii, druga pod spodem
+    var td = document.createElement("td");
+    td.appendChild(document.createTextNode(fMain(usdValue, cents)));
+    var sub = document.createElement("span");
+    sub.className = "sub-alt";
+    sub.textContent = fAlt(usdValue, cents);
+    td.appendChild(sub);
+    return td;
+  }
+
+  function renderLevels() {
+    var tbody = $("levels");
+    tbody.innerHTML = "";
+
+    LEVELS.forEach(function (lvl) {
+      var tr = document.createElement("tr");
+
+      var tdName = document.createElement("td");
+      var tag = document.createElement("span");
+      tag.className = "tag " + (lvl.kind === "res" ? "res" : "sup");
+      tag.textContent = lvl.kind === "res" ? "opór" : "wsparcie";
+      tdName.appendChild(tag);
+      var note = document.createElement("div");
+      note.className = "lvl-note";
+      note.textContent = lvl.note;
+      tdName.appendChild(note);
+
+      var tdPrice = twoLine(lvl.price, false);
+      var tdVal = twoLine(state.amount * lvl.price, true);
+
+      var tdDist = document.createElement("td");
+      if (state.usd) {
+        var pct = (lvl.price / state.usd - 1) * 100;
+        var up = pct >= 0;
+        tdDist.className = "delta " + (up ? "up" : "down");
+        tdDist.textContent = (up ? "+" : "") + Math.round(pct) + "%";
+      } else {
+        tdDist.textContent = "—";
+      }
+
+      tr.appendChild(tdName);
+      tr.appendChild(tdPrice);
+      tr.appendChild(tdVal);
+      tr.appendChild(tdDist);
+      tbody.appendChild(tr);
+    });
+  }
+
+  function renderNews() {
+    $("news-date").textContent = "stan na " + NEWS_DATE;
+    var box = $("news");
+    box.innerHTML = "";
+
+    NEWS.forEach(function (n) {
+      var item = document.createElement("div");
+      item.className = "news-item";
+
+      var d = document.createElement("div");
+      d.className = "news-date";
+      d.textContent = n.date;
+
+      var h = document.createElement("div");
+      h.className = "news-head";
+      h.textContent = n.head;
+
+      var b = document.createElement("div");
+      b.className = "news-body";
+      b.innerHTML = n.body;
+
+      item.appendChild(d);
+      item.appendChild(h);
+      item.appendChild(b);
+      box.appendChild(item);
+    });
+  }
+
+  /* ---------- przełącznik waluty ---------- */
+
+  function syncCurrencyButtons() {
+    Array.prototype.forEach.call($("cur").querySelectorAll("button"), function (b) {
+      var c = b.getAttribute("data-cur");
+      b.classList.toggle("on", c === state.currency);
+      b.disabled = (c === "PLN" && !hasPln());
+      b.title = b.disabled ? "Brak kursu NBP — spróbuj odświeżyć" : "";
+    });
+  }
+
+  function setCurrency(c, persist) {
+    if (c === "PLN" && !hasPln()) return;
+    state.currency = c;
+    if (persist !== false) saveCurrency(c);
+    syncCurrencyButtons();
+    hideCross();
+    render();
+  }
+
+  /* ---------- start ---------- */
+
+  state.amount = loadAmount();
+  state.currency = loadCurrency();
+  syncCurrencyButtons();
+
+  var input = $("amount");
+  input.value = String(state.amount);
+
+  input.addEventListener("input", function () {
+    var n = parseAmount(input.value);
+    if (n === null) return;
+    state.amount = n;
+    saveAmount(n);
+    flashSaved();
+    render();
+  });
+
+  input.addEventListener("blur", function () {
+    var n = parseAmount(input.value);
+    input.value = String(n === null ? state.amount : n);
+  });
+
+  input.addEventListener("focus", function () { input.select(); });
+
+  $("refresh").addEventListener("click", fetchAll);
+
+  Array.prototype.forEach.call($("cur").querySelectorAll("button"), function (b) {
+    b.addEventListener("click", function () {
+      setCurrency(b.getAttribute("data-cur"), true);
+    });
+  });
+
+  Array.prototype.forEach.call($("tf").querySelectorAll("button"), function (b) {
+    b.addEventListener("click", function () {
+      Array.prototype.forEach.call($("tf").querySelectorAll("button"), function (o) {
+        o.classList.remove("on");
+      });
+      b.classList.add("on");
+      state.days = parseInt(b.getAttribute("data-days"), 10);
+      hideCross();
+      fetchCandles().then(drawChart);
+    });
+  });
+
+  var chart = $("chart");
+  chart.addEventListener("mousemove", onChartMove);
+  chart.addEventListener("mouseleave", hideCross);
+  chart.addEventListener("touchstart", onChartMove, { passive: true });
+  chart.addEventListener("touchmove", onChartMove, { passive: true });
+  chart.addEventListener("touchend", hideCross);
+
+  var resizeTimer = null;
+  window.addEventListener("resize", function () {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(drawChart, 140);
+  });
+
+  // przerysuj wykres, gdy zmieni się motyw systemowy
+  if (window.matchMedia) {
+    var mq = window.matchMedia("(prefers-color-scheme: dark)");
+    if (mq.addEventListener) mq.addEventListener("change", drawChart);
+  }
+
+  // odświeżaj po powrocie sieci i po wyjściu aplikacji z tła
+  window.addEventListener("online", fetchAll);
+  document.addEventListener("visibilitychange", function () {
+    if (!document.hidden) fetchAll();
+  });
+
+  renderNews();
+  renderScenarios();
+  renderLevels();
+  fetchAll();
+  setInterval(fetchAll, 60000);
+})();
+
+/* rejestracja service workera — powłoka offline + instalacja na telefonie */
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    navigator.serviceWorker.register("./sw.js").catch(function () {
+      // brak SW to nie problem — aplikacja działa dalej, tylko bez trybu offline
+    });
+  });
+}
+</script>
+
+</body>
+</html>
