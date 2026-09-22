@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T18:28:30.133Z",
+  "updated": "2026-09-22T00:31:42.210Z",
   "sources": [
     "Decrypt",
     "CoinDesk",
@@ -28,13 +28,6 @@
       "body": "The non-profit signaled support for reducing Ethereum block times, citing increasing institutional activity moving onto the smart-contract network."
     },
     {
-      "title": "Ethereum Founder Vitalik Buterin Says AI Won’t Doom Crypto Security",
-      "url": "https://decrypt.co/378544/ethereum-vitalik-buterin-ai-crypto-security",
-      "source": "Decrypt",
-      "date": "17 września",
-      "body": "The Ethereum co-founder said AI could help developers mathematically verify entire software systems, turning the same technology powering new attacks into a tool for defense."
-    },
-    {
       "title": "Ethereum, Base wallet standards talks fail, Ethlabs researcher says",
       "url": "https://cointelegraph.com/news/ethereum-base-wallet-standards-collaboration-breaks?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
@@ -47,6 +40,13 @@
       "source": "Cointelegraph",
       "date": "14 września",
       "body": "Bitmine now has more than 5 million ETH staked, turning most of its Ether holdings into a recurring income stream as it continues to accumulate."
+    },
+    {
+      "title": "Consensys to split into MetaMask and institutional blockchain company",
+      "url": "https://cointelegraph.com/news/consensys-to-split-into-metamask-and-institutional-blockchain-company?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "9 września",
+      "body": "The restructuring will separate MetaMask’s consumer business from Consensys’ Ethereum protocols and institutional blockchain infrastructure operations."
     }
   ]
 }
