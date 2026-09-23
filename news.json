@@ -1,10 +1,18 @@
 {
-  "updated": "2026-09-23T06:31:54.509Z",
+  "updated": "2026-09-23T12:31:06.517Z",
   "sources": [
+    "CoinDesk",
     "Cointelegraph",
     "Decrypt"
   ],
   "items": [
+    {
+      "title": "FTX, Alameda-linked wallets send $75 million in ether to Wintermute, onchain data shows",
+      "url": "https://www.coindesk.com/business/2026/09/23/ftx-alameda-linked-wallets-send-usd75-million-in-ether-to-wintermute-onchain-data-shows",
+      "source": "CoinDesk",
+      "date": "23 września",
+      "body": "Onchain analysts PeckShield and EmberCN say the funds moved to a Wintermute wallet, but neither a sale nor the purpose of the transfer have been confirmed."
+    },
     {
       "title": "Trueo prediction market moves from Base to Ethereum",
       "url": "https://cointelegraph.com/news/decentralized-prediction-market-trueo-to-move-from-base-to-ethereum?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
@@ -39,13 +47,6 @@
       "source": "Cointelegraph",
       "date": "14 września",
       "body": "Bitmine now has more than 5 million ETH staked, turning most of its Ether holdings into a recurring income stream as it continues to accumulate."
-    },
-    {
-      "title": "Consensys to split into MetaMask and institutional blockchain company",
-      "url": "https://cointelegraph.com/news/consensys-to-split-into-metamask-and-institutional-blockchain-company?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "9 września",
-      "body": "The restructuring will separate MetaMask’s consumer business from Consensys’ Ethereum protocols and institutional blockchain infrastructure operations."
     }
   ]
 }
