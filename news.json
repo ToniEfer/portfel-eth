@@ -1,16 +1,23 @@
 {
-  "updated": "2026-09-23T18:29:14.137Z",
+  "updated": "2026-09-24T18:29:32.991Z",
   "sources": [
     "CoinDesk",
     "Cointelegraph"
   ],
   "items": [
     {
-      "title": "FTX, Alameda-linked wallets send $75 million in ether to Wintermute, onchain data shows",
-      "url": "https://www.coindesk.com/business/2026/09/23/ftx-alameda-linked-wallets-send-usd75-million-in-ether-to-wintermute-onchain-data-shows",
+      "title": "Crypto casino Duelbits goes offline after $7 million hot wallet hack",
+      "url": "https://www.coindesk.com/business/2026/09/24/crypto-casino-duelbits-goes-offline-after-usd7m-hot-wallet-hack",
       "source": "CoinDesk",
-      "date": "23 września",
-      "body": "Onchain analysts PeckShield and EmberCN say the funds moved to a Wintermute wallet, but neither a sale nor the purpose of the transfer have been confirmed."
+      "date": "24 września",
+      "body": "Attackers drained Duelbits' hot wallets across four blockchains; about $6 million in stolen funds now sits in a single Ethereum address."
+    },
+    {
+      "title": "Cathie Wood's ARK teams with Securitize to tokenize venture fund with OpenAI, Anthropic stakes",
+      "url": "https://www.coindesk.com/business/2026/09/24/cathie-wood-s-ark-teams-with-securitize-to-tokenize-venture-fund-with-openai-anthropic-stakes",
+      "source": "CoinDesk",
+      "date": "24 września",
+      "body": "The ARK Venture Fund is bringing exposure to sought-after private tech companies onchain through Securitize, first on Ethereum then potentially expanding to other chains."
     },
     {
       "title": "Trueo prediction market moves from Base to Ethereum",
@@ -39,13 +46,6 @@
       "source": "Cointelegraph",
       "date": "14 września",
       "body": "Bitmine now has more than 5 million ETH staked, turning most of its Ether holdings into a recurring income stream as it continues to accumulate."
-    },
-    {
-      "title": "Consensys to split into MetaMask and institutional blockchain company",
-      "url": "https://cointelegraph.com/news/consensys-to-split-into-metamask-and-institutional-blockchain-company?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "9 września",
-      "body": "The restructuring will separate MetaMask’s consumer business from Consensys’ Ethereum protocols and institutional blockchain infrastructure operations."
     }
   ]
 }
