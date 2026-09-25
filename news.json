@@ -1,10 +1,18 @@
 {
-  "updated": "2026-09-24T18:29:32.991Z",
+  "updated": "2026-09-25T18:27:49.452Z",
   "sources": [
+    "Decrypt",
     "CoinDesk",
     "Cointelegraph"
   ],
   "items": [
+    {
+      "title": "Magic Eden Warns Old Ethereum NFT Listings Are Exposed to Payment Processor Exploit",
+      "url": "https://decrypt.co/379342/magic-eden-old-ethereum-nft-listings-exposed-exploit",
+      "source": "Decrypt",
+      "date": "25 września",
+      "body": "A flaw in Limit Break's Payment Processor V2 put old Magic Eden Ethereum listings at risk, prompting a whitehat rescue of more than 23,000 NFTs."
+    },
     {
       "title": "Crypto casino Duelbits goes offline after $7 million hot wallet hack",
       "url": "https://www.coindesk.com/business/2026/09/24/crypto-casino-duelbits-goes-offline-after-usd7m-hot-wallet-hack",
@@ -39,13 +47,6 @@
       "source": "Cointelegraph",
       "date": "15 września",
       "body": "Ethereum and Base are pursuing different account abstraction designs after talks failed, according to Ethlabs researcher Derek Chiang."
-    },
-    {
-      "title": "Bitmine projects $334M in annual staking revenue from $15.8B crypto treasury",
-      "url": "https://cointelegraph.com/news/bitmine-5-million-eth-staked-334-million-revenue?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "14 września",
-      "body": "Bitmine now has more than 5 million ETH staked, turning most of its Ether holdings into a recurring income stream as it continues to accumulate."
     }
   ]
 }
