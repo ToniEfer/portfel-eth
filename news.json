@@ -1,8 +1,7 @@
 {
-  "updated": "2026-09-26T00:31:41.126Z",
+  "updated": "2026-09-26T06:30:26.152Z",
   "sources": [
     "Decrypt",
-    "CoinDesk",
     "Cointelegraph"
   ],
   "items": [
@@ -12,13 +11,6 @@
       "source": "Decrypt",
       "date": "25 września",
       "body": "A flaw in Limit Break's Payment Processor V2 put old Magic Eden Ethereum listings at risk, prompting a whitehat rescue of more than 23,000 NFTs."
-    },
-    {
-      "title": "Crypto casino Duelbits goes offline after $7 million hot wallet hack",
-      "url": "https://www.coindesk.com/business/2026/09/24/crypto-casino-duelbits-goes-offline-after-usd7m-hot-wallet-hack",
-      "source": "CoinDesk",
-      "date": "24 września",
-      "body": "Attackers drained Duelbits' hot wallets across four blockchains; about $6 million in stolen funds now sits in a single Ethereum address."
     },
     {
       "title": "Trueo prediction market moves from Base to Ethereum",
@@ -47,6 +39,13 @@
       "source": "Cointelegraph",
       "date": "14 września",
       "body": "Bitmine now has more than 5 million ETH staked, turning most of its Ether holdings into a recurring income stream as it continues to accumulate."
+    },
+    {
+      "title": "Consensys to split into MetaMask and institutional blockchain company",
+      "url": "https://cointelegraph.com/news/consensys-to-split-into-metamask-and-institutional-blockchain-company?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "9 września",
+      "body": "The restructuring will separate MetaMask’s consumer business from Consensys’ Ethereum protocols and institutional blockchain infrastructure operations."
     }
   ]
 }
