@@ -1,11 +1,18 @@
 {
-  "updated": "2026-09-27T18:28:17.138Z",
+  "updated": "2026-09-28T00:35:22.298Z",
   "sources": [
+    "Cointelegraph",
     "CoinDesk",
-    "Decrypt",
-    "Cointelegraph"
+    "Decrypt"
   ],
   "items": [
+    {
+      "title": "THORChain under fire over Bitget, ETH evolves beyond blockchain: Hodler’s Digest",
+      "url": "https://cointelegraph.com/magazine/thorchain-under-fire-over-bitget-hack-eth-is-beyond-blockchain-now?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "27 września",
+      "body": "THORChain refuses to blacklist addresses linked to the Bitget hack. Vitalik Buterin says Ethereum is evolving from being a mere blockchain, into a world cryptographic computer."
+    },
     {
       "title": "Vitalik Buterin maps Ethereum’s shift beyond a blockchain in sweeping 2030 vision",
       "url": "https://www.coindesk.com/tech/2026/09/27/vitalik-buterin-maps-ethereum-s-shift-beyond-a-blockchain-in-sweeping-2030-vision",
@@ -40,13 +47,6 @@
       "source": "Cointelegraph",
       "date": "15 września",
       "body": "Ethereum and Base are pursuing different account abstraction designs after talks failed, according to Ethlabs researcher Derek Chiang."
-    },
-    {
-      "title": "Bitmine projects $334M in annual staking revenue from $15.8B crypto treasury",
-      "url": "https://cointelegraph.com/news/bitmine-5-million-eth-staked-334-million-revenue?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "14 września",
-      "body": "Bitmine now has more than 5 million ETH staked, turning most of its Ether holdings into a recurring income stream as it continues to accumulate."
     }
   ]
 }
