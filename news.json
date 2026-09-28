@@ -1,11 +1,32 @@
 {
-  "updated": "2026-09-28T06:35:13.980Z",
+  "updated": "2026-09-28T18:31:07.251Z",
   "sources": [
-    "Cointelegraph",
+    "Decrypt",
     "CoinDesk",
-    "Decrypt"
+    "Cointelegraph"
   ],
   "items": [
+    {
+      "title": "Vitalik Buterin Outlines 'Cryptographic World Computer' Plan for Ethereum",
+      "url": "https://decrypt.co/379461/vitalik-buterin-outlines-cryptographic-world-computer-plan-for-ethereum",
+      "source": "Decrypt",
+      "date": "28 września",
+      "body": "Hegota will be Ethereum's last 'normal' fork, he argues, with everything after built on recursive STARKs and formal verification."
+    },
+    {
+      "title": "The restaking gold rush is over, and top protocols are barely making a profit",
+      "url": "https://www.coindesk.com/business/2026/09/28/the-restaking-gold-rush-is-over-and-top-protocols-are-barely-making-a-profit",
+      "source": "CoinDesk",
+      "date": "28 września",
+      "body": "As restaking yields dried up and smart-contract risks mounted, Ethereum's top liquid restaking protocol walked away from its core business to build a crypto neobank instead."
+    },
+    {
+      "title": "Tom Lee's Bitmine Buys Another $47M of ETH, Taking It to 4.9% of Ethereum Supply",
+      "url": "https://decrypt.co/379418/tom-lees-bitmine-buys-another-47m-of-eth-taking-it-to-4-9-of-ethereum-supply",
+      "source": "Decrypt",
+      "date": "28 września",
+      "body": "Bitmine has staked 84% of its tokens, a position it projects will generate some $358 million a year in staking rewards."
+    },
     {
       "title": "Vitalik Buterin says Hegotá could be Ethereum’s last ‘normal’ fork",
       "url": "https://cointelegraph.com/news/vitalik-hegota-ethereum-last-normal-fork?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
@@ -26,27 +47,6 @@
       "source": "CoinDesk",
       "date": "27 września",
       "body": "Buterin wants Ethereum to do far more work without forcing every computer on the network to repeat the same calculations."
-    },
-    {
-      "title": "Magic Eden Warns Old Ethereum NFT Listings Are Exposed to Payment Processor Exploit",
-      "url": "https://decrypt.co/379342/magic-eden-old-ethereum-nft-listings-exposed-exploit",
-      "source": "Decrypt",
-      "date": "25 września",
-      "body": "A flaw in Limit Break's Payment Processor V2 put old Magic Eden Ethereum listings at risk, prompting a whitehat rescue of more than 23,000 NFTs."
-    },
-    {
-      "title": "Trueo prediction market moves from Base to Ethereum",
-      "url": "https://cointelegraph.com/news/decentralized-prediction-market-trueo-to-move-from-base-to-ethereum?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "22 września",
-      "body": "Trueo said Base was the right choice when it launched, as Ethereum gas fees were higher, but said mainnet now offers greater integration potential."
-    },
-    {
-      "title": "Ethereum Institutional signals support for Ethlabs’ motion to reduce Ethereum block times",
-      "url": "https://cointelegraph.com/news/ethereum-institutional-support-ethlabs-reduce-ethereum-block-times?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "18 września",
-      "body": "The non-profit signaled support for reducing Ethereum block times, citing increasing institutional activity moving onto the smart-contract network."
     }
   ]
 }
