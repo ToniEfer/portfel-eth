@@ -1,11 +1,18 @@
 {
-  "updated": "2026-09-28T00:35:22.298Z",
+  "updated": "2026-09-28T06:35:13.980Z",
   "sources": [
     "Cointelegraph",
     "CoinDesk",
     "Decrypt"
   ],
   "items": [
+    {
+      "title": "Vitalik Buterin says Hegotá could be Ethereum’s last ‘normal’ fork",
+      "url": "https://cointelegraph.com/news/vitalik-hegota-ethereum-last-normal-fork?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "28 września",
+      "body": "Ethereum’s Vitalik Buterin said PeerDAS marked the start of Ethereum’s transition “from being just a blockchain to being something much more powerful.”"
+    },
     {
       "title": "THORChain under fire over Bitget, ETH evolves beyond blockchain: Hodler’s Digest",
       "url": "https://cointelegraph.com/magazine/thorchain-under-fire-over-bitget-hack-eth-is-beyond-blockchain-now?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
@@ -40,13 +47,6 @@
       "source": "Cointelegraph",
       "date": "18 września",
       "body": "The non-profit signaled support for reducing Ethereum block times, citing increasing institutional activity moving onto the smart-contract network."
-    },
-    {
-      "title": "Ethereum, Base wallet standards talks fail, Ethlabs researcher says",
-      "url": "https://cointelegraph.com/news/ethereum-base-wallet-standards-collaboration-breaks?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "15 września",
-      "body": "Ethereum and Base are pursuing different account abstraction designs after talks failed, according to Ethlabs researcher Derek Chiang."
     }
   ]
 }
