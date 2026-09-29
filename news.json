@@ -1,11 +1,25 @@
 {
-  "updated": "2026-09-28T18:31:07.251Z",
+  "updated": "2026-09-29T12:34:35.358Z",
   "sources": [
+    "Cointelegraph",
     "Decrypt",
-    "CoinDesk",
-    "Cointelegraph"
+    "CoinDesk"
   ],
   "items": [
+    {
+      "title": "Ethereum schedules Glamsterdam upgrade on Sepolia for Oct. 6",
+      "url": "https://cointelegraph.com/news/ethereum-glamsterdam-upgrade-sepolia?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "29 września",
+      "body": "Glamsterdam will bring proposer-builder separation, block-level access lists and new gas pricing, while its mainnet date remains unset."
+    },
+    {
+      "title": "BitMine could hit its 5% Ether supply target within weeks — then what?",
+      "url": "https://cointelegraph.com/news/bitmine-ether-supply-target-early-november?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "29 września",
+      "body": "BitMine could reach 5% of Ether’s supply by early November, while Tom Lee has left open whether it would continue buying beyond that level."
+    },
     {
       "title": "Vitalik Buterin Outlines 'Cryptographic World Computer' Plan for Ethereum",
       "url": "https://decrypt.co/379461/vitalik-buterin-outlines-cryptographic-world-computer-plan-for-ethereum",
@@ -33,20 +47,6 @@
       "source": "Cointelegraph",
       "date": "28 września",
       "body": "Ethereum’s Vitalik Buterin said PeerDAS marked the start of Ethereum’s transition “from being just a blockchain to being something much more powerful.”"
-    },
-    {
-      "title": "THORChain under fire over Bitget, ETH evolves beyond blockchain: Hodler’s Digest",
-      "url": "https://cointelegraph.com/magazine/thorchain-under-fire-over-bitget-hack-eth-is-beyond-blockchain-now?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "27 września",
-      "body": "THORChain refuses to blacklist addresses linked to the Bitget hack. Vitalik Buterin says Ethereum is evolving from being a mere blockchain, into a world cryptographic computer."
-    },
-    {
-      "title": "Vitalik Buterin maps Ethereum’s shift beyond a blockchain in sweeping 2030 vision",
-      "url": "https://www.coindesk.com/tech/2026/09/27/vitalik-buterin-maps-ethereum-s-shift-beyond-a-blockchain-in-sweeping-2030-vision",
-      "source": "CoinDesk",
-      "date": "27 września",
-      "body": "Buterin wants Ethereum to do far more work without forcing every computer on the network to repeat the same calculations."
     }
   ]
 }
