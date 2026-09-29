@@ -1,11 +1,18 @@
 {
-  "updated": "2026-09-29T12:34:35.358Z",
+  "updated": "2026-09-29T18:32:05.088Z",
   "sources": [
+    "CoinDesk",
     "Cointelegraph",
-    "Decrypt",
-    "CoinDesk"
+    "Decrypt"
   ],
   "items": [
+    {
+      "title": "Ethereum users get another way to pay privately as zk.money returns after three years",
+      "url": "https://www.coindesk.com/tech/2026/09/29/embargo-12-et-ethereum-users-get-another-way-to-pay-privately-as-zk-money-returns-after-three-years",
+      "source": "CoinDesk",
+      "date": "29 września",
+      "body": "The relaunched wallet hides payments made on the Aztec Network, while deposits from Ethereum remain visible."
+    },
     {
       "title": "Ethereum schedules Glamsterdam upgrade on Sepolia for Oct. 6",
       "url": "https://cointelegraph.com/news/ethereum-glamsterdam-upgrade-sepolia?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
@@ -40,13 +47,6 @@
       "source": "Decrypt",
       "date": "28 września",
       "body": "Bitmine has staked 84% of its tokens, a position it projects will generate some $358 million a year in staking rewards."
-    },
-    {
-      "title": "Vitalik Buterin says Hegotá could be Ethereum’s last ‘normal’ fork",
-      "url": "https://cointelegraph.com/news/vitalik-hegota-ethereum-last-normal-fork?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "28 września",
-      "body": "Ethereum’s Vitalik Buterin said PeerDAS marked the start of Ethereum’s transition “from being just a blockchain to being something much more powerful.”"
     }
   ]
 }
