@@ -1,11 +1,18 @@
 {
-  "updated": "2026-09-29T18:32:05.088Z",
+  "updated": "2026-09-30T00:36:15.466Z",
   "sources": [
+    "Decrypt",
     "CoinDesk",
-    "Cointelegraph",
-    "Decrypt"
+    "Cointelegraph"
   ],
   "items": [
+    {
+      "title": "Ethereum Gets Another Privacy Boost as Aztec Brings Back zk.money",
+      "url": "https://decrypt.co/379621/ethereum-privacy-aztec-brings-back-zk-money",
+      "source": "Decrypt",
+      "date": "29 września",
+      "body": "Aztec Labs relaunched its self-custodial zk.money wallet on Aztec Network, letting users make private stablecoin payments using readable tags."
+    },
     {
       "title": "Ethereum users get another way to pay privately as zk.money returns after three years",
       "url": "https://www.coindesk.com/tech/2026/09/29/embargo-12-et-ethereum-users-get-another-way-to-pay-privately-as-zk-money-returns-after-three-years",
@@ -40,13 +47,6 @@
       "source": "CoinDesk",
       "date": "28 września",
       "body": "As restaking yields dried up and smart-contract risks mounted, Ethereum's top liquid restaking protocol walked away from its core business to build a crypto neobank instead."
-    },
-    {
-      "title": "Tom Lee's Bitmine Buys Another $47M of ETH, Taking It to 4.9% of Ethereum Supply",
-      "url": "https://decrypt.co/379418/tom-lees-bitmine-buys-another-47m-of-eth-taking-it-to-4-9-of-ethereum-supply",
-      "source": "Decrypt",
-      "date": "28 września",
-      "body": "Bitmine has staked 84% of its tokens, a position it projects will generate some $358 million a year in staking rewards."
     }
   ]
 }
