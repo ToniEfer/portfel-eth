@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T12:37:39.691Z",
+  "updated": "2026-10-01T00:37:15.363Z",
   "sources": [
     "Decrypt",
     "CoinDesk",
@@ -42,11 +42,11 @@
       "body": "Hegota will be Ethereum's last 'normal' fork, he argues, with everything after built on recursive STARKs and formal verification."
     },
     {
-      "title": "Tom Lee's Bitmine Buys Another $47M of ETH, Taking It to 4.9% of Ethereum Supply",
-      "url": "https://decrypt.co/379418/tom-lees-bitmine-buys-another-47m-of-eth-taking-it-to-4-9-of-ethereum-supply",
-      "source": "Decrypt",
+      "title": "Vitalik Buterin says Hegotá could be Ethereum’s last ‘normal’ fork",
+      "url": "https://cointelegraph.com/news/vitalik-hegota-ethereum-last-normal-fork?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
       "date": "28 września",
-      "body": "Bitmine has staked 84% of its tokens, a position it projects will generate some $358 million a year in staking rewards."
+      "body": "Ethereum’s Vitalik Buterin said PeerDAS marked the start of Ethereum’s transition “from being just a blockchain to being something much more powerful.”"
     }
   ]
 }
