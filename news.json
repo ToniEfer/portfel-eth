@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-01T00:37:15.363Z",
+  "updated": "2026-10-01T12:35:31.541Z",
   "sources": [
-    "Decrypt",
     "CoinDesk",
+    "Decrypt",
     "Cointelegraph"
   ],
   "items": [
+    {
+      "title": "MetaMask security incident forces Ethereum staking exits, no funds at risk",
+      "url": "https://www.coindesk.com/tech/2026/10/01/metamask-security-incident-forces-ethereum-staking-exits-with-lido-warning-of-lost-rewards",
+      "source": "CoinDesk",
+      "date": "1 października",
+      "body": "An Ethereum security researcher estimates about 0.36 ETH in rewards was diverted, while precautionary exits cover validators holding roughly 523,000 ETH."
+    },
     {
       "title": "Ethereum Gets Another Privacy Boost as Aztec Brings Back zk.money",
       "url": "https://decrypt.co/379621/ethereum-privacy-aztec-brings-back-zk-money",
       "source": "Decrypt",
       "date": "29 września",
       "body": "Aztec Labs relaunched its self-custodial zk.money wallet on Aztec Network, letting users make private stablecoin payments using readable tags."
-    },
-    {
-      "title": "Ethereum users get another way to pay privately as zk.money returns after three years",
-      "url": "https://www.coindesk.com/tech/2026/09/29/embargo-12-et-ethereum-users-get-another-way-to-pay-privately-as-zk-money-returns-after-three-years",
-      "source": "CoinDesk",
-      "date": "29 września",
-      "body": "The relaunched wallet hides payments made on the Aztec Network, while deposits from Ethereum remain visible."
     },
     {
       "title": "Ethereum schedules Glamsterdam upgrade on Sepolia for Oct. 6",
@@ -35,18 +35,18 @@
       "body": "BitMine could reach 5% of Ether’s supply by early November, while Tom Lee has left open whether it would continue buying beyond that level."
     },
     {
-      "title": "Vitalik Buterin Outlines 'Cryptographic World Computer' Plan for Ethereum",
-      "url": "https://decrypt.co/379461/vitalik-buterin-outlines-cryptographic-world-computer-plan-for-ethereum",
-      "source": "Decrypt",
-      "date": "28 września",
-      "body": "Hegota will be Ethereum's last 'normal' fork, he argues, with everything after built on recursive STARKs and formal verification."
-    },
-    {
       "title": "Vitalik Buterin says Hegotá could be Ethereum’s last ‘normal’ fork",
       "url": "https://cointelegraph.com/news/vitalik-hegota-ethereum-last-normal-fork?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "date": "28 września",
       "body": "Ethereum’s Vitalik Buterin said PeerDAS marked the start of Ethereum’s transition “from being just a blockchain to being something much more powerful.”"
+    },
+    {
+      "title": "THORChain under fire over Bitget, ETH evolves beyond blockchain: Hodler’s Digest",
+      "url": "https://cointelegraph.com/magazine/thorchain-under-fire-over-bitget-hack-eth-is-beyond-blockchain-now?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "27 września",
+      "body": "THORChain refuses to blacklist addresses linked to the Bitget hack. Vitalik Buterin says Ethereum is evolving from being a mere blockchain, into a world cryptographic computer."
     }
   ]
 }
