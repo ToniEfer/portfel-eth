@@ -1,11 +1,25 @@
 {
-  "updated": "2026-10-02T06:33:45.207Z",
+  "updated": "2026-10-02T18:31:56.829Z",
   "sources": [
-    "Cointelegraph",
+    "Decrypt",
     "CoinDesk",
-    "Decrypt"
+    "Cointelegraph"
   ],
   "items": [
+    {
+      "title": "Once a $2.3 Billion Network, Ethereum Layer-2 Blast Is Shutting Down",
+      "url": "https://decrypt.co/379972/ethereum-layer-2-blast-shutting-down",
+      "source": "Decrypt",
+      "date": "2 października",
+      "body": "Blast said operating costs now exceed the revenue its Ethereum layer-2 generates and asked users to withdraw their assets to mainnet before Oct. 26."
+    },
+    {
+      "title": "Once a $2 billion Ethereum layer-2, Blast is shutting down after assets plunge 98%",
+      "url": "https://www.coindesk.com/tech/2026/10/02/once-a-usd2-billion-ethereum-layer-2-blast-is-shutting-down-after-assets-plunge-98",
+      "source": "CoinDesk",
+      "date": "2 października",
+      "body": "Once home to more than $2 billion in crypto assets, Blast is shutting down as activity fades, costs rise, and bigger platforms like Coinbase and Robinhood build networks of their own."
+    },
     {
       "title": "Ethereum’s zkAPI brings privacy-preserving API payments to mainnet",
       "url": "https://cointelegraph.com/news/ethereum-zkapi-private-api-payments-mainnet?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
@@ -33,20 +47,6 @@
       "source": "Cointelegraph",
       "date": "29 września",
       "body": "Glamsterdam will bring proposer-builder separation, block-level access lists and new gas pricing, while its mainnet date remains unset."
-    },
-    {
-      "title": "BitMine could hit its 5% Ether supply target within weeks — then what?",
-      "url": "https://cointelegraph.com/news/bitmine-ether-supply-target-early-november?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "29 września",
-      "body": "BitMine could reach 5% of Ether’s supply by early November, while Tom Lee has left open whether it would continue buying beyond that level."
-    },
-    {
-      "title": "Vitalik Buterin says Hegotá could be Ethereum’s last ‘normal’ fork",
-      "url": "https://cointelegraph.com/news/vitalik-hegota-ethereum-last-normal-fork?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "28 września",
-      "body": "Ethereum’s Vitalik Buterin said PeerDAS marked the start of Ethereum’s transition “from being just a blockchain to being something much more powerful.”"
     }
   ]
 }
