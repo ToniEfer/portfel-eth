@@ -1,11 +1,18 @@
 {
-  "updated": "2026-10-01T12:35:31.541Z",
+  "updated": "2026-10-02T06:33:45.207Z",
   "sources": [
+    "Cointelegraph",
     "CoinDesk",
-    "Decrypt",
-    "Cointelegraph"
+    "Decrypt"
   ],
   "items": [
+    {
+      "title": "Ethereum’s zkAPI brings privacy-preserving API payments to mainnet",
+      "url": "https://cointelegraph.com/news/ethereum-zkapi-private-api-payments-mainnet?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "2 października",
+      "body": "Ethereum’s zkAPI is now live on mainnet, turning an earlier zero-knowledge API payment proposal into a working implementation for private, prepaid access."
+    },
     {
       "title": "MetaMask security incident forces Ethereum staking exits, no funds at risk",
       "url": "https://www.coindesk.com/tech/2026/10/01/metamask-security-incident-forces-ethereum-staking-exits-with-lido-warning-of-lost-rewards",
@@ -40,13 +47,6 @@
       "source": "Cointelegraph",
       "date": "28 września",
       "body": "Ethereum’s Vitalik Buterin said PeerDAS marked the start of Ethereum’s transition “from being just a blockchain to being something much more powerful.”"
-    },
-    {
-      "title": "THORChain under fire over Bitget, ETH evolves beyond blockchain: Hodler’s Digest",
-      "url": "https://cointelegraph.com/magazine/thorchain-under-fire-over-bitget-hack-eth-is-beyond-blockchain-now?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "27 września",
-      "body": "THORChain refuses to blacklist addresses linked to the Bitget hack. Vitalik Buterin says Ethereum is evolving from being a mere blockchain, into a world cryptographic computer."
     }
   ]
 }
