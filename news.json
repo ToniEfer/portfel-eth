@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-03T00:33:42.624Z",
+  "updated": "2026-10-03T15:06:39.870Z",
   "sources": [
     "Decrypt",
     "CoinDesk",
@@ -35,18 +35,18 @@
       "body": "Ethereum’s zkAPI is now live on mainnet, turning an earlier zero-knowledge API payment proposal into a working implementation for private, prepaid access."
     },
     {
-      "title": "MetaMask security incident forces Ethereum staking exits, no funds at risk",
-      "url": "https://www.coindesk.com/tech/2026/10/01/metamask-security-incident-forces-ethereum-staking-exits-with-lido-warning-of-lost-rewards",
-      "source": "CoinDesk",
-      "date": "1 października",
-      "body": "An Ethereum security researcher estimates about 0.36 ETH in rewards was diverted, while precautionary exits cover validators holding roughly 523,000 ETH."
-    },
-    {
       "title": "Ethereum schedules Glamsterdam upgrade on Sepolia for Oct. 6",
       "url": "https://cointelegraph.com/news/ethereum-glamsterdam-upgrade-sepolia?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "date": "29 września",
       "body": "Glamsterdam will bring proposer-builder separation, block-level access lists and new gas pricing, while its mainnet date remains unset."
+    },
+    {
+      "title": "BitMine could hit its 5% Ether supply target within weeks — then what?",
+      "url": "https://cointelegraph.com/news/bitmine-ether-supply-target-early-november?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "29 września",
+      "body": "BitMine could reach 5% of Ether’s supply by early November, while Tom Lee has left open whether it would continue buying beyond that level."
     }
   ]
 }
