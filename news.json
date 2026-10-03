@@ -1,11 +1,18 @@
 {
-  "updated": "2026-10-02T18:31:56.829Z",
+  "updated": "2026-10-03T00:33:42.624Z",
   "sources": [
     "Decrypt",
     "CoinDesk",
     "Cointelegraph"
   ],
   "items": [
+    {
+      "title": "Ethereum Now Lets You Pay for AI Without Revealing Who You Are",
+      "url": "https://decrypt.co/379991/ethereum-now-pay-for-ai-without-revealing-identity",
+      "source": "Decrypt",
+      "date": "2 października",
+      "body": "Ethereum's zkAPI lets users prepay in USDC and query AI models through cryptographic proofs, so no single party sees both who they are and what they ask."
+    },
     {
       "title": "Once a $2.3 Billion Network, Ethereum Layer-2 Blast Is Shutting Down",
       "url": "https://decrypt.co/379972/ethereum-layer-2-blast-shutting-down",
@@ -33,13 +40,6 @@
       "source": "CoinDesk",
       "date": "1 października",
       "body": "An Ethereum security researcher estimates about 0.36 ETH in rewards was diverted, while precautionary exits cover validators holding roughly 523,000 ETH."
-    },
-    {
-      "title": "Ethereum Gets Another Privacy Boost as Aztec Brings Back zk.money",
-      "url": "https://decrypt.co/379621/ethereum-privacy-aztec-brings-back-zk-money",
-      "source": "Decrypt",
-      "date": "29 września",
-      "body": "Aztec Labs relaunched its self-custodial zk.money wallet on Aztec Network, letting users make private stablecoin payments using readable tags."
     },
     {
       "title": "Ethereum schedules Glamsterdam upgrade on Sepolia for Oct. 6",
