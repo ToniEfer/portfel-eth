@@ -1,11 +1,18 @@
 {
-  "updated": "2026-10-03T15:06:39.870Z",
+  "updated": "2026-10-03T22:22:19.641Z",
   "sources": [
-    "Decrypt",
     "CoinDesk",
+    "Decrypt",
     "Cointelegraph"
   ],
   "items": [
+    {
+      "title": "Crypto job postings triple to over 1,200 in September, but applications fall",
+      "url": "https://www.coindesk.com/business/2026/10/03/crypto-job-postings-triple-to-over-1-200-in-september-but-applications-fall",
+      "source": "CoinDesk",
+      "date": "3 października",
+      "body": "Finance, engineering and trading led hiring demand, while Bitcoin, Ethereum and Solana were the most frequently requested blockchain skills."
+    },
     {
       "title": "Ethereum Now Lets You Pay for AI Without Revealing Who You Are",
       "url": "https://decrypt.co/379991/ethereum-now-pay-for-ai-without-revealing-identity",
@@ -40,13 +47,6 @@
       "source": "Cointelegraph",
       "date": "29 września",
       "body": "Glamsterdam will bring proposer-builder separation, block-level access lists and new gas pricing, while its mainnet date remains unset."
-    },
-    {
-      "title": "BitMine could hit its 5% Ether supply target within weeks — then what?",
-      "url": "https://cointelegraph.com/news/bitmine-ether-supply-target-early-november?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "29 września",
-      "body": "BitMine could reach 5% of Ether’s supply by early November, while Tom Lee has left open whether it would continue buying beyond that level."
     }
   ]
 }
