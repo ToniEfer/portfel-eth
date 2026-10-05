@@ -1,11 +1,17 @@
 {
-  "updated": "2026-10-05T12:36:16.637Z",
+  "updated": "2026-10-05T18:34:16.668Z",
   "sources": [
-    "CoinDesk",
     "Decrypt",
-    "Cointelegraph"
+    "CoinDesk"
   ],
   "items": [
+    {
+      "title": "Bitmine Buys $41M More Ethereum, Reaching 99% of Its 'Alchemy of 5%' Target",
+      "url": "https://decrypt.co/380059/bitmine-41m-more-ethereum-alchemy-of-5-target",
+      "source": "Decrypt",
+      "date": "5 października",
+      "body": "The purchase lifts Bitmine's stash past 6 million ETH—4.9% of supply and 99% of the way to its \"Alchemy of 5%\" goal—as chairman Tom Lee says Ethereum is \"dwarfing\" other macro assets."
+    },
     {
       "title": "Ethereum investors are stuck in a two-week staking exit line. Here's why.",
       "url": "https://www.coindesk.com/tech/2026/10/05/ethereum-has-a-25-day-wait-to-start-staking-with-nearly-1-5-million-eth-in-line",
@@ -40,13 +46,6 @@
       "source": "Decrypt",
       "date": "2 października",
       "body": "Blast said operating costs now exceed the revenue its Ethereum layer-2 generates and asked users to withdraw their assets to mainnet before Oct. 26."
-    },
-    {
-      "title": "Ethereum’s zkAPI brings privacy-preserving API payments to mainnet",
-      "url": "https://cointelegraph.com/news/ethereum-zkapi-private-api-payments-mainnet?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "2 października",
-      "body": "Ethereum’s zkAPI is now live on mainnet, turning an earlier zero-knowledge API payment proposal into a working implementation for private, prepaid access."
     }
   ]
 }
