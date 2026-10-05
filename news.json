@@ -1,11 +1,18 @@
 {
-  "updated": "2026-10-03T22:22:19.641Z",
+  "updated": "2026-10-05T06:39:40.758Z",
   "sources": [
     "CoinDesk",
     "Decrypt",
     "Cointelegraph"
   ],
   "items": [
+    {
+      "title": "Ether's bitcoin-beating Q3 rally came with a catch. Liquidity thinned.",
+      "url": "https://www.coindesk.com/markets/2026/10/05/ether-s-bitcoin-beating-q3-rally-came-with-a-catch-liquidity-thinned",
+      "source": "CoinDesk",
+      "date": "5 października",
+      "body": "Ether beat bitcoin in the third quarter, but its market liquidity got thinner, according to Coingecko."
+    },
     {
       "title": "Crypto job postings triple to over 1,200 in September, but applications fall",
       "url": "https://www.coindesk.com/business/2026/10/03/crypto-job-postings-triple-to-over-1-200-in-september-but-applications-fall",
@@ -40,13 +47,6 @@
       "source": "Cointelegraph",
       "date": "2 października",
       "body": "Ethereum’s zkAPI is now live on mainnet, turning an earlier zero-knowledge API payment proposal into a working implementation for private, prepaid access."
-    },
-    {
-      "title": "Ethereum schedules Glamsterdam upgrade on Sepolia for Oct. 6",
-      "url": "https://cointelegraph.com/news/ethereum-glamsterdam-upgrade-sepolia?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "29 września",
-      "body": "Glamsterdam will bring proposer-builder separation, block-level access lists and new gas pricing, while its mainnet date remains unset."
     }
   ]
 }
