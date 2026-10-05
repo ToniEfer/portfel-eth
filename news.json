@@ -1,11 +1,18 @@
 {
-  "updated": "2026-10-05T06:39:40.758Z",
+  "updated": "2026-10-05T12:36:16.637Z",
   "sources": [
     "CoinDesk",
     "Decrypt",
     "Cointelegraph"
   ],
   "items": [
+    {
+      "title": "Ethereum investors are stuck in a two-week staking exit line. Here's why.",
+      "url": "https://www.coindesk.com/tech/2026/10/05/ethereum-has-a-25-day-wait-to-start-staking-with-nearly-1-5-million-eth-in-line",
+      "source": "CoinDesk",
+      "date": "5 października",
+      "body": "Ether waiting to enter staking has fallen by more than a quarter since early September, while the exit queue hit its longest of 2026."
+    },
     {
       "title": "Ether's bitcoin-beating Q3 rally came with a catch. Liquidity thinned.",
       "url": "https://www.coindesk.com/markets/2026/10/05/ether-s-bitcoin-beating-q3-rally-came-with-a-catch-liquidity-thinned",
@@ -33,13 +40,6 @@
       "source": "Decrypt",
       "date": "2 października",
       "body": "Blast said operating costs now exceed the revenue its Ethereum layer-2 generates and asked users to withdraw their assets to mainnet before Oct. 26."
-    },
-    {
-      "title": "Once a $2 billion Ethereum layer-2, Blast is shutting down after assets plunge 98%",
-      "url": "https://www.coindesk.com/tech/2026/10/02/once-a-usd2-billion-ethereum-layer-2-blast-is-shutting-down-after-assets-plunge-98",
-      "source": "CoinDesk",
-      "date": "2 października",
-      "body": "Once home to more than $2 billion in crypto assets, Blast is shutting down as activity fades, costs rise, and bigger platforms like Coinbase and Robinhood build networks of their own."
     },
     {
       "title": "Ethereum’s zkAPI brings privacy-preserving API payments to mainnet",
