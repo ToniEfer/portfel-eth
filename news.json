@@ -1,11 +1,25 @@
 {
-  "updated": "2026-10-06T12:34:40.829Z",
+  "updated": "2026-10-06T18:31:34.968Z",
   "sources": [
     "Cointelegraph",
     "CoinDesk",
     "Decrypt"
   ],
   "items": [
+    {
+      "title": "Ethereum’s Glamsterdam upgrade launches on Sepolia testnet",
+      "url": "https://cointelegraph.com/news/ethereums-glamsterdam-upgrade-launches-on-sepolia-testnet?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "6 października",
+      "body": "Sepolia marks one of the final major rehearsals before the final activation of Glamsterdam, aimed at bringing more efficiency and scalability to the Ethereum mainnet."
+    },
+    {
+      "title": "Arbitrum joins Paxos-led stablecoin group Global Dollar to capture digital dollar growth",
+      "url": "https://www.coindesk.com/business/2026/10/05/arbitrum-joins-paxos-led-stablecoin-group-global-dollar-to-capture-digital-dollar-growth",
+      "source": "CoinDesk",
+      "date": "6 października",
+      "body": "The Ethereum layer-2 is backing Paxos-issued USDG to earn a share of reserve income as new stablecoin alliances compete for distribution, users and reserve economics."
+    },
     {
       "title": "EEZ tests atomic L1-to-L2 transaction in push to unify Ethereum",
       "url": "https://cointelegraph.com/news/ethereum-eez-atomic-l1-l2-transaction-mainnet?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
@@ -33,20 +47,6 @@
       "source": "Decrypt",
       "date": "2 października",
       "body": "Ethereum's zkAPI lets users prepay in USDC and query AI models through cryptographic proofs, so no single party sees both who they are and what they ask."
-    },
-    {
-      "title": "Once a $2.3 Billion Network, Ethereum Layer-2 Blast Is Shutting Down",
-      "url": "https://decrypt.co/379972/ethereum-layer-2-blast-shutting-down",
-      "source": "Decrypt",
-      "date": "2 października",
-      "body": "Blast said operating costs now exceed the revenue its Ethereum layer-2 generates and asked users to withdraw their assets to mainnet before Oct. 26."
-    },
-    {
-      "title": "Ethereum’s zkAPI brings privacy-preserving API payments to mainnet",
-      "url": "https://cointelegraph.com/news/ethereum-zkapi-private-api-payments-mainnet?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "2 października",
-      "body": "Ethereum’s zkAPI is now live on mainnet, turning an earlier zero-knowledge API payment proposal into a working implementation for private, prepaid access."
     }
   ]
 }
