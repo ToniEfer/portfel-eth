@@ -1,10 +1,18 @@
 {
-  "updated": "2026-10-06T06:34:30.706Z",
+  "updated": "2026-10-06T12:34:40.829Z",
   "sources": [
+    "Cointelegraph",
     "CoinDesk",
     "Decrypt"
   ],
   "items": [
+    {
+      "title": "EEZ tests atomic L1-to-L2 transaction in push to unify Ethereum",
+      "url": "https://cointelegraph.com/news/ethereum-eez-atomic-l1-l2-transaction-mainnet?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "6 października",
+      "body": "An EEZ contributor shared a 0.001 ETH cross-chain test as the project develops a framework to connect Ethereum mainnet and its rollups."
+    },
     {
       "title": "Ethereum’s Glamsterdam test gets last-minute fix before major capacity jump",
       "url": "https://www.coindesk.com/tech/2026/10/06/ethereum-s-glamsterdam-test-gets-last-minute-fix-before-major-capacity-jump",
@@ -20,20 +28,6 @@
       "body": "The purchase lifts Bitmine's stash past 6 million ETH—4.9% of supply and 99% of the way to its \"Alchemy of 5%\" goal—as chairman Tom Lee says Ethereum is \"dwarfing\" other macro assets."
     },
     {
-      "title": "Ethereum investors are stuck in a two-week staking exit line. Here's why.",
-      "url": "https://www.coindesk.com/tech/2026/10/05/ethereum-has-a-25-day-wait-to-start-staking-with-nearly-1-5-million-eth-in-line",
-      "source": "CoinDesk",
-      "date": "5 października",
-      "body": "Ether waiting to enter staking has fallen by more than a quarter since early September, while the exit queue hit its longest of 2026."
-    },
-    {
-      "title": "Ether's bitcoin-beating Q3 rally came with a catch. Liquidity thinned.",
-      "url": "https://www.coindesk.com/markets/2026/10/05/ether-s-bitcoin-beating-q3-rally-came-with-a-catch-liquidity-thinned",
-      "source": "CoinDesk",
-      "date": "5 października",
-      "body": "Ether beat bitcoin in the third quarter, but its market liquidity got thinner, according to Coingecko."
-    },
-    {
       "title": "Ethereum Now Lets You Pay for AI Without Revealing Who You Are",
       "url": "https://decrypt.co/379991/ethereum-now-pay-for-ai-without-revealing-identity",
       "source": "Decrypt",
@@ -46,6 +40,13 @@
       "source": "Decrypt",
       "date": "2 października",
       "body": "Blast said operating costs now exceed the revenue its Ethereum layer-2 generates and asked users to withdraw their assets to mainnet before Oct. 26."
+    },
+    {
+      "title": "Ethereum’s zkAPI brings privacy-preserving API payments to mainnet",
+      "url": "https://cointelegraph.com/news/ethereum-zkapi-private-api-payments-mainnet?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "2 października",
+      "body": "Ethereum’s zkAPI is now live on mainnet, turning an earlier zero-knowledge API payment proposal into a working implementation for private, prepaid access."
     }
   ]
 }
