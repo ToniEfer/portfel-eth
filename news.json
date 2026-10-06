@@ -1,10 +1,17 @@
 {
-  "updated": "2026-10-05T18:34:16.668Z",
+  "updated": "2026-10-06T06:34:30.706Z",
   "sources": [
-    "Decrypt",
-    "CoinDesk"
+    "CoinDesk",
+    "Decrypt"
   ],
   "items": [
+    {
+      "title": "Ethereum’s Glamsterdam test gets last-minute fix before major capacity jump",
+      "url": "https://www.coindesk.com/tech/2026/10/06/ethereum-s-glamsterdam-test-gets-last-minute-fix-before-major-capacity-jump",
+      "source": "CoinDesk",
+      "date": "6 października",
+      "body": "One of Ethereum’s main validator clients updated its software hours before a Sepolia test that will raise the amount of work each block can hold to 200 million gas."
+    },
     {
       "title": "Bitmine Buys $41M More Ethereum, Reaching 99% of Its 'Alchemy of 5%' Target",
       "url": "https://decrypt.co/380059/bitmine-41m-more-ethereum-alchemy-of-5-target",
@@ -25,13 +32,6 @@
       "source": "CoinDesk",
       "date": "5 października",
       "body": "Ether beat bitcoin in the third quarter, but its market liquidity got thinner, according to Coingecko."
-    },
-    {
-      "title": "Crypto job postings triple to over 1,200 in September, but applications fall",
-      "url": "https://www.coindesk.com/business/2026/10/03/crypto-job-postings-triple-to-over-1-200-in-september-but-applications-fall",
-      "source": "CoinDesk",
-      "date": "3 października",
-      "body": "Finance, engineering and trading led hiring demand, while Bitcoin, Ethereum and Solana were the most frequently requested blockchain skills."
     },
     {
       "title": "Ethereum Now Lets You Pay for AI Without Revealing Who You Are",
