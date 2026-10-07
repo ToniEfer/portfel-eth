@@ -1,24 +1,31 @@
 {
-  "updated": "2026-10-07T12:36:46.773Z",
+  "updated": "2026-10-07T18:33:41.520Z",
   "sources": [
+    "Decrypt",
     "CoinDesk",
-    "Cointelegraph",
-    "Decrypt"
+    "Cointelegraph"
   ],
   "items": [
     {
-      "title": "Live updates: Cryptos tumble, with ETH down 5% as Tom Lee confirms Bitmine buying limit",
-      "url": "https://www.coindesk.com/business/2026/10/07/live-updates-bitcoin-slides-under-usd84-000-as-usd550-million-in-bets-get-liquidated",
-      "source": "CoinDesk",
+      "title": "Bitmine's Relentless Ethereum Buying Is About to End, Tom Lee Says",
+      "url": "https://decrypt.co/380287/bitmine-ethereum-buying-will-stop-tom-lee",
+      "source": "Decrypt",
       "date": "7 października",
-      "body": "Traders betting on higher prices took the brunt of forced selling as interest rates spiked upwards on Wednesday."
+      "body": "Speaking at Token2049 in Singapore, the chairman said Bitmine is about 100,000 ETH—roughly six to seven weeks—from its 5% cap, setting an end date on a buying spree that made it the world's…"
     },
     {
-      "title": "BitMine sets 5% Ether supply ‘hard cap’ as accumulation target nears",
+      "title": "Ether is about to lose a steady buyer as Tom Lee says Bitmine will stop token purchases",
+      "url": "https://www.coindesk.com/markets/2026/10/07/ether-is-about-to-lose-a-steady-buyer-as-tom-lee-says-bitmine-will-stop-token-purchases",
+      "source": "CoinDesk",
+      "date": "7 października",
+      "body": "Tom Lee said Bitmine will be “done stacking” once it owns 5% of ETH, setting an end date to an accumulation streak that began in mid-2025 and made the company the world's largest Ethereum…"
+    },
+    {
+      "title": "Bitmine sets 5% Ether supply ‘hard cap’ as accumulation target nears",
       "url": "https://cointelegraph.com/news/bitmine-ether-5-percent-supply-hard-cap?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "date": "7 października",
-      "body": "Tom Lee said BitMine will not accumulate Ether past 5% of the supply, turning the company’s target into a ceiling."
+      "body": "Tom Lee said Bitmine will not accumulate Ether past 5% of the supply, turning the company’s target into a ceiling."
     },
     {
       "title": "Pudgy Penguins’ Abstract becomes second Ethereum layer 2 to shut in a week",
@@ -40,13 +47,6 @@
       "source": "Cointelegraph",
       "date": "6 października",
       "body": "Sepolia marks one of the final major rehearsals before the final activation of Glamsterdam, aimed at bringing more efficiency and scalability to the Ethereum mainnet."
-    },
-    {
-      "title": "Arbitrum joins Paxos-led stablecoin group Global Dollar to capture digital dollar growth",
-      "url": "https://www.coindesk.com/business/2026/10/05/arbitrum-joins-paxos-led-stablecoin-group-global-dollar-to-capture-digital-dollar-growth",
-      "source": "CoinDesk",
-      "date": "6 października",
-      "body": "The Ethereum layer-2 is backing Paxos-issued USDG to earn a share of reserve income as new stablecoin alliances compete for distribution, users and reserve economics."
     }
   ]
 }
