@@ -1,11 +1,25 @@
 {
-  "updated": "2026-10-07T06:34:13.484Z",
+  "updated": "2026-10-07T12:36:46.773Z",
   "sources": [
     "CoinDesk",
-    "Decrypt",
-    "Cointelegraph"
+    "Cointelegraph",
+    "Decrypt"
   ],
   "items": [
+    {
+      "title": "Live updates: Cryptos tumble, with ETH down 5% as Tom Lee confirms Bitmine buying limit",
+      "url": "https://www.coindesk.com/business/2026/10/07/live-updates-bitcoin-slides-under-usd84-000-as-usd550-million-in-bets-get-liquidated",
+      "source": "CoinDesk",
+      "date": "7 października",
+      "body": "Traders betting on higher prices took the brunt of forced selling as interest rates spiked upwards on Wednesday."
+    },
+    {
+      "title": "BitMine sets 5% Ether supply ‘hard cap’ as accumulation target nears",
+      "url": "https://cointelegraph.com/news/bitmine-ether-5-percent-supply-hard-cap?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "7 października",
+      "body": "Tom Lee said BitMine will not accumulate Ether past 5% of the supply, turning the company’s target into a ceiling."
+    },
     {
       "title": "Pudgy Penguins’ Abstract becomes second Ethereum layer 2 to shut in a week",
       "url": "https://www.coindesk.com/tech/2026/10/07/pudgy-penguins-abstract-becomes-second-ethereum-layer-2-to-shut-in-a-week",
@@ -33,20 +47,6 @@
       "source": "CoinDesk",
       "date": "6 października",
       "body": "The Ethereum layer-2 is backing Paxos-issued USDG to earn a share of reserve income as new stablecoin alliances compete for distribution, users and reserve economics."
-    },
-    {
-      "title": "EEZ tests atomic L1-to-L2 transaction in push to unify Ethereum",
-      "url": "https://cointelegraph.com/news/ethereum-eez-atomic-l1-l2-transaction-mainnet?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "6 października",
-      "body": "An EEZ contributor shared a 0.001 ETH cross-chain test as the project develops a framework to connect Ethereum mainnet and its rollups."
-    },
-    {
-      "title": "Ethereum’s Glamsterdam test gets last-minute fix before major capacity jump",
-      "url": "https://www.coindesk.com/tech/2026/10/06/ethereum-s-glamsterdam-test-gets-last-minute-fix-before-major-capacity-jump",
-      "source": "CoinDesk",
-      "date": "6 października",
-      "body": "One of Ethereum’s main validator clients updated its software hours before a Sepolia test that will raise the amount of work each block can hold to 200 million gas."
     }
   ]
 }
