@@ -1,11 +1,18 @@
 {
-  "updated": "2026-10-06T18:31:34.968Z",
+  "updated": "2026-10-07T00:39:47.111Z",
   "sources": [
+    "Decrypt",
     "Cointelegraph",
-    "CoinDesk",
-    "Decrypt"
+    "CoinDesk"
   ],
   "items": [
+    {
+      "title": "Pudgy Penguins' Ethereum Layer-2 Abstract Is Shutting Down",
+      "url": "https://decrypt.co/380225/pudgy-penguin-ethereum-layer-2-abstract-shutting-down",
+      "source": "Decrypt",
+      "date": "6 października",
+      "body": "Abstract will shut down Dec. 15, saying a chain focused solely on consumer crypto proved unsustainable, and is urging users to bridge their assets off before then."
+    },
     {
       "title": "Ethereum’s Glamsterdam upgrade launches on Sepolia testnet",
       "url": "https://cointelegraph.com/news/ethereums-glamsterdam-upgrade-launches-on-sepolia-testnet?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
@@ -40,13 +47,6 @@
       "source": "Decrypt",
       "date": "5 października",
       "body": "The purchase lifts Bitmine's stash past 6 million ETH—4.9% of supply and 99% of the way to its \"Alchemy of 5%\" goal—as chairman Tom Lee says Ethereum is \"dwarfing\" other macro assets."
-    },
-    {
-      "title": "Ethereum Now Lets You Pay for AI Without Revealing Who You Are",
-      "url": "https://decrypt.co/379991/ethereum-now-pay-for-ai-without-revealing-identity",
-      "source": "Decrypt",
-      "date": "2 października",
-      "body": "Ethereum's zkAPI lets users prepay in USDC and query AI models through cryptographic proofs, so no single party sees both who they are and what they ask."
     }
   ]
 }
