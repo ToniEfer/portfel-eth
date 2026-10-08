@@ -1,11 +1,18 @@
 {
-  "updated": "2026-10-07T18:33:41.520Z",
+  "updated": "2026-10-08T00:38:36.548Z",
   "sources": [
     "Decrypt",
     "CoinDesk",
     "Cointelegraph"
   ],
   "items": [
+    {
+      "title": "Ethereum Researcher Says AI May Break Encryption Before Quantum Does",
+      "url": "https://decrypt.co/380363/ethereum-researcher-ai-break-encryption-before-quantum",
+      "source": "Decrypt",
+      "date": "7 października",
+      "body": "Ethereum Foundation researcher Justin Drake urged holders to calmly move funds to unused addresses, warning that AI-driven math could break crypto signatures before quantum computers do."
+    },
     {
       "title": "Bitmine's Relentless Ethereum Buying Is About to End, Tom Lee Says",
       "url": "https://decrypt.co/380287/bitmine-ethereum-buying-will-stop-tom-lee",
@@ -40,13 +47,6 @@
       "source": "Decrypt",
       "date": "6 października",
       "body": "Abstract will shut down Dec. 15, saying a chain focused solely on consumer crypto proved unsustainable, and is urging users to bridge their assets off before then."
-    },
-    {
-      "title": "Ethereum’s Glamsterdam upgrade launches on Sepolia testnet",
-      "url": "https://cointelegraph.com/news/ethereums-glamsterdam-upgrade-launches-on-sepolia-testnet?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "6 października",
-      "body": "Sepolia marks one of the final major rehearsals before the final activation of Glamsterdam, aimed at bringing more efficiency and scalability to the Ethereum mainnet."
     }
   ]
 }
