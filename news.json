@@ -1,11 +1,17 @@
 {
-  "updated": "2026-10-08T18:33:22.874Z",
+  "updated": "2026-10-09T00:41:41.126Z",
   "sources": [
     "Decrypt",
-    "CoinDesk",
-    "Cointelegraph"
+    "CoinDesk"
   ],
   "items": [
+    {
+      "title": "Ethereum Test Network Raises Block Limit to Over 3x Its Current Capacity",
+      "url": "https://decrypt.co/380538/ethereum-test-raises-block-limit-3x-current-capacity",
+      "source": "Decrypt",
+      "date": "8 października",
+      "body": "Ethereum's Sepolia test network activated Glamsterdam on October 6 with a block gas limit near 200 million, over three times mainnet's 60 million."
+    },
     {
       "title": "Will AI Break Crypto Encryption? Ethereum’s Vitalik Buterin Weighs In on 'Bunker Mode' Shift",
       "url": "https://decrypt.co/380503/ai-break-crypto-encryption-ethereum-vitalik-buterin-bunker-mode",
@@ -40,13 +46,6 @@
       "source": "Decrypt",
       "date": "7 października",
       "body": "Speaking at Token2049 in Singapore, the chairman said Bitmine is about 100,000 ETH—roughly six to seven weeks—from its 5% cap, setting an end date on a buying spree that made it the world's…"
-    },
-    {
-      "title": "Bitmine sets 5% Ether supply ‘hard cap’ as accumulation target nears",
-      "url": "https://cointelegraph.com/news/bitmine-ether-5-percent-supply-hard-cap?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "7 października",
-      "body": "Tom Lee said Bitmine will not accumulate Ether past 5% of the supply, turning the company’s target into a ceiling."
     }
   ]
 }
