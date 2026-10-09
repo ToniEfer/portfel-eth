@@ -1,10 +1,17 @@
 {
-  "updated": "2026-10-09T00:41:41.126Z",
+  "updated": "2026-10-09T06:36:16.276Z",
   "sources": [
-    "Decrypt",
-    "CoinDesk"
+    "CoinDesk",
+    "Decrypt"
   ],
   "items": [
+    {
+      "title": "Ether bets were wiped out at six times bitcoin’s rate in crypto’s $1 billion flush",
+      "url": "https://www.coindesk.com/markets/2026/10/09/ether-bets-were-wiped-out-at-six-times-bitcoin-s-rate-in-crypto-s-usd1-billion-flush",
+      "source": "CoinDesk",
+      "date": "9 października",
+      "body": "About $356 million in ETH positions were liquidated over 24 hours, more than bitcoin despite ether’s market value being less than a fifth as large."
+    },
     {
       "title": "Ethereum Test Network Raises Block Limit to Over 3x Its Current Capacity",
       "url": "https://decrypt.co/380538/ethereum-test-raises-block-limit-3x-current-capacity",
@@ -25,13 +32,6 @@
       "source": "Decrypt",
       "date": "8 października",
       "body": "Justin Drake is calling for crypto holders to start calmly planning for “Bunker Mode.\" But reactions so far haven’t been too calm."
-    },
-    {
-      "title": "Ethereum’s Glamsterdam test runs near 200 million gas per block after upgrade",
-      "url": "https://www.coindesk.com/tech/2026/10/08/ethereum-s-glamsterdam-test-runs-near-200-million-gas-per-block-after-upgrade",
-      "source": "CoinDesk",
-      "date": "8 października",
-      "body": "The Sepolia rehearsal has raised its processing budget more than threefold, but sampled blocks used less than half that allowance."
     },
     {
       "title": "Ethereum Researcher Says AI May Break Encryption Before Quantum Does",
