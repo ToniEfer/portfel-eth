@@ -1,10 +1,24 @@
 {
-  "updated": "2026-10-09T06:36:16.276Z",
+  "updated": "2026-10-09T18:31:29.169Z",
   "sources": [
-    "CoinDesk",
-    "Decrypt"
+    "Decrypt",
+    "CoinDesk"
   ],
   "items": [
+    {
+      "title": "Ethereum L2 Starknet Jumps 20% After Saying It Wants to Become an L1",
+      "url": "https://decrypt.co/380585/ethereum-l2-starknet-jumps-20-after-saying-it-wants-to-become-an-l1",
+      "source": "Decrypt",
+      "date": "9 października",
+      "body": "Starknet is \"actively considering\" becoming its own blockchain, a move it says would make it the first fully quantum-resistant network by 2027."
+    },
+    {
+      "title": "Ledger investigates potential wallet tampering after reports of $86 million in crypto stolen",
+      "url": "https://www.coindesk.com/business/2026/10/09/ledger-investigates-potential-wallet-tampering-after-reports-of-usd86-million-in-crypto-stolen",
+      "source": "CoinDesk",
+      "date": "9 października",
+      "body": "The hardware wallet maker said it is investigating devices sold by a Southeast Asian reseller as social posts swirl about crypto assets drained from Bitcoin, Ethereum and Tron addresses."
+    },
     {
       "title": "Ether bets were wiped out at six times bitcoin’s rate in crypto’s $1 billion flush",
       "url": "https://www.coindesk.com/markets/2026/10/09/ether-bets-were-wiped-out-at-six-times-bitcoin-s-rate-in-crypto-s-usd1-billion-flush",
@@ -32,20 +46,6 @@
       "source": "Decrypt",
       "date": "8 października",
       "body": "Justin Drake is calling for crypto holders to start calmly planning for “Bunker Mode.\" But reactions so far haven’t been too calm."
-    },
-    {
-      "title": "Ethereum Researcher Says AI May Break Encryption Before Quantum Does",
-      "url": "https://decrypt.co/380363/ethereum-researcher-ai-break-encryption-before-quantum",
-      "source": "Decrypt",
-      "date": "7 października",
-      "body": "Ethereum Foundation researcher Justin Drake urged holders to calmly move funds to unused addresses, warning that AI-driven math could break crypto signatures before quantum computers do."
-    },
-    {
-      "title": "Bitmine's Relentless Ethereum Buying Is About to End, Tom Lee Says",
-      "url": "https://decrypt.co/380287/bitmine-ethereum-buying-will-stop-tom-lee",
-      "source": "Decrypt",
-      "date": "7 października",
-      "body": "Speaking at Token2049 in Singapore, the chairman said Bitmine is about 100,000 ETH—roughly six to seven weeks—from its 5% cap, setting an end date on a buying spree that made it the world's…"
     }
   ]
 }
