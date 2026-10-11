@@ -1,8 +1,9 @@
 {
-  "updated": "2026-10-09T18:31:29.169Z",
+  "updated": "2026-10-11T18:31:22.822Z",
   "sources": [
     "Decrypt",
-    "CoinDesk"
+    "CoinDesk",
+    "Cointelegraph"
   ],
   "items": [
     {
@@ -18,13 +19,6 @@
       "source": "CoinDesk",
       "date": "9 października",
       "body": "The hardware wallet maker said it is investigating devices sold by a Southeast Asian reseller as social posts swirl about crypto assets drained from Bitcoin, Ethereum and Tron addresses."
-    },
-    {
-      "title": "Ether bets were wiped out at six times bitcoin’s rate in crypto’s $1 billion flush",
-      "url": "https://www.coindesk.com/markets/2026/10/09/ether-bets-were-wiped-out-at-six-times-bitcoin-s-rate-in-crypto-s-usd1-billion-flush",
-      "source": "CoinDesk",
-      "date": "9 października",
-      "body": "About $356 million in ETH positions were liquidated over 24 hours, more than bitcoin despite ether’s market value being less than a fifth as large."
     },
     {
       "title": "Ethereum Test Network Raises Block Limit to Over 3x Its Current Capacity",
@@ -46,6 +40,13 @@
       "source": "Decrypt",
       "date": "8 października",
       "body": "Justin Drake is calling for crypto holders to start calmly planning for “Bunker Mode.\" But reactions so far haven’t been too calm."
+    },
+    {
+      "title": "Bitmine sets 5% Ether supply ‘hard cap’ as accumulation target nears",
+      "url": "https://cointelegraph.com/news/bitmine-ether-5-percent-supply-hard-cap?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "7 października",
+      "body": "Tom Lee said Bitmine will not accumulate Ether past 5% of the supply, turning the company’s target into a ceiling."
     }
   ]
 }
