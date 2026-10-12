@@ -1,24 +1,37 @@
 {
-  "updated": "2026-10-11T18:31:22.822Z",
+  "updated": "2026-10-12T18:34:25.352Z",
   "sources": [
-    "Decrypt",
     "CoinDesk",
-    "Cointelegraph"
+    "Decrypt"
   ],
   "items": [
+    {
+      "title": "Tom Lee sees $2 trillion wealth transfer fueling crypto demand as Bitmine buys more ether",
+      "url": "https://www.coindesk.com/business/2026/10/12/tom-lee-sees-usd2-trillion-wealth-transfer-fueling-crypto-demand-as-bitmine-buys-more-ether",
+      "source": "CoinDesk",
+      "date": "12 października",
+      "body": "The Bitmine chairman said he expects younger investors to drive demand for digital assets as his ether treasury company inches closer to owning 5% of the total supply."
+    },
+    {
+      "title": "Bitmine Adds $32M in Ethereum as Tom Lee Says Firm Is Nearly 'Done Stacking'",
+      "url": "https://decrypt.co/380685/bitmine-adds-32m-in-ethereum-as-tom-lee-says-firm-is-nearly-done-stacking",
+      "source": "Decrypt",
+      "date": "12 października",
+      "body": "The Ethereum treasury firm now holds 6.03 million ETH, 4.9% of supply, as Lee predicts the biggest crypto bull market yet."
+    },
+    {
+      "title": "U.S. inflation, Ethereum upgrade talks: Crypto Week Ahead",
+      "url": "https://www.coindesk.com/markets/2026/10/12/u-s-inflation-ethereum-upgrade-talks-crypto-week-ahead",
+      "source": "CoinDesk",
+      "date": "12 października",
+      "body": "Your look at what's coming in the week starting Oct. 12."
+    },
     {
       "title": "Ethereum L2 Starknet Jumps 20% After Saying It Wants to Become an L1",
       "url": "https://decrypt.co/380585/ethereum-l2-starknet-jumps-20-after-saying-it-wants-to-become-an-l1",
       "source": "Decrypt",
       "date": "9 października",
       "body": "Starknet is \"actively considering\" becoming its own blockchain, a move it says would make it the first fully quantum-resistant network by 2027."
-    },
-    {
-      "title": "Ledger investigates potential wallet tampering after reports of $86 million in crypto stolen",
-      "url": "https://www.coindesk.com/business/2026/10/09/ledger-investigates-potential-wallet-tampering-after-reports-of-usd86-million-in-crypto-stolen",
-      "source": "CoinDesk",
-      "date": "9 października",
-      "body": "The hardware wallet maker said it is investigating devices sold by a Southeast Asian reseller as social posts swirl about crypto assets drained from Bitcoin, Ethereum and Tron addresses."
     },
     {
       "title": "Ethereum Test Network Raises Block Limit to Over 3x Its Current Capacity",
@@ -33,20 +46,6 @@
       "source": "Decrypt",
       "date": "8 października",
       "body": "Ethereum co-founder Vitalik Buterin thinks the crypto industry needs to make sure encryption is both quantum and AI-resistant."
-    },
-    {
-      "title": "Morning Minute: AI Could Break Crypto Encryption Before Quantum, Says Ethereum Researcher",
-      "url": "https://decrypt.co/380402/morning-minute-ethereum-researcher-says-ai-may-break-crypto-encryption-before-quantum",
-      "source": "Decrypt",
-      "date": "8 października",
-      "body": "Justin Drake is calling for crypto holders to start calmly planning for “Bunker Mode.\" But reactions so far haven’t been too calm."
-    },
-    {
-      "title": "Bitmine sets 5% Ether supply ‘hard cap’ as accumulation target nears",
-      "url": "https://cointelegraph.com/news/bitmine-ether-5-percent-supply-hard-cap?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "7 października",
-      "body": "Tom Lee said Bitmine will not accumulate Ether past 5% of the supply, turning the company’s target into a ceiling."
     }
   ]
 }
