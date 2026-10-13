@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T12:40:09.516Z",
+  "updated": "2026-10-13T18:37:53.938Z",
   "sources": [
     "Cointelegraph",
     "CoinDesk",
@@ -35,18 +35,18 @@
       "body": "The Ethereum treasury firm now holds 6.03 million ETH, 4.9% of supply, as Lee predicts the biggest crypto bull market yet."
     },
     {
-      "title": "U.S. inflation, Ethereum upgrade talks: Crypto Week Ahead",
-      "url": "https://www.coindesk.com/markets/2026/10/12/u-s-inflation-ethereum-upgrade-talks-crypto-week-ahead",
-      "source": "CoinDesk",
-      "date": "12 października",
-      "body": "Your look at what's coming in the week starting Oct. 12."
+      "title": "Bitmine sets 5% Ether supply ‘hard cap’ as accumulation target nears",
+      "url": "https://cointelegraph.com/news/bitmine-ether-5-percent-supply-hard-cap?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "7 października",
+      "body": "Tom Lee said Bitmine will not accumulate Ether past 5% of the supply, turning the company’s target into a ceiling."
     },
     {
-      "title": "Ethereum L2 Starknet Jumps 20% After Saying It Wants to Become an L1",
-      "url": "https://decrypt.co/380585/ethereum-l2-starknet-jumps-20-after-saying-it-wants-to-become-an-l1",
-      "source": "Decrypt",
-      "date": "9 października",
-      "body": "Starknet is \"actively considering\" becoming its own blockchain, a move it says would make it the first fully quantum-resistant network by 2027."
+      "title": "Ethereum’s Glamsterdam upgrade launches on Sepolia testnet",
+      "url": "https://cointelegraph.com/news/ethereums-glamsterdam-upgrade-launches-on-sepolia-testnet?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "6 października",
+      "body": "Sepolia marks one of the final major rehearsals before the final activation of Glamsterdam, aimed at bringing more efficiency and scalability to the Ethereum mainnet."
     }
   ]
 }
