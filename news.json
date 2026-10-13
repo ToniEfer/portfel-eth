@@ -1,11 +1,18 @@
 {
-  "updated": "2026-10-13T06:39:24.605Z",
+  "updated": "2026-10-13T12:40:09.516Z",
   "sources": [
+    "Cointelegraph",
     "CoinDesk",
-    "Decrypt",
-    "Cointelegraph"
+    "Decrypt"
   ],
   "items": [
+    {
+      "title": "ENS seeks DAO approval to activate upgraded Ethereum naming system",
+      "url": "https://cointelegraph.com/news/ens-dao-ensv2-upgrade-eth-domain-registrations?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "13 października",
+      "body": "New .eth registrations would pause for hours during the transition, while existing domain holders could renew their names without migrating."
+    },
     {
       "title": "Once-largest Ethereum NFT marketplace Blur is shutting down after volumes collapse 99%",
       "url": "https://www.coindesk.com/tech/2026/10/13/once-largest-ethereum-nft-marketplace-blur-is-shutting-down-after-volumes-collapse-99",
@@ -40,13 +47,6 @@
       "source": "Decrypt",
       "date": "9 października",
       "body": "Starknet is \"actively considering\" becoming its own blockchain, a move it says would make it the first fully quantum-resistant network by 2027."
-    },
-    {
-      "title": "Bitmine sets 5% Ether supply ‘hard cap’ as accumulation target nears",
-      "url": "https://cointelegraph.com/news/bitmine-ether-5-percent-supply-hard-cap?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "7 października",
-      "body": "Tom Lee said Bitmine will not accumulate Ether past 5% of the supply, turning the company’s target into a ceiling."
     }
   ]
 }
