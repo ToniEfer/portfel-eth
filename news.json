@@ -1,11 +1,18 @@
 {
-  "updated": "2026-10-13T00:43:14.098Z",
+  "updated": "2026-10-13T06:39:24.605Z",
   "sources": [
     "CoinDesk",
     "Decrypt",
     "Cointelegraph"
   ],
   "items": [
+    {
+      "title": "Once-largest Ethereum NFT marketplace Blur is shutting down after volumes collapse 99%",
+      "url": "https://www.coindesk.com/tech/2026/10/13/once-largest-ethereum-nft-marketplace-blur-is-shutting-down-after-volumes-collapse-99",
+      "source": "CoinDesk",
+      "date": "13 października",
+      "body": "Blur will close its website on Nov. 12 after monthly trading fell from about $1.43 billion at its 2023 peak to under $7 million, ten days after sister project Blast announced its own…"
+    },
     {
       "title": "Tom Lee sees $2 trillion wealth transfer fueling crypto demand as Bitmine buys more ether",
       "url": "https://www.coindesk.com/business/2026/10/12/tom-lee-sees-usd2-trillion-wealth-transfer-fueling-crypto-demand-as-bitmine-buys-more-ether",
@@ -33,13 +40,6 @@
       "source": "Decrypt",
       "date": "9 października",
       "body": "Starknet is \"actively considering\" becoming its own blockchain, a move it says would make it the first fully quantum-resistant network by 2027."
-    },
-    {
-      "title": "Ethereum Test Network Raises Block Limit to Over 3x Its Current Capacity",
-      "url": "https://decrypt.co/380538/ethereum-test-raises-block-limit-3x-current-capacity",
-      "source": "Decrypt",
-      "date": "8 października",
-      "body": "Ethereum's Sepolia test network activated Glamsterdam on October 6 with a block gas limit near 200 million, over three times mainnet's 60 million."
     },
     {
       "title": "Bitmine sets 5% Ether supply ‘hard cap’ as accumulation target nears",
