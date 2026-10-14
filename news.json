@@ -1,8 +1,7 @@
 {
-  "updated": "2026-10-14T06:52:18.668Z",
+  "updated": "2026-10-14T12:50:36.633Z",
   "sources": [
     "Cointelegraph",
-    "CoinDesk",
     "Decrypt"
   ],
   "items": [
@@ -21,20 +20,6 @@
       "body": "New .eth registrations would pause for hours during the transition, while existing domain holders could renew their names without migrating."
     },
     {
-      "title": "Once-largest Ethereum NFT marketplace Blur is shutting down after volumes collapse 99%",
-      "url": "https://www.coindesk.com/tech/2026/10/13/once-largest-ethereum-nft-marketplace-blur-is-shutting-down-after-volumes-collapse-99",
-      "source": "CoinDesk",
-      "date": "13 października",
-      "body": "Blur will close its website on Nov. 12 after monthly trading fell from about $1.43 billion at its 2023 peak to under $7 million, ten days after sister project Blast announced its own…"
-    },
-    {
-      "title": "Tom Lee sees $2 trillion wealth transfer fueling crypto demand as Bitmine buys more ether",
-      "url": "https://www.coindesk.com/business/2026/10/12/tom-lee-sees-usd2-trillion-wealth-transfer-fueling-crypto-demand-as-bitmine-buys-more-ether",
-      "source": "CoinDesk",
-      "date": "12 października",
-      "body": "The Bitmine chairman said he expects younger investors to drive demand for digital assets as his ether treasury company inches closer to owning 5% of the total supply."
-    },
-    {
       "title": "Bitmine Adds $32M in Ethereum as Tom Lee Says Firm Is Nearly 'Done Stacking'",
       "url": "https://decrypt.co/380685/bitmine-adds-32m-in-ethereum-as-tom-lee-says-firm-is-nearly-done-stacking",
       "source": "Decrypt",
@@ -47,6 +32,20 @@
       "source": "Cointelegraph",
       "date": "7 października",
       "body": "Tom Lee said Bitmine will not accumulate Ether past 5% of the supply, turning the company’s target into a ceiling."
+    },
+    {
+      "title": "Ethereum’s Glamsterdam upgrade launches on Sepolia testnet",
+      "url": "https://cointelegraph.com/news/ethereums-glamsterdam-upgrade-launches-on-sepolia-testnet?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "6 października",
+      "body": "Sepolia marks one of the final major rehearsals before the final activation of Glamsterdam, aimed at bringing more efficiency and scalability to the Ethereum mainnet."
+    },
+    {
+      "title": "EEZ tests atomic L1-to-L2 transaction in push to unify Ethereum",
+      "url": "https://cointelegraph.com/news/ethereum-eez-atomic-l1-l2-transaction-mainnet?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "6 października",
+      "body": "An EEZ contributor shared a 0.001 ETH cross-chain test as the project develops a framework to connect Ethereum mainnet and its rollups."
     }
   ]
 }
