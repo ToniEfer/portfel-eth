@@ -1,11 +1,18 @@
 {
-  "updated": "2026-10-13T18:37:53.938Z",
+  "updated": "2026-10-14T06:52:18.668Z",
   "sources": [
     "Cointelegraph",
     "CoinDesk",
     "Decrypt"
   ],
   "items": [
+    {
+      "title": "Starknet introduces wallet privacy feature for DeFi activity",
+      "url": "https://cointelegraph.com/news/starknet-introduces-wallet-privacy-feature-for-defi-activity?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "14 października",
+      "body": "Starknet’s Shadow Accounts allow users to obscure connections between their main wallets and DeFi activity, though transactions remain visible onchain."
+    },
     {
       "title": "ENS seeks DAO approval to activate upgraded Ethereum naming system",
       "url": "https://cointelegraph.com/news/ens-dao-ensv2-upgrade-eth-domain-registrations?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
@@ -40,13 +47,6 @@
       "source": "Cointelegraph",
       "date": "7 października",
       "body": "Tom Lee said Bitmine will not accumulate Ether past 5% of the supply, turning the company’s target into a ceiling."
-    },
-    {
-      "title": "Ethereum’s Glamsterdam upgrade launches on Sepolia testnet",
-      "url": "https://cointelegraph.com/news/ethereums-glamsterdam-upgrade-launches-on-sepolia-testnet?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "6 października",
-      "body": "Sepolia marks one of the final major rehearsals before the final activation of Glamsterdam, aimed at bringing more efficiency and scalability to the Ethereum mainnet."
     }
   ]
 }
