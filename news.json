@@ -1,9 +1,23 @@
 {
-  "updated": "2026-10-15T00:50:12.931Z",
+  "updated": "2026-10-15T12:53:12.460Z",
   "sources": [
     "Cointelegraph"
   ],
   "items": [
+    {
+      "title": "Starknet opens vote on potential Ethereum L2 exit over quantum risks",
+      "url": "https://cointelegraph.com/news/starknet-vote-ethereum-l2-exit-post-quantum-l1?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "15 października",
+      "body": "Starknet is asking STRK holders whether to explore becoming an independent layer-1 blockchain to reduce its dependence on Ethereum’s quantum-security upgrade timeline."
+    },
+    {
+      "title": "Babylon advances native Bitcoin lending proposal on Aave V4",
+      "url": "https://cointelegraph.com/news/babylon-native-bitcoin-collateral-aave-v4-proposal?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "15 października",
+      "body": "Babylon’s proposal to bring native Bitcoin collateral to Aave V4 has entered a new governance stage, but further votes and security reviews remain before launch."
+    },
     {
       "title": "Starknet introduces wallet privacy feature for DeFi activity",
       "url": "https://cointelegraph.com/news/starknet-introduces-wallet-privacy-feature-for-defi-activity?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
@@ -31,20 +45,6 @@
       "source": "Cointelegraph",
       "date": "6 października",
       "body": "Sepolia marks one of the final major rehearsals before the final activation of Glamsterdam, aimed at bringing more efficiency and scalability to the Ethereum mainnet."
-    },
-    {
-      "title": "EEZ tests atomic L1-to-L2 transaction in push to unify Ethereum",
-      "url": "https://cointelegraph.com/news/ethereum-eez-atomic-l1-l2-transaction-mainnet?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "6 października",
-      "body": "An EEZ contributor shared a 0.001 ETH cross-chain test as the project develops a framework to connect Ethereum mainnet and its rollups."
-    },
-    {
-      "title": "Ethereum’s zkAPI brings privacy-preserving API payments to mainnet",
-      "url": "https://cointelegraph.com/news/ethereum-zkapi-private-api-payments-mainnet?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "2 października",
-      "body": "Ethereum’s zkAPI is now live on mainnet, turning an earlier zero-knowledge API payment proposal into a working implementation for private, prepaid access."
     }
   ]
 }
