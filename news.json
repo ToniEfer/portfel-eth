@@ -1,8 +1,7 @@
 {
-  "updated": "2026-10-14T12:50:36.633Z",
+  "updated": "2026-10-15T00:50:12.931Z",
   "sources": [
-    "Cointelegraph",
-    "Decrypt"
+    "Cointelegraph"
   ],
   "items": [
     {
@@ -18,13 +17,6 @@
       "source": "Cointelegraph",
       "date": "13 października",
       "body": "New .eth registrations would pause for hours during the transition, while existing domain holders could renew their names without migrating."
-    },
-    {
-      "title": "Bitmine Adds $32M in Ethereum as Tom Lee Says Firm Is Nearly 'Done Stacking'",
-      "url": "https://decrypt.co/380685/bitmine-adds-32m-in-ethereum-as-tom-lee-says-firm-is-nearly-done-stacking",
-      "source": "Decrypt",
-      "date": "12 października",
-      "body": "The Ethereum treasury firm now holds 6.03 million ETH, 4.9% of supply, as Lee predicts the biggest crypto bull market yet."
     },
     {
       "title": "Bitmine sets 5% Ether supply ‘hard cap’ as accumulation target nears",
@@ -46,6 +38,13 @@
       "source": "Cointelegraph",
       "date": "6 października",
       "body": "An EEZ contributor shared a 0.001 ETH cross-chain test as the project develops a framework to connect Ethereum mainnet and its rollups."
+    },
+    {
+      "title": "Ethereum’s zkAPI brings privacy-preserving API payments to mainnet",
+      "url": "https://cointelegraph.com/news/ethereum-zkapi-private-api-payments-mainnet?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "2 października",
+      "body": "Ethereum’s zkAPI is now live on mainnet, turning an earlier zero-knowledge API payment proposal into a working implementation for private, prepaid access."
     }
   ]
 }
