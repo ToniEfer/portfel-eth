@@ -1,9 +1,17 @@
 {
-  "updated": "2026-10-15T12:53:12.460Z",
+  "updated": "2026-10-15T18:48:51.630Z",
   "sources": [
+    "Decrypt",
     "Cointelegraph"
   ],
   "items": [
+    {
+      "title": "Ethereum, Altcoins See 'Outsized Drawdowns' Due to Macro Pressures",
+      "url": "https://decrypt.co/381034/ethereum-altcoins-see-outsized-drawdowns-due-to-macro-pressures",
+      "source": "Decrypt",
+      "date": "15 października",
+      "body": "Market analysts say that macro factors are pushing altcoin prices down, after ETH, XRP, and SOL all dropped on the day."
+    },
     {
       "title": "Starknet opens vote on potential Ethereum L2 exit over quantum risks",
       "url": "https://cointelegraph.com/news/starknet-vote-ethereum-l2-exit-post-quantum-l1?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
@@ -38,13 +46,6 @@
       "source": "Cointelegraph",
       "date": "7 października",
       "body": "Tom Lee said Bitmine will not accumulate Ether past 5% of the supply, turning the company’s target into a ceiling."
-    },
-    {
-      "title": "Ethereum’s Glamsterdam upgrade launches on Sepolia testnet",
-      "url": "https://cointelegraph.com/news/ethereums-glamsterdam-upgrade-launches-on-sepolia-testnet?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "6 października",
-      "body": "Sepolia marks one of the final major rehearsals before the final activation of Glamsterdam, aimed at bringing more efficiency and scalability to the Ethereum mainnet."
     }
   ]
 }
