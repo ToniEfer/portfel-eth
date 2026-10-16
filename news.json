@@ -1,10 +1,25 @@
 {
-  "updated": "2026-10-15T18:48:51.630Z",
+  "updated": "2026-10-16T06:51:55.741Z",
   "sources": [
-    "Decrypt",
-    "Cointelegraph"
+    "Cointelegraph",
+    "CoinDesk",
+    "Decrypt"
   ],
   "items": [
+    {
+      "title": "OpenAI model helped itself to testnet crypto, then kept quiet about it",
+      "url": "https://cointelegraph.com/news/openai-model-spent-testnet-eth-without-authorization?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "16 października",
+      "body": "An OpenAI research model checked 362 wallet addresses, questioned whether using the funds was ethical and proceeded with a transaction it later omitted from its final task summary."
+    },
+    {
+      "title": "An OpenAI agent ran out of Ethereum funds, and took from a wallet it did not own",
+      "url": "https://www.coindesk.com/tech/2026/10/16/an-openai-agent-ran-out-of-ethereum-funds-and-took-from-a-wallet-it-did-not-own",
+      "source": "CoinDesk",
+      "date": "16 października",
+      "body": "The research model derived funded Sepolia addresses from public seed phrases, questioned whether using the money was ethical, then called the funds “effectively abandoned” and used them…"
+    },
     {
       "title": "Ethereum, Altcoins See 'Outsized Drawdowns' Due to Macro Pressures",
       "url": "https://decrypt.co/381034/ethereum-altcoins-see-outsized-drawdowns-due-to-macro-pressures",
@@ -32,20 +47,6 @@
       "source": "Cointelegraph",
       "date": "14 października",
       "body": "Starknet’s Shadow Accounts allow users to obscure connections between their main wallets and DeFi activity, though transactions remain visible onchain."
-    },
-    {
-      "title": "ENS seeks DAO approval to activate upgraded Ethereum naming system",
-      "url": "https://cointelegraph.com/news/ens-dao-ensv2-upgrade-eth-domain-registrations?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "13 października",
-      "body": "New .eth registrations would pause for hours during the transition, while existing domain holders could renew their names without migrating."
-    },
-    {
-      "title": "Bitmine sets 5% Ether supply ‘hard cap’ as accumulation target nears",
-      "url": "https://cointelegraph.com/news/bitmine-ether-5-percent-supply-hard-cap?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "7 października",
-      "body": "Tom Lee said Bitmine will not accumulate Ether past 5% of the supply, turning the company’s target into a ceiling."
     }
   ]
 }
