@@ -1,9 +1,8 @@
 {
-  "updated": "2026-10-16T12:51:59.188Z",
+  "updated": "2026-10-18T18:40:07.529Z",
   "sources": [
     "Decrypt",
-    "Cointelegraph",
-    "CoinDesk"
+    "Cointelegraph"
   ],
   "items": [
     {
@@ -28,13 +27,6 @@
       "body": "An OpenAI research model checked 362 wallet addresses, questioned whether using the funds was ethical and proceeded with a transaction it later omitted from its final task summary."
     },
     {
-      "title": "An OpenAI agent ran out of Ethereum funds, and took from a wallet it did not own",
-      "url": "https://www.coindesk.com/tech/2026/10/16/an-openai-agent-ran-out-of-ethereum-funds-and-took-from-a-wallet-it-did-not-own",
-      "source": "CoinDesk",
-      "date": "16 października",
-      "body": "The research model derived funded Sepolia addresses from public seed phrases, questioned whether using the money was ethical, then called the funds “effectively abandoned” and used them…"
-    },
-    {
       "title": "Ethereum, Altcoins See 'Outsized Drawdowns' Due to Macro Pressures",
       "url": "https://decrypt.co/381034/ethereum-altcoins-see-outsized-drawdowns-due-to-macro-pressures",
       "source": "Decrypt",
@@ -47,6 +39,13 @@
       "source": "Cointelegraph",
       "date": "15 października",
       "body": "Starknet is asking STRK holders whether to explore becoming an independent layer-1 blockchain to reduce its dependence on Ethereum’s quantum-security upgrade timeline."
+    },
+    {
+      "title": "Babylon advances native Bitcoin lending proposal on Aave V4",
+      "url": "https://cointelegraph.com/news/babylon-native-bitcoin-collateral-aave-v4-proposal?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "15 października",
+      "body": "Babylon’s proposal to bring native Bitcoin collateral to Aave V4 has entered a new governance stage, but further votes and security reviews remain before launch."
     }
   ]
 }
