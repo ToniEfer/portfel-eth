@@ -1,10 +1,25 @@
 {
-  "updated": "2026-10-18T18:40:07.529Z",
+  "updated": "2026-10-19T12:52:00.084Z",
   "sources": [
-    "Decrypt",
-    "Cointelegraph"
+    "CoinDesk",
+    "Cointelegraph",
+    "Decrypt"
   ],
   "items": [
+    {
+      "title": "JPMorgan's JPM Coin, representing dollar deposits, is coming to Ethereum: Bloomberg",
+      "url": "https://www.coindesk.com/markets/2026/10/19/jpmorgan-s-jpm-coin-representing-dollar-deposits-is-coming-to-ethereum-bloomberg",
+      "source": "CoinDesk",
+      "date": "19 października",
+      "body": "JPMorgan's dollar deposit token is heading to Ethereum as the lender looks to offer it to wider selection of institutional clients."
+    },
+    {
+      "title": "JPMorgan takes JPM Coin to Ethereum for institutional clients: Report",
+      "url": "https://cointelegraph.com/news/jpmorgan-jpm-coin-ethereum-institutional-clients?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "19 października",
+      "body": "JPMorgan is reportedly expanding its JPM Coin deposit token to Ethereum, allowing institutional clients to make payments and settle tokenized asset transactions."
+    },
     {
       "title": "OpenAI Model Used Testnet Ethereum Wallet Without Permission to Finish Coding Task",
       "url": "https://decrypt.co/381123/openai-model-used-testnet-ethereum-wallet-without-permission-to-finish-coding-task",
@@ -32,20 +47,6 @@
       "source": "Decrypt",
       "date": "15 października",
       "body": "Market analysts say that macro factors are pushing altcoin prices down, after ETH, XRP, and SOL all dropped on the day."
-    },
-    {
-      "title": "Starknet opens vote on potential Ethereum L2 exit over quantum risks",
-      "url": "https://cointelegraph.com/news/starknet-vote-ethereum-l2-exit-post-quantum-l1?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "15 października",
-      "body": "Starknet is asking STRK holders whether to explore becoming an independent layer-1 blockchain to reduce its dependence on Ethereum’s quantum-security upgrade timeline."
-    },
-    {
-      "title": "Babylon advances native Bitcoin lending proposal on Aave V4",
-      "url": "https://cointelegraph.com/news/babylon-native-bitcoin-collateral-aave-v4-proposal?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "15 października",
-      "body": "Babylon’s proposal to bring native Bitcoin collateral to Aave V4 has entered a new governance stage, but further votes and security reviews remain before launch."
     }
   ]
 }
