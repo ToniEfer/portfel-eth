@@ -1,13 +1,27 @@
 {
-  "updated": "2026-10-19T12:52:00.084Z",
+  "updated": "2026-10-19T18:50:02.647Z",
   "sources": [
+    "Decrypt",
     "CoinDesk",
-    "Cointelegraph",
-    "Decrypt"
+    "Cointelegraph"
   ],
   "items": [
     {
-      "title": "JPMorgan's JPM Coin, representing dollar deposits, is coming to Ethereum: Bloomberg",
+      "title": "JPMorgan's JPM Coin Arrives on Ethereum, Putting Bank Dollars on a Public Blockchain",
+      "url": "https://decrypt.co/381343/jpmorgan-jpm-coin-ethereum-bank-dollars",
+      "source": "Decrypt",
+      "date": "19 października",
+      "body": "JPMorgan is rolling out JPM Coin on Ethereum for institutional clients, a token backed by dollars in its accounts that settles in seconds, any day of the week."
+    },
+    {
+      "title": "Tom Lee’s Bitmine Adds $30 Million in Ethereum as Buying Nears Its Finish Line",
+      "url": "https://decrypt.co/381311/tom-lee-bitmine-adds-30-million-ethereum-buying-nears-finish-line",
+      "source": "Decrypt",
+      "date": "19 października",
+      "body": "The purchase lifts Bitmine’s stash to 6.04 million ETH—4.9% of supply and 99% of the way to its “Alchemy of 5%” goal—as chairman Tom Lee framed a market-wide selloff as an attractive entry…"
+    },
+    {
+      "title": "JPMorgan brings JPM Coin, representing dollar deposits, to Ethereum",
       "url": "https://www.coindesk.com/markets/2026/10/19/jpmorgan-s-jpm-coin-representing-dollar-deposits-is-coming-to-ethereum-bloomberg",
       "source": "CoinDesk",
       "date": "19 października",
@@ -33,20 +47,6 @@
       "source": "Decrypt",
       "date": "16 października",
       "body": "Hardware wallets keep your crypto keys offline. Learn how devices from Ledger, Trezor and others protect your Bitcoin and Ethereum."
-    },
-    {
-      "title": "OpenAI model helped itself to testnet crypto, then kept quiet about it",
-      "url": "https://cointelegraph.com/news/openai-model-spent-testnet-eth-without-authorization?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "16 października",
-      "body": "An OpenAI research model checked 362 wallet addresses, questioned whether using the funds was ethical and proceeded with a transaction it later omitted from its final task summary."
-    },
-    {
-      "title": "Ethereum, Altcoins See 'Outsized Drawdowns' Due to Macro Pressures",
-      "url": "https://decrypt.co/381034/ethereum-altcoins-see-outsized-drawdowns-due-to-macro-pressures",
-      "source": "Decrypt",
-      "date": "15 października",
-      "body": "Market analysts say that macro factors are pushing altcoin prices down, after ETH, XRP, and SOL all dropped on the day."
     }
   ]
 }
