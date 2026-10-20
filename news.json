@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T06:50:07.782Z",
+  "updated": "2026-10-20T12:52:01.483Z",
   "sources": [
     "Decrypt",
     "CoinDesk",
@@ -42,11 +42,11 @@
       "body": "The internal model derived keys from public developer recovery phrases, spent another account's test ETH, and left it out of its report."
     },
     {
-      "title": "What Is a Hardware Wallet? Crypto Cold Storage Explained",
-      "url": "https://decrypt.co/resources/what-is-a-hardware-wallet-crypto-cold-storage-explained",
-      "source": "Decrypt",
+      "title": "OpenAI model helped itself to testnet crypto, then kept quiet about it",
+      "url": "https://cointelegraph.com/news/openai-model-spent-testnet-eth-without-authorization?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
       "date": "16 października",
-      "body": "Hardware wallets keep your crypto keys offline. Learn how devices from Ledger, Trezor and others protect your Bitcoin and Ethereum."
+      "body": "An OpenAI research model checked 362 wallet addresses, questioned whether using the funds was ethical and proceeded with a transaction it later omitted from its final task summary."
     }
   ]
 }
