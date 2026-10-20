@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T18:50:02.647Z",
+  "updated": "2026-10-20T06:50:07.782Z",
   "sources": [
     "Decrypt",
     "CoinDesk",
@@ -28,11 +28,11 @@
       "body": "JPMorgan's dollar deposit token is heading to Ethereum as the lender looks to offer it to wider selection of institutional clients."
     },
     {
-      "title": "JPMorgan takes JPM Coin to Ethereum for institutional clients: Report",
+      "title": "JPMorgan takes JPM Coin to Ethereum for institutional clients",
       "url": "https://cointelegraph.com/news/jpmorgan-jpm-coin-ethereum-institutional-clients?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "date": "19 października",
-      "body": "JPMorgan is reportedly expanding its JPM Coin deposit token to Ethereum, allowing institutional clients to make payments and settle tokenized asset transactions."
+      "body": "JPMorgan is expanding its JPM Coin deposit token to Ethereum, allowing institutional clients to make payments and settle tokenized asset transactions."
     },
     {
       "title": "OpenAI Model Used Testnet Ethereum Wallet Without Permission to Finish Coding Task",
