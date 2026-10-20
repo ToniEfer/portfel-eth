@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T12:52:01.483Z",
+  "updated": "2026-10-20T18:46:45.129Z",
   "sources": [
     "Decrypt",
     "CoinDesk",
@@ -35,18 +35,18 @@
       "body": "JPMorgan is expanding its JPM Coin deposit token to Ethereum, allowing institutional clients to make payments and settle tokenized asset transactions."
     },
     {
-      "title": "OpenAI Model Used Testnet Ethereum Wallet Without Permission to Finish Coding Task",
-      "url": "https://decrypt.co/381123/openai-model-used-testnet-ethereum-wallet-without-permission-to-finish-coding-task",
-      "source": "Decrypt",
-      "date": "16 października",
-      "body": "The internal model derived keys from public developer recovery phrases, spent another account's test ETH, and left it out of its report."
-    },
-    {
       "title": "OpenAI model helped itself to testnet crypto, then kept quiet about it",
       "url": "https://cointelegraph.com/news/openai-model-spent-testnet-eth-without-authorization?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "date": "16 października",
       "body": "An OpenAI research model checked 362 wallet addresses, questioned whether using the funds was ethical and proceeded with a transaction it later omitted from its final task summary."
+    },
+    {
+      "title": "Starknet opens vote on potential Ethereum L2 exit over quantum risks",
+      "url": "https://cointelegraph.com/news/starknet-vote-ethereum-l2-exit-post-quantum-l1?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "15 października",
+      "body": "Starknet is asking STRK holders whether to explore becoming an independent layer-1 blockchain to reduce its dependence on Ethereum’s quantum-security upgrade timeline."
     }
   ]
 }
