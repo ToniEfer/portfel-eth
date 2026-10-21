@@ -1,11 +1,18 @@
 {
-  "updated": "2026-10-20T18:46:45.129Z",
+  "updated": "2026-10-21T00:52:30.053Z",
   "sources": [
     "Decrypt",
     "CoinDesk",
     "Cointelegraph"
   ],
   "items": [
+    {
+      "title": "Wallet Linked to Drift Exploit Sends $61 Million in Ethereum to Tornado Cash",
+      "url": "https://decrypt.co/381450/wallet-drift-exploit-sends-61-million-ethereum-tornado-cash",
+      "source": "Decrypt",
+      "date": "20 października",
+      "body": "The North Korea-linked attacker behind April's $295 million Drift heist pushed 25,700 ETH through the mixer in two hours, and still controls roughly $198 million more."
+    },
     {
       "title": "JPMorgan's JPM Coin Arrives on Ethereum, Putting Bank Dollars on a Public Blockchain",
       "url": "https://decrypt.co/381343/jpmorgan-jpm-coin-ethereum-bank-dollars",
@@ -40,13 +47,6 @@
       "source": "Cointelegraph",
       "date": "16 października",
       "body": "An OpenAI research model checked 362 wallet addresses, questioned whether using the funds was ethical and proceeded with a transaction it later omitted from its final task summary."
-    },
-    {
-      "title": "Starknet opens vote on potential Ethereum L2 exit over quantum risks",
-      "url": "https://cointelegraph.com/news/starknet-vote-ethereum-l2-exit-post-quantum-l1?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "15 października",
-      "body": "Starknet is asking STRK holders whether to explore becoming an independent layer-1 blockchain to reduce its dependence on Ethereum’s quantum-security upgrade timeline."
     }
   ]
 }
