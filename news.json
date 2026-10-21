@@ -1,11 +1,17 @@
 {
-  "updated": "2026-10-21T00:52:30.053Z",
+  "updated": "2026-10-21T17:10:42.656Z",
   "sources": [
-    "Decrypt",
-    "CoinDesk",
-    "Cointelegraph"
+    "Cointelegraph",
+    "Decrypt"
   ],
   "items": [
+    {
+      "title": "Ether ETF outflows continue, pass $1B in October so far",
+      "url": "https://cointelegraph.com/markets/ether-etf-outflows-near-1-1-billion-october?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "21 października",
+      "body": "US spot Ether ETFs have shed $1.08 billion so far in October, the biggest monthly outflow of 2026, while Bitcoin ETF inflows slowed after Monday’s spike."
+    },
     {
       "title": "Wallet Linked to Drift Exploit Sends $61 Million in Ethereum to Tornado Cash",
       "url": "https://decrypt.co/381450/wallet-drift-exploit-sends-61-million-ethereum-tornado-cash",
@@ -26,13 +32,6 @@
       "source": "Decrypt",
       "date": "19 października",
       "body": "The purchase lifts Bitmine’s stash to 6.04 million ETH—4.9% of supply and 99% of the way to its “Alchemy of 5%” goal—as chairman Tom Lee framed a market-wide selloff as an attractive entry…"
-    },
-    {
-      "title": "JPMorgan brings JPM Coin, representing dollar deposits, to Ethereum",
-      "url": "https://www.coindesk.com/markets/2026/10/19/jpmorgan-s-jpm-coin-representing-dollar-deposits-is-coming-to-ethereum-bloomberg",
-      "source": "CoinDesk",
-      "date": "19 października",
-      "body": "JPMorgan's dollar deposit token is heading to Ethereum as the lender looks to offer it to wider selection of institutional clients."
     },
     {
       "title": "JPMorgan takes JPM Coin to Ethereum for institutional clients",
