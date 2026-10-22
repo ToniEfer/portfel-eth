@@ -1,10 +1,18 @@
 {
-  "updated": "2026-10-22T11:49:37.043Z",
+  "updated": "2026-10-22T17:09:04.456Z",
   "sources": [
+    "CoinDesk",
     "Cointelegraph",
     "Decrypt"
   ],
   "items": [
+    {
+      "title": "Ethereum’s four-minute settlement plan could lower the cost of moving crypto",
+      "url": "https://www.coindesk.com/tech/2026/10/22/ethereum-s-four-minute-settlement-plan-could-lower-the-cost-of-moving-crypto",
+      "source": "CoinDesk",
+      "date": "22 października",
+      "body": "A new draft targets a fourfold cut in the time it takes Ethereum transactions to become final, which could free up money transfer services tie up while customers’ payments clear."
+    },
     {
       "title": "Starknet voters back research into life beyond Ethereum",
       "url": "https://cointelegraph.com/news/starknet-vote-post-quantum-l1-research-ethereum?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
@@ -39,13 +47,6 @@
       "source": "Cointelegraph",
       "date": "16 października",
       "body": "An OpenAI research model checked 362 wallet addresses, questioned whether using the funds was ethical and proceeded with a transaction it later omitted from its final task summary."
-    },
-    {
-      "title": "Starknet opens vote on potential Ethereum L2 exit over quantum risks",
-      "url": "https://cointelegraph.com/news/starknet-vote-ethereum-l2-exit-post-quantum-l1?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "15 października",
-      "body": "Starknet is asking STRK holders whether to explore becoming an independent layer-1 blockchain to reduce its dependence on Ethereum’s quantum-security upgrade timeline."
     }
   ]
 }
