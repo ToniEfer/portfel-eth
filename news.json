@@ -1,11 +1,18 @@
 {
-  "updated": "2026-10-23T11:36:23.679Z",
+  "updated": "2026-10-23T17:04:59.668Z",
   "sources": [
+    "Decrypt",
     "Cointelegraph",
-    "CoinDesk",
-    "Decrypt"
+    "CoinDesk"
   ],
   "items": [
+    {
+      "title": "Ethereum Delays Glamsterdam Testnet Fork Over Gas Security Flaws",
+      "url": "https://decrypt.co/381681/ethereum-delays-glamsterdam-testnet-fork-over-gas-security-flaws",
+      "source": "Decrypt",
+      "date": "23 października",
+      "body": "The Hoodi testnet fork is off after ChainSecurity found gas changes that could let contracts lock in failures, citing 13 real-world cases."
+    },
     {
       "title": "Ethereum delays Glamsterdam Hoodi testnet launch over security risks",
       "url": "https://cointelegraph.com/news/ethereum-delays-glamsterdam-testnet-fork-gas-security-risks?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
@@ -40,13 +47,6 @@
       "source": "Cointelegraph",
       "date": "21 października",
       "body": "US spot Ether ETFs have shed $1.08 billion so far in October, the biggest monthly outflow of 2026, while Bitcoin ETF inflows slowed after Monday’s spike."
-    },
-    {
-      "title": "Wallet Linked to Drift Exploit Sends $61 Million in Ethereum to Tornado Cash",
-      "url": "https://decrypt.co/381450/wallet-drift-exploit-sends-61-million-ethereum-tornado-cash",
-      "source": "Decrypt",
-      "date": "20 października",
-      "body": "The North Korea-linked attacker behind April's $295 million Drift heist pushed 25,700 ETH through the mixer in two hours, and still controls roughly $198 million more."
     }
   ]
 }
