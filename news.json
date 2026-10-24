@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T17:04:59.668Z",
+  "updated": "2026-10-24T15:55:31.417Z",
   "sources": [
     "Decrypt",
     "Cointelegraph",
@@ -28,13 +28,6 @@
       "body": "Developers canceled Monday's Hoodi activation after researchers showed how new gas rules could let smart contracts permanently record failed operations."
     },
     {
-      "title": "Ethereum’s four-minute settlement plan could lower the cost of moving crypto",
-      "url": "https://www.coindesk.com/tech/2026/10/22/ethereum-s-four-minute-settlement-plan-could-lower-the-cost-of-moving-crypto",
-      "source": "CoinDesk",
-      "date": "22 października",
-      "body": "A new draft targets a fourfold cut in the time it takes Ethereum transactions to become final, which could free up money transfer services tie up while customers’ payments clear."
-    },
-    {
       "title": "Starknet voters back research into life beyond Ethereum",
       "url": "https://cointelegraph.com/news/starknet-vote-post-quantum-l1-research-ethereum?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
@@ -47,6 +40,13 @@
       "source": "Cointelegraph",
       "date": "21 października",
       "body": "US spot Ether ETFs have shed $1.08 billion so far in October, the biggest monthly outflow of 2026, while Bitcoin ETF inflows slowed after Monday’s spike."
+    },
+    {
+      "title": "JPMorgan takes JPM Coin to Ethereum for institutional clients",
+      "url": "https://cointelegraph.com/news/jpmorgan-jpm-coin-ethereum-institutional-clients?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "19 października",
+      "body": "JPMorgan is expanding its JPM Coin deposit token to Ethereum, allowing institutional clients to make payments and settle tokenized asset transactions."
     }
   ]
 }
