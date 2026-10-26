@@ -1,11 +1,18 @@
 {
-  "updated": "2026-10-24T15:55:31.417Z",
+  "updated": "2026-10-26T04:44:24.331Z",
   "sources": [
-    "Decrypt",
     "Cointelegraph",
+    "Decrypt",
     "CoinDesk"
   ],
   "items": [
+    {
+      "title": "AI agents help rescue ETH’s Glamsterdam fork, ‘Steal My Bitcoin’ site: Hodler’s Digest",
+      "url": "https://cointelegraph.com/magazine/ai-agents-help-rescue-eths-glamsterdam-fork-steal-my-bitcoin-site-hodlers-digest?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "25 października",
+      "body": "Similar to the Hugging Face hack, Ethereum researchers have set up an AI Agent message board to help rescue the Glamsterdam fork. ‘Steal My Bitcoin’ site successfully hacked."
+    },
     {
       "title": "Ethereum Delays Glamsterdam Testnet Fork Over Gas Security Flaws",
       "url": "https://decrypt.co/381681/ethereum-delays-glamsterdam-testnet-fork-over-gas-security-flaws",
@@ -40,13 +47,6 @@
       "source": "Cointelegraph",
       "date": "21 października",
       "body": "US spot Ether ETFs have shed $1.08 billion so far in October, the biggest monthly outflow of 2026, while Bitcoin ETF inflows slowed after Monday’s spike."
-    },
-    {
-      "title": "JPMorgan takes JPM Coin to Ethereum for institutional clients",
-      "url": "https://cointelegraph.com/news/jpmorgan-jpm-coin-ethereum-institutional-clients?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "19 października",
-      "body": "JPMorgan is expanding its JPM Coin deposit token to Ethereum, allowing institutional clients to make payments and settle tokenized asset transactions."
     }
   ]
 }
