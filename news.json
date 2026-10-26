@@ -1,10 +1,25 @@
 {
-  "updated": "2026-10-26T12:59:01.924Z",
+  "updated": "2026-10-26T22:38:59.543Z",
   "sources": [
-    "Cointelegraph",
-    "Decrypt"
+    "CoinDesk",
+    "Decrypt",
+    "Cointelegraph"
   ],
   "items": [
+    {
+      "title": "Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines",
+      "url": "https://www.coindesk.com/business/2026/10/26/tom-lee-s-bitmine-favors-share-buybacks-to-ether-purchases-as-crypto-declines",
+      "source": "CoinDesk",
+      "date": "26 października",
+      "body": "The Ethereum treasury firm spent $46 million buying back shares as Chairman Tom Lee said crypto has held up better than AI stocks during the recent market pullback."
+    },
+    {
+      "title": "Tom Lee's Bitmine Keeps Buying Ethereum But Pivots to Record Share Buybacks",
+      "url": "https://decrypt.co/381826/tom-lee-bitmine-keeps-buying-ethereum-share-buybacks",
+      "source": "Decrypt",
+      "date": "26 października",
+      "body": "The firm added 10,452 ETH to reach 4.95% of supply, but its bigger move was repurchasing 2.04 million of its own shares—part of what it calls the largest equity buyback any crypto treasury…"
+    },
     {
       "title": "AI agents help rescue ETH’s Glamsterdam fork, ‘Steal My Bitcoin’ site: Hodler’s Digest",
       "url": "https://cointelegraph.com/magazine/ai-agents-help-rescue-eths-glamsterdam-fork-steal-my-bitcoin-site-hodlers-digest?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
@@ -32,20 +47,6 @@
       "source": "Cointelegraph",
       "date": "22 października",
       "body": "StarkWare plans to release a draft whitepaper in November as it explores an independent, quantum-resistant blockchain."
-    },
-    {
-      "title": "Ether ETF outflows continue, pass $1B in October so far",
-      "url": "https://cointelegraph.com/markets/ether-etf-outflows-near-1-1-billion-october?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "21 października",
-      "body": "US spot Ether ETFs have shed $1.08 billion so far in October, the biggest monthly outflow of 2026, while Bitcoin ETF inflows slowed after Monday’s spike."
-    },
-    {
-      "title": "JPMorgan takes JPM Coin to Ethereum for institutional clients",
-      "url": "https://cointelegraph.com/news/jpmorgan-jpm-coin-ethereum-institutional-clients?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "19 października",
-      "body": "JPMorgan is expanding its JPM Coin deposit token to Ethereum, allowing institutional clients to make payments and settle tokenized asset transactions."
     }
   ]
 }
