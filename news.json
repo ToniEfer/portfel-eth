@@ -1,11 +1,18 @@
 {
-  "updated": "2026-10-27T12:08:44.420Z",
+  "updated": "2026-10-27T17:59:14.720Z",
   "sources": [
-    "CoinDesk",
     "Decrypt",
+    "CoinDesk",
     "Cointelegraph"
   ],
   "items": [
+    {
+      "title": "OpenAI Proves ETH Is False, and Crypto Twitter Has Questions",
+      "url": "https://decrypt.co/381956/opena-eth-false-crypto-twitter-has-questions",
+      "source": "Decrypt",
+      "date": "27 października",
+      "body": "A new OpenAI paper declares ETH false, a claim that hundreds of research papers lean on. Crypto Twitter degens and serious mathematicians are abuzz."
+    },
     {
       "title": "Ethereum fixes Glamsterdam bug that could have sent staking deposits to builders",
       "url": "https://www.coindesk.com/tech/2026/10/27/ethereum-fixes-glamsterdam-bug-that-could-have-sent-staking-deposits-to-builders",
@@ -33,13 +40,6 @@
       "source": "Cointelegraph",
       "date": "25 października",
       "body": "Similar to the Hugging Face hack, Ethereum researchers have set up an AI Agent message board to help rescue the Glamsterdam fork. ‘Steal My Bitcoin’ site successfully hacked."
-    },
-    {
-      "title": "Ethereum Delays Glamsterdam Testnet Fork Over Gas Security Flaws",
-      "url": "https://decrypt.co/381681/ethereum-delays-glamsterdam-testnet-fork-over-gas-security-flaws",
-      "source": "Decrypt",
-      "date": "23 października",
-      "body": "The Hoodi testnet fork is off after ChainSecurity found gas changes that could let contracts lock in failures, citing 13 real-world cases."
     },
     {
       "title": "Ethereum delays Glamsterdam Hoodi testnet launch over security risks",
