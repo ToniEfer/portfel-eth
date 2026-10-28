@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-28T05:39:45.447Z",
+  "updated": "2026-10-28T12:51:31.014Z",
   "sources": [
-    "Decrypt",
     "CoinDesk",
+    "Decrypt",
     "Cointelegraph"
   ],
   "items": [
+    {
+      "title": "Google to preview crypto custody security system as AI threats grow",
+      "url": "https://www.coindesk.com/tech/2026/10/28/google-to-preview-crypto-custody-security-system-as-ai-threats-grow",
+      "source": "CoinDesk",
+      "date": "28 października",
+      "body": "Google Multi-Party Compute is in private preview, with several major financial institutions testing the technology and parent company Alphabet using it to secure its own digital assets on…"
+    },
     {
       "title": "OpenAI Proves ETH Is False, and Crypto Twitter Has Questions",
       "url": "https://decrypt.co/381956/opena-eth-false-crypto-twitter-has-questions",
       "source": "Decrypt",
       "date": "27 października",
       "body": "A new OpenAI paper declares ETH false, a claim that hundreds of research papers lean on. Crypto Twitter degens and serious mathematicians are abuzz."
-    },
-    {
-      "title": "Ethereum fixes Glamsterdam bug that could have sent staking deposits to builders",
-      "url": "https://www.coindesk.com/tech/2026/10/27/ethereum-fixes-glamsterdam-bug-that-could-have-sent-staking-deposits-to-builders",
-      "source": "CoinDesk",
-      "date": "27 października",
-      "body": "Developers initially rejected the change before reversing course, as testing delays gave them more time to examine a flaw in Ethereum's upcoming Glamsterdam upgrade."
     },
     {
       "title": "Tom Lee's Bitmine Keeps Buying Ethereum But Pivots to Record Share Buybacks",
