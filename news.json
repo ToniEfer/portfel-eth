@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T17:59:14.720Z",
+  "updated": "2026-10-28T05:39:45.447Z",
   "sources": [
     "Decrypt",
     "CoinDesk",
@@ -21,13 +21,6 @@
       "body": "Developers initially rejected the change before reversing course, as testing delays gave them more time to examine a flaw in Ethereum's upcoming Glamsterdam upgrade."
     },
     {
-      "title": "Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines",
-      "url": "https://www.coindesk.com/business/2026/10/26/tom-lee-s-bitmine-favors-share-buybacks-to-ether-purchases-as-crypto-declines",
-      "source": "CoinDesk",
-      "date": "26 października",
-      "body": "The Ethereum treasury firm spent $46 million buying back shares as Chairman Tom Lee said crypto has held up better than AI stocks during the recent market pullback."
-    },
-    {
       "title": "Tom Lee's Bitmine Keeps Buying Ethereum But Pivots to Record Share Buybacks",
       "url": "https://decrypt.co/381826/tom-lee-bitmine-keeps-buying-ethereum-share-buybacks",
       "source": "Decrypt",
@@ -47,6 +40,13 @@
       "source": "Cointelegraph",
       "date": "23 października",
       "body": "ChainSecurity said it identified 13 real-world examples of smart contracts potentially affected by Glamsterdam’s gas changes and is coordinating responsible disclosure with affected…"
+    },
+    {
+      "title": "Starknet voters back research into life beyond Ethereum",
+      "url": "https://cointelegraph.com/news/starknet-vote-post-quantum-l1-research-ethereum?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "22 października",
+      "body": "StarkWare plans to release a draft whitepaper in November as it explores an independent, quantum-resistant blockchain."
     }
   ]
 }
