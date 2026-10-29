@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T05:45:24.673Z",
+  "updated": "2026-10-29T12:58:12.834Z",
   "sources": [
     "CoinDesk",
     "Decrypt",
@@ -12,13 +12,6 @@
       "source": "CoinDesk",
       "date": "29 października",
       "body": "A key blunder at Indian certificate issuer eMudhra left some Teku and Besu setups trusting forged certificates. Default mainnet nodes weren’t exposed."
-    },
-    {
-      "title": "Google to preview crypto custody security system as AI threats grow",
-      "url": "https://www.coindesk.com/tech/2026/10/28/google-to-preview-crypto-custody-security-system-as-ai-threats-grow",
-      "source": "CoinDesk",
-      "date": "28 października",
-      "body": "Google Multi-Party Compute is in private preview, with several major financial institutions testing the technology and parent company Alphabet using it to secure its own digital assets on…"
     },
     {
       "title": "OpenAI Proves ETH Is False, and Crypto Twitter Has Questions",
@@ -47,6 +40,13 @@
       "source": "Cointelegraph",
       "date": "22 października",
       "body": "StarkWare plans to release a draft whitepaper in November as it explores an independent, quantum-resistant blockchain."
+    },
+    {
+      "title": "Ether ETF outflows continue, pass $1B in October so far",
+      "url": "https://cointelegraph.com/markets/ether-etf-outflows-near-1-1-billion-october?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "21 października",
+      "body": "US spot Ether ETFs have shed $1.08 billion so far in October, the biggest monthly outflow of 2026, while Bitcoin ETF inflows slowed after Monday’s spike."
     }
   ]
 }
