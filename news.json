@@ -1,25 +1,9 @@
 {
-  "updated": "2026-10-29T12:58:12.834Z",
+  "updated": "2026-10-29T22:44:15.649Z",
   "sources": [
-    "CoinDesk",
-    "Decrypt",
     "Cointelegraph"
   ],
   "items": [
-    {
-      "title": "Security failure at Indian certificate firm bites Ethereum as developers rush out fixes",
-      "url": "https://www.coindesk.com/tech/2026/10/29/ethereum-clients-patch-flaw-that-could-let-attackers-redirect-eth-rewards",
-      "source": "CoinDesk",
-      "date": "29 października",
-      "body": "A key blunder at Indian certificate issuer eMudhra left some Teku and Besu setups trusting forged certificates. Default mainnet nodes weren’t exposed."
-    },
-    {
-      "title": "OpenAI Proves ETH Is False, and Crypto Twitter Has Questions",
-      "url": "https://decrypt.co/381956/opena-eth-false-crypto-twitter-has-questions",
-      "source": "Decrypt",
-      "date": "27 października",
-      "body": "A new OpenAI paper declares ETH false, a claim that hundreds of research papers lean on. Crypto Twitter degens and serious mathematicians are abuzz."
-    },
     {
       "title": "AI agents help rescue ETH’s Glamsterdam fork, ‘Steal My Bitcoin’ site: Hodler’s Digest",
       "url": "https://cointelegraph.com/magazine/ai-agents-help-rescue-eths-glamsterdam-fork-steal-my-bitcoin-site-hodlers-digest?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
@@ -47,6 +31,20 @@
       "source": "Cointelegraph",
       "date": "21 października",
       "body": "US spot Ether ETFs have shed $1.08 billion so far in October, the biggest monthly outflow of 2026, while Bitcoin ETF inflows slowed after Monday’s spike."
+    },
+    {
+      "title": "JPMorgan takes JPM Coin to Ethereum for institutional clients",
+      "url": "https://cointelegraph.com/news/jpmorgan-jpm-coin-ethereum-institutional-clients?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "19 października",
+      "body": "JPMorgan is expanding its JPM Coin deposit token to Ethereum, allowing institutional clients to make payments and settle tokenized asset transactions."
+    },
+    {
+      "title": "OpenAI model helped itself to testnet crypto, then kept quiet about it",
+      "url": "https://cointelegraph.com/news/openai-model-spent-testnet-eth-without-authorization?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "16 października",
+      "body": "An OpenAI research model checked 362 wallet addresses, questioned whether using the funds was ethical and proceeded with a transaction it later omitted from its final task summary."
     }
   ]
 }
