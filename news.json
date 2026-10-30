@@ -1,11 +1,18 @@
 {
-  "updated": "2026-10-30T12:52:18.062Z",
+  "updated": "2026-10-30T22:16:58.882Z",
   "sources": [
-    "CoinDesk",
     "Decrypt",
+    "CoinDesk",
     "Cointelegraph"
   ],
   "items": [
+    {
+      "title": "What is EIP-7702? The Ethereum Upgrade Behind the $6.4B Binance Hack",
+      "url": "https://decrypt.co/resources/what-is-eip-7702-the-ethereum-upgrade-behind-the-6-4b-binance-hack",
+      "source": "Decrypt",
+      "date": "30 października",
+      "body": "EIP-7702 lets ordinary Ethereum wallets run smart contract code, enabling batched and sponsored transactions. Here's how it works."
+    },
     {
       "title": "Here’s how an Ethereum upgrade helped drain part of Binance’s $6 billion loss",
       "url": "https://www.coindesk.com/tech/2026/10/30/here-s-how-one-ethereum-permission-let-an-attacker-drain-usd2-5-billion-from-binance",
@@ -40,13 +47,6 @@
       "source": "Cointelegraph",
       "date": "22 października",
       "body": "StarkWare plans to release a draft whitepaper in November as it explores an independent, quantum-resistant blockchain."
-    },
-    {
-      "title": "Ether ETF outflows continue, pass $1B in October so far",
-      "url": "https://cointelegraph.com/markets/ether-etf-outflows-near-1-1-billion-october?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "21 października",
-      "body": "US spot Ether ETFs have shed $1.08 billion so far in October, the biggest monthly outflow of 2026, while Bitcoin ETF inflows slowed after Monday’s spike."
     }
   ]
 }
