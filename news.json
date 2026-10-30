@@ -1,9 +1,17 @@
 {
-  "updated": "2026-10-29T22:44:15.649Z",
+  "updated": "2026-10-30T05:45:21.099Z",
   "sources": [
+    "Decrypt",
     "Cointelegraph"
   ],
   "items": [
+    {
+      "title": "Binance Hacker Hunts for Exit Ramps as DeFi Exchanges Pause Markets",
+      "url": "https://decrypt.co/382194/binance-hack-exit-ramps-defi-exchange-ethereum",
+      "source": "Decrypt",
+      "date": "29 października",
+      "body": "Etherscan records show wallets tied to the suspected Binance hack swapping freezable stablecoins for Ethereum on decentralized exchanges."
+    },
     {
       "title": "AI agents help rescue ETH’s Glamsterdam fork, ‘Steal My Bitcoin’ site: Hodler’s Digest",
       "url": "https://cointelegraph.com/magazine/ai-agents-help-rescue-eths-glamsterdam-fork-steal-my-bitcoin-site-hodlers-digest?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
@@ -38,13 +46,6 @@
       "source": "Cointelegraph",
       "date": "19 października",
       "body": "JPMorgan is expanding its JPM Coin deposit token to Ethereum, allowing institutional clients to make payments and settle tokenized asset transactions."
-    },
-    {
-      "title": "OpenAI model helped itself to testnet crypto, then kept quiet about it",
-      "url": "https://cointelegraph.com/news/openai-model-spent-testnet-eth-without-authorization?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "16 października",
-      "body": "An OpenAI research model checked 362 wallet addresses, questioned whether using the funds was ethical and proceeded with a transaction it later omitted from its final task summary."
     }
   ]
 }
