@@ -1,10 +1,18 @@
 {
-  "updated": "2026-10-30T05:45:21.099Z",
+  "updated": "2026-10-30T12:52:18.062Z",
   "sources": [
+    "CoinDesk",
     "Decrypt",
     "Cointelegraph"
   ],
   "items": [
+    {
+      "title": "Here’s how an Ethereum upgrade helped drain part of Binance’s $6 billion loss",
+      "url": "https://www.coindesk.com/tech/2026/10/30/here-s-how-one-ethereum-permission-let-an-attacker-drain-usd2-5-billion-from-binance",
+      "source": "CoinDesk",
+      "date": "30 października",
+      "body": "On Ethereum, the attacker used a 2025 upgrade built to make ordinary wallets smarter, armed with 50 signatures from Binance's own wallet."
+    },
     {
       "title": "Binance Hacker Hunts for Exit Ramps as DeFi Exchanges Pause Markets",
       "url": "https://decrypt.co/382194/binance-hack-exit-ramps-defi-exchange-ethereum",
@@ -39,13 +47,6 @@
       "source": "Cointelegraph",
       "date": "21 października",
       "body": "US spot Ether ETFs have shed $1.08 billion so far in October, the biggest monthly outflow of 2026, while Bitcoin ETF inflows slowed after Monday’s spike."
-    },
-    {
-      "title": "JPMorgan takes JPM Coin to Ethereum for institutional clients",
-      "url": "https://cointelegraph.com/news/jpmorgan-jpm-coin-ethereum-institutional-clients?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "19 października",
-      "body": "JPMorgan is expanding its JPM Coin deposit token to Ethereum, allowing institutional clients to make payments and settle tokenized asset transactions."
     }
   ]
 }
