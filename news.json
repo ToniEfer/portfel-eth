@@ -1,10 +1,17 @@
 {
-  "updated": "2026-11-01T21:59:48.185Z",
+  "updated": "2026-11-03T00:56:31.284Z",
   "sources": [
     "Decrypt",
     "Cointelegraph"
   ],
   "items": [
+    {
+      "title": "Bitmine Buys More Ethereum as Tom Lee Calls the Binance Hack Bullish",
+      "url": "https://decrypt.co/382340/bitmine-buys-more-ethereum-tom-lee-binance-hack-bullish",
+      "source": "Decrypt",
+      "date": "2 listopada",
+      "body": "The chairman laid out six reasons the market’s “muted” 4% ETH drop after the record Binance theft shows crypto is “increasingly resilient,” as the firm’s stash neared its 5% supply goal."
+    },
     {
       "title": "What is EIP-7702? The Ethereum Upgrade Behind the $6.4B Binance Hack",
       "url": "https://decrypt.co/resources/what-is-eip-7702-the-ethereum-upgrade-behind-the-6-4b-binance-hack",
@@ -39,13 +46,6 @@
       "source": "Cointelegraph",
       "date": "22 października",
       "body": "StarkWare plans to release a draft whitepaper in November as it explores an independent, quantum-resistant blockchain."
-    },
-    {
-      "title": "Ether ETF outflows continue, pass $1B in October so far",
-      "url": "https://cointelegraph.com/markets/ether-etf-outflows-near-1-1-billion-october?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "21 października",
-      "body": "US spot Ether ETFs have shed $1.08 billion so far in October, the biggest monthly outflow of 2026, while Bitcoin ETF inflows slowed after Monday’s spike."
     }
   ]
 }
