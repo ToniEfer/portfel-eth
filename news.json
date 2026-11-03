@@ -1,10 +1,32 @@
 {
-  "updated": "2026-11-03T00:56:31.284Z",
+  "updated": "2026-11-03T14:10:33.600Z",
   "sources": [
     "Decrypt",
+    "CoinDesk",
     "Cointelegraph"
   ],
   "items": [
+    {
+      "title": "Ethereum Privacy Network Aztec Rolls Out Major Security and Speed Upgrade",
+      "url": "https://decrypt.co/382387/ethereum-privacy-network-aztec-security-speed-upgrade",
+      "source": "Decrypt",
+      "date": "3 listopada",
+      "body": "The “Tierra” upgrade resolves a critical bug from the prior version, adds formal verification, and an AI-powered testing harness."
+    },
+    {
+      "title": "Morning Minute: Tom Lee Calls the Binance Hack Bullish for Ethereum",
+      "url": "https://decrypt.co/382410/morning-minute-tom-lee-calls-the-binance-hack-bullish-for-ethereum",
+      "source": "Decrypt",
+      "date": "3 listopada",
+      "body": "Meanwhile, both the BTC ETFs and ETH ETFs bleed outflows in the Binance hack aftermath, dragging down prices."
+    },
+    {
+      "title": "ETHGas wants to bring Wall Street to public Ethereum by selling advance block reservations",
+      "url": "https://www.coindesk.com/business/2026/11/03/ethgas-courts-wall-street-with-ethereum-blockspace-but-compensation-for-missed-trades-is-zero",
+      "source": "CoinDesk",
+      "date": "3 listopada",
+      "body": "But there’s a catch: validators that fail to deliver on their commitments currently face no financial compensation requirement under the service."
+    },
     {
       "title": "Bitmine Buys More Ethereum as Tom Lee Calls the Binance Hack Bullish",
       "url": "https://decrypt.co/382340/bitmine-buys-more-ethereum-tom-lee-binance-hack-bullish",
@@ -20,32 +42,11 @@
       "body": "EIP-7702 lets ordinary Ethereum wallets run smart contract code, enabling batched and sponsored transactions. Here's how it works."
     },
     {
-      "title": "Binance Hacker Hunts for Exit Ramps as DeFi Exchanges Pause Markets",
-      "url": "https://decrypt.co/382194/binance-hack-exit-ramps-defi-exchange-ethereum",
-      "source": "Decrypt",
-      "date": "29 października",
-      "body": "Etherscan records show wallets tied to the suspected Binance hack swapping freezable stablecoins for Ethereum on decentralized exchanges."
-    },
-    {
       "title": "AI agents help rescue ETH’s Glamsterdam fork, ‘Steal My Bitcoin’ site: Hodler’s Digest",
       "url": "https://cointelegraph.com/magazine/ai-agents-help-rescue-eths-glamsterdam-fork-steal-my-bitcoin-site-hodlers-digest?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "date": "25 października",
       "body": "Similar to the Hugging Face hack, Ethereum researchers have set up an AI Agent message board to help rescue the Glamsterdam fork. ‘Steal My Bitcoin’ site successfully hacked."
-    },
-    {
-      "title": "Ethereum delays Glamsterdam Hoodi testnet launch over security risks",
-      "url": "https://cointelegraph.com/news/ethereum-delays-glamsterdam-testnet-fork-gas-security-risks?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "23 października",
-      "body": "ChainSecurity said it identified 13 real-world examples of smart contracts potentially affected by Glamsterdam’s gas changes and is coordinating responsible disclosure with affected…"
-    },
-    {
-      "title": "Starknet voters back research into life beyond Ethereum",
-      "url": "https://cointelegraph.com/news/starknet-vote-post-quantum-l1-research-ethereum?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "22 października",
-      "body": "StarkWare plans to release a draft whitepaper in November as it explores an independent, quantum-resistant blockchain."
     }
   ]
 }
