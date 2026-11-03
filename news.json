@@ -1,11 +1,18 @@
 {
-  "updated": "2026-11-03T14:10:33.600Z",
+  "updated": "2026-11-03T23:21:11.117Z",
   "sources": [
-    "Decrypt",
     "CoinDesk",
+    "Decrypt",
     "Cointelegraph"
   ],
   "items": [
+    {
+      "title": "Binance's $6.3 billion hack began with a fake job interview, and a campaign 'built over many months'",
+      "url": "https://www.coindesk.com/business/2026/11/03/binance-s-usd6-3-billion-hack-began-with-a-fake-job-interview-exchange-says",
+      "source": "CoinDesk",
+      "date": "3 listopada",
+      "body": "North Korea-linked attackers spent months compromising Binance employees and internal systems before exploiting its hot-wallet signing infrastructure through Ethereum's EIP-7702 mechanism."
+    },
     {
       "title": "Ethereum Privacy Network Aztec Rolls Out Major Security and Speed Upgrade",
       "url": "https://decrypt.co/382387/ethereum-privacy-network-aztec-security-speed-upgrade",
@@ -21,11 +28,11 @@
       "body": "Meanwhile, both the BTC ETFs and ETH ETFs bleed outflows in the Binance hack aftermath, dragging down prices."
     },
     {
-      "title": "ETHGas wants to bring Wall Street to public Ethereum by selling advance block reservations",
+      "title": "ETHGas wants to bring Wall Street to public Ethereum with institutional controls",
       "url": "https://www.coindesk.com/business/2026/11/03/ethgas-courts-wall-street-with-ethereum-blockspace-but-compensation-for-missed-trades-is-zero",
       "source": "CoinDesk",
       "date": "3 listopada",
-      "body": "But there’s a catch: validators that fail to deliver on their commitments currently face no financial compensation requirement under the service."
+      "body": "The proposed service would offer sanctions screening and qualified validators, but current compensation for failed commitments is set at zero."
     },
     {
       "title": "Bitmine Buys More Ethereum as Tom Lee Calls the Binance Hack Bullish",
@@ -33,13 +40,6 @@
       "source": "Decrypt",
       "date": "2 listopada",
       "body": "The chairman laid out six reasons the market’s “muted” 4% ETH drop after the record Binance theft shows crypto is “increasingly resilient,” as the firm’s stash neared its 5% supply goal."
-    },
-    {
-      "title": "What is EIP-7702? The Ethereum Upgrade Behind the $6.4B Binance Hack",
-      "url": "https://decrypt.co/resources/what-is-eip-7702-the-ethereum-upgrade-behind-the-6-4b-binance-hack",
-      "source": "Decrypt",
-      "date": "30 października",
-      "body": "EIP-7702 lets ordinary Ethereum wallets run smart contract code, enabling batched and sponsored transactions. Here's how it works."
     },
     {
       "title": "AI agents help rescue ETH’s Glamsterdam fork, ‘Steal My Bitcoin’ site: Hodler’s Digest",
