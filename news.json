@@ -1,11 +1,18 @@
 {
-  "updated": "2026-11-03T23:21:11.117Z",
+  "updated": "2026-11-04T06:17:38.507Z",
   "sources": [
+    "Cointelegraph",
     "CoinDesk",
-    "Decrypt",
-    "Cointelegraph"
+    "Decrypt"
   ],
   "items": [
+    {
+      "title": "Ethereum dev targets 2028 for quantum resistance, a year early",
+      "url": "https://cointelegraph.com/news/ethereum-post-quantum-transition-2028-target?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "4 listopada",
+      "body": "Ethereum researcher Justin Drake said it is their “hope” that Ethereum will achieve its post-quantum and post-AI transition by December 2028."
+    },
     {
       "title": "Binance's $6.3 billion hack began with a fake job interview, and a campaign 'built over many months'",
       "url": "https://www.coindesk.com/business/2026/11/03/binance-s-usd6-3-billion-hack-began-with-a-fake-job-interview-exchange-says",
@@ -40,13 +47,6 @@
       "source": "Decrypt",
       "date": "2 listopada",
       "body": "The chairman laid out six reasons the market’s “muted” 4% ETH drop after the record Binance theft shows crypto is “increasingly resilient,” as the firm’s stash neared its 5% supply goal."
-    },
-    {
-      "title": "AI agents help rescue ETH’s Glamsterdam fork, ‘Steal My Bitcoin’ site: Hodler’s Digest",
-      "url": "https://cointelegraph.com/magazine/ai-agents-help-rescue-eths-glamsterdam-fork-steal-my-bitcoin-site-hodlers-digest?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "25 października",
-      "body": "Similar to the Hugging Face hack, Ethereum researchers have set up an AI Agent message board to help rescue the Glamsterdam fork. ‘Steal My Bitcoin’ site successfully hacked."
     }
   ]
 }
