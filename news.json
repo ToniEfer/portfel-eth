@@ -1,8 +1,7 @@
 {
-  "updated": "2026-11-04T06:17:38.507Z",
+  "updated": "2026-11-04T19:43:57.712Z",
   "sources": [
     "Cointelegraph",
-    "CoinDesk",
     "Decrypt"
   ],
   "items": [
@@ -12,13 +11,6 @@
       "source": "Cointelegraph",
       "date": "4 listopada",
       "body": "Ethereum researcher Justin Drake said it is their “hope” that Ethereum will achieve its post-quantum and post-AI transition by December 2028."
-    },
-    {
-      "title": "Binance's $6.3 billion hack began with a fake job interview, and a campaign 'built over many months'",
-      "url": "https://www.coindesk.com/business/2026/11/03/binance-s-usd6-3-billion-hack-began-with-a-fake-job-interview-exchange-says",
-      "source": "CoinDesk",
-      "date": "3 listopada",
-      "body": "North Korea-linked attackers spent months compromising Binance employees and internal systems before exploiting its hot-wallet signing infrastructure through Ethereum's EIP-7702 mechanism."
     },
     {
       "title": "Ethereum Privacy Network Aztec Rolls Out Major Security and Speed Upgrade",
@@ -35,18 +27,25 @@
       "body": "Meanwhile, both the BTC ETFs and ETH ETFs bleed outflows in the Binance hack aftermath, dragging down prices."
     },
     {
-      "title": "ETHGas wants to bring Wall Street to public Ethereum with institutional controls",
-      "url": "https://www.coindesk.com/business/2026/11/03/ethgas-courts-wall-street-with-ethereum-blockspace-but-compensation-for-missed-trades-is-zero",
-      "source": "CoinDesk",
-      "date": "3 listopada",
-      "body": "The proposed service would offer sanctions screening and qualified validators, but current compensation for failed commitments is set at zero."
+      "title": "AI agents help rescue ETH’s Glamsterdam fork, ‘Steal My Bitcoin’ site: Hodler’s Digest",
+      "url": "https://cointelegraph.com/magazine/ai-agents-help-rescue-eths-glamsterdam-fork-steal-my-bitcoin-site-hodlers-digest?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "25 października",
+      "body": "Similar to the Hugging Face hack, Ethereum researchers have set up an AI Agent message board to help rescue the Glamsterdam fork. ‘Steal My Bitcoin’ site successfully hacked."
     },
     {
-      "title": "Bitmine Buys More Ethereum as Tom Lee Calls the Binance Hack Bullish",
-      "url": "https://decrypt.co/382340/bitmine-buys-more-ethereum-tom-lee-binance-hack-bullish",
-      "source": "Decrypt",
-      "date": "2 listopada",
-      "body": "The chairman laid out six reasons the market’s “muted” 4% ETH drop after the record Binance theft shows crypto is “increasingly resilient,” as the firm’s stash neared its 5% supply goal."
+      "title": "Ethereum delays Glamsterdam Hoodi testnet launch over security risks",
+      "url": "https://cointelegraph.com/news/ethereum-delays-glamsterdam-testnet-fork-gas-security-risks?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "23 października",
+      "body": "ChainSecurity said it identified 13 real-world examples of smart contracts potentially affected by Glamsterdam’s gas changes and is coordinating responsible disclosure with affected…"
+    },
+    {
+      "title": "Starknet voters back research into life beyond Ethereum",
+      "url": "https://cointelegraph.com/news/starknet-vote-post-quantum-l1-research-ethereum?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "22 października",
+      "body": "StarkWare plans to release a draft whitepaper in November as it explores an independent, quantum-resistant blockchain."
     }
   ]
 }
