@@ -1,8 +1,7 @@
 {
-  "updated": "2026-11-04T19:43:57.712Z",
+  "updated": "2026-11-05T19:55:38.895Z",
   "sources": [
-    "Cointelegraph",
-    "Decrypt"
+    "Cointelegraph"
   ],
   "items": [
     {
@@ -11,20 +10,6 @@
       "source": "Cointelegraph",
       "date": "4 listopada",
       "body": "Ethereum researcher Justin Drake said it is their “hope” that Ethereum will achieve its post-quantum and post-AI transition by December 2028."
-    },
-    {
-      "title": "Ethereum Privacy Network Aztec Rolls Out Major Security and Speed Upgrade",
-      "url": "https://decrypt.co/382387/ethereum-privacy-network-aztec-security-speed-upgrade",
-      "source": "Decrypt",
-      "date": "3 listopada",
-      "body": "The “Tierra” upgrade resolves a critical bug from the prior version, adds formal verification, and an AI-powered testing harness."
-    },
-    {
-      "title": "Morning Minute: Tom Lee Calls the Binance Hack Bullish for Ethereum",
-      "url": "https://decrypt.co/382410/morning-minute-tom-lee-calls-the-binance-hack-bullish-for-ethereum",
-      "source": "Decrypt",
-      "date": "3 listopada",
-      "body": "Meanwhile, both the BTC ETFs and ETH ETFs bleed outflows in the Binance hack aftermath, dragging down prices."
     },
     {
       "title": "AI agents help rescue ETH’s Glamsterdam fork, ‘Steal My Bitcoin’ site: Hodler’s Digest",
@@ -46,6 +31,20 @@
       "source": "Cointelegraph",
       "date": "22 października",
       "body": "StarkWare plans to release a draft whitepaper in November as it explores an independent, quantum-resistant blockchain."
+    },
+    {
+      "title": "Ether ETF outflows continue, pass $1B in October so far",
+      "url": "https://cointelegraph.com/markets/ether-etf-outflows-near-1-1-billion-october?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "21 października",
+      "body": "US spot Ether ETFs have shed $1.08 billion so far in October, the biggest monthly outflow of 2026, while Bitcoin ETF inflows slowed after Monday’s spike."
+    },
+    {
+      "title": "JPMorgan takes JPM Coin to Ethereum for institutional clients",
+      "url": "https://cointelegraph.com/news/jpmorgan-jpm-coin-ethereum-institutional-clients?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "19 października",
+      "body": "JPMorgan is expanding its JPM Coin deposit token to Ethereum, allowing institutional clients to make payments and settle tokenized asset transactions."
     }
   ]
 }
