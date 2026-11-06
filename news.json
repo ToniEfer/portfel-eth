@@ -1,9 +1,16 @@
 {
-  "updated": "2026-11-05T19:55:38.895Z",
+  "updated": "2026-11-06T19:23:08.702Z",
   "sources": [
     "Cointelegraph"
   ],
   "items": [
+    {
+      "title": "Ethereum devs won’t fork Glamsterdam on Hoodi until smart contract risks resolved",
+      "url": "https://cointelegraph.com/news/ethereum-devs-fork-glamsterdam-hoodi-smart-contract-risks?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "6 listopada",
+      "body": "Ethereum developers are investigating concerns tied to eight smart contract invariants tied to Glamsterdam’s EIP-8037 and EIP-8038."
+    },
     {
       "title": "Ethereum dev targets 2028 for quantum resistance, a year early",
       "url": "https://cointelegraph.com/news/ethereum-post-quantum-transition-2028-target?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
@@ -38,13 +45,6 @@
       "source": "Cointelegraph",
       "date": "21 października",
       "body": "US spot Ether ETFs have shed $1.08 billion so far in October, the biggest monthly outflow of 2026, while Bitcoin ETF inflows slowed after Monday’s spike."
-    },
-    {
-      "title": "JPMorgan takes JPM Coin to Ethereum for institutional clients",
-      "url": "https://cointelegraph.com/news/jpmorgan-jpm-coin-ethereum-institutional-clients?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "19 października",
-      "body": "JPMorgan is expanding its JPM Coin deposit token to Ethereum, allowing institutional clients to make payments and settle tokenized asset transactions."
     }
   ]
 }
