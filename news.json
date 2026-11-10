@@ -1,11 +1,18 @@
 {
-  "updated": "2026-11-09T22:19:27.746Z",
+  "updated": "2026-11-10T07:15:03.708Z",
   "sources": [
-    "Decrypt",
     "CoinDesk",
+    "Decrypt",
     "Cointelegraph"
   ],
   "items": [
+    {
+      "title": "An 11-year-old Ethereum wallet moved $4.6 million and dodged a scam set up in minutes",
+      "url": "https://www.coindesk.com/tech/2026/11/10/an-11-year-old-ethereum-wallet-moved-usd4-6-million-and-dodged-a-scam-set-up-in-minutes",
+      "source": "CoinDesk",
+      "date": "10 listopada",
+      "body": "Bots spotted a wallet from Ethereum’s 2015 launch the moment it stirred and planted lookalike addresses in its history, but the owner sent the money to the right place anyway."
+    },
     {
       "title": "Vitalik Buterin Moves On From ‘Ultrasound Money,’ Says ETH’s Value Is Stability",
       "url": "https://decrypt.co/382837/vitalik-buterin-moves-on-from-ultrasound-money-says-eths-value-is-stability",
@@ -40,13 +47,6 @@
       "source": "Cointelegraph",
       "date": "6 listopada",
       "body": "Ethereum developers are investigating concerns tied to eight smart contract invariants tied to Glamsterdam’s EIP-8037 and EIP-8038."
-    },
-    {
-      "title": "Ethereum dev targets 2028 for quantum resistance, a year early",
-      "url": "https://cointelegraph.com/news/ethereum-post-quantum-transition-2028-target?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "4 listopada",
-      "body": "Ethereum researcher Justin Drake said it is their “hope” that Ethereum will achieve its post-quantum and post-AI transition by December 2028."
     }
   ]
 }
