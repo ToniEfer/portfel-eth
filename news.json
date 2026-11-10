@@ -1,11 +1,25 @@
 {
-  "updated": "2026-11-10T07:15:03.708Z",
+  "updated": "2026-11-10T19:42:07.389Z",
   "sources": [
-    "CoinDesk",
     "Decrypt",
-    "Cointelegraph"
+    "Cointelegraph",
+    "CoinDesk"
   ],
   "items": [
+    {
+      "title": "Morning Minute: Vitalik Recasts ETH as a Store of Value",
+      "url": "https://decrypt.co/382931/morning-minute-vitalik-recasts-eth-as-a-store-of-value",
+      "source": "Decrypt",
+      "date": "10 listopada",
+      "body": "It’s a big shift for Ethereum from the “ultrasound money” days. But can ETH compete as a store-of-value play?"
+    },
+    {
+      "title": "Ex-employee sues Ethereum Foundation and Vitalik Buterin over firing",
+      "url": "https://cointelegraph.com/news/ex-employee-sues-ethereum-foundation-vitalik-buterin-over-firing?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "10 listopada",
+      "body": "Kayleen Fulton alleges she was fired less than two weeks after disclosing a cancer diagnosis and helping organize a staff letter challenging a requirement to endorse the foundation’s new…"
+    },
     {
       "title": "An 11-year-old Ethereum wallet moved $4.6 million and dodged a scam set up in minutes",
       "url": "https://www.coindesk.com/tech/2026/11/10/an-11-year-old-ethereum-wallet-moved-usd4-6-million-and-dodged-a-scam-set-up-in-minutes",
@@ -28,25 +42,11 @@
       "body": "The firm’s stash reached 6.07 million ETH—4.97% of supply and 99% of the way to its “Alchemy of 5%” goal—as chairman Tom Lee called Vitalik Buterin’s “ETH is money” comments a “seismic…"
     },
     {
-      "title": "Two rival Ethereum proposals aim to stop Glamsterdam breaking old contracts",
-      "url": "https://www.coindesk.com/tech/2026/11/09/two-rival-ethereum-proposals-aim-to-stop-glamsterdam-breaking-old-contracts",
-      "source": "CoinDesk",
-      "date": "9 listopada",
-      "body": "The proposals aim to keep Ethereum’s planned gas changes from breaking existing contracts, using different approaches to what contracts see and what users pay."
-    },
-    {
       "title": "Vitalik ‘pivots’ ETH to store of value, crypto suffers after US midterms: Hodler’s Digest",
       "url": "https://cointelegraph.com/magazine/vitaliks-pivots-to-eth-as-a-store-of-value-us-election-weighs-on-crypto-hodlers-digest?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "date": "8 listopada",
       "body": "Vitalik Buterin wants Ethereum to embrace a store of value narrative, upsetting Bitcoin maxis. The crypto industry faces an uncertain future following the US elections."
-    },
-    {
-      "title": "Ethereum devs won’t fork Glamsterdam on Hoodi until smart contract risks resolved",
-      "url": "https://cointelegraph.com/news/ethereum-devs-fork-glamsterdam-hoodi-smart-contract-risks?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "6 listopada",
-      "body": "Ethereum developers are investigating concerns tied to eight smart contract invariants tied to Glamsterdam’s EIP-8037 and EIP-8038."
     }
   ]
 }
