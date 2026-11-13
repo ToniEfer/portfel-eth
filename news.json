@@ -1,11 +1,18 @@
 {
-  "updated": "2026-11-12T15:11:22.003Z",
+  "updated": "2026-11-13T19:39:31.353Z",
   "sources": [
+    "CoinDesk",
     "Decrypt",
-    "Cointelegraph",
-    "CoinDesk"
+    "Cointelegraph"
   ],
   "items": [
+    {
+      "title": "Ethereum treasury firm BTCS sold ether at a loss to keep $64 million Aave loan healthy",
+      "url": "https://www.coindesk.com/markets/2026/11/13/ethereum-treasury-firm-btcs-sold-ether-at-a-loss-to-keep-usd64-million-aave-loan-healthy",
+      "source": "CoinDesk",
+      "date": "13 listopada",
+      "body": "The Nasdaq-listed company has 46,676 ETH backing its borrowings, and the loan could become eligible for liquidation if ether slides to around $1,700."
+    },
     {
       "title": "SoFi Brings Its Bank-Issued Stablecoin to Polygon’s Payments Stack",
       "url": "https://decrypt.co/383096/sofi-brings-bank-issued-stablecoin-polygon-payments-stack",
@@ -40,13 +47,6 @@
       "source": "Decrypt",
       "date": "11 listopada",
       "body": "Deutsche Bank’s custody service now holds Bitcoin, Ethereum and three stablecoins for institutional and corporate clients in Europe."
-    },
-    {
-      "title": "Bitmine posts $6.3B net loss for fiscal 2026 as Ether prices slide",
-      "url": "https://cointelegraph.com/news/bitmine-6b-net-loss-eth-treasury-holdings?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "11 listopada",
-      "body": "Bitmine booked $6.2 billion in unrealized losses on digital assets. It held 6.07 million ETH on Sunday, or 4.97% of Ether’s supply."
     }
   ]
 }
