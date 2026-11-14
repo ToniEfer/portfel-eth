@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T19:39:31.353Z",
+  "updated": "2026-11-14T06:19:29.398Z",
   "sources": [
     "CoinDesk",
     "Decrypt",
@@ -28,13 +28,6 @@
       "body": "L1 blockchains Zilliqa, Gnosis and Ronin join the Ethereum ecosystem as the costs of going it alone grow, and the security and liquidity advantages become too hard to resist."
     },
     {
-      "title": "Ethereum researchers drop faster blocks to race toward quantum defenses in 2027",
-      "url": "https://www.coindesk.com/tech/2026/11/12/ethereum-researchers-drop-faster-blocks-to-race-toward-quantum-defenses-in-2027",
-      "source": "CoinDesk",
-      "date": "12 listopada",
-      "body": "Ethlabs wants quantum-resistant accounts targeted for next year, even if wallet holders still have to switch signing methods themselves."
-    },
-    {
       "title": "Ethlabs drops Hegotá slot proposal in push for 2027 quantum readiness",
       "url": "https://cointelegraph.com/news/ethlabs-ethereum-quantum-security-2027-quick-slots?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
@@ -47,6 +40,13 @@
       "source": "Decrypt",
       "date": "11 listopada",
       "body": "Deutsche Bank’s custody service now holds Bitcoin, Ethereum and three stablecoins for institutional and corporate clients in Europe."
+    },
+    {
+      "title": "Bitmine posts $6.3B net loss for fiscal 2026 as Ether prices slide",
+      "url": "https://cointelegraph.com/news/bitmine-6b-net-loss-eth-treasury-holdings?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "11 listopada",
+      "body": "Bitmine booked $6.2 billion in unrealized losses on digital assets. It held 6.07 million ETH on Sunday, or 4.97% of Ether’s supply."
     }
   ]
 }
