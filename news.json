@@ -1,11 +1,25 @@
 {
-  "updated": "2026-11-14T06:19:29.398Z",
+  "updated": "2026-11-14T17:59:00.458Z",
   "sources": [
     "CoinDesk",
-    "Decrypt",
-    "Cointelegraph"
+    "Cointelegraph",
+    "Decrypt"
   ],
   "items": [
+    {
+      "title": "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business",
+      "url": "https://www.coindesk.com/business/2026/11/14/ethereum-scaling-project-megaeth-slashes-staff-by-20-as-it-pursues-ai-business",
+      "source": "CoinDesk",
+      "date": "14 listopada",
+      "body": "Decentralized Finance total value locked on MegaETH dropped significantly from over $245 million to $8.8 million."
+    },
+    {
+      "title": "MegaETH parent cuts 20% of staff amid restructuring, AI push",
+      "url": "https://cointelegraph.com/news/megaeth-parent-cuts-20-percent-staff-ai-push?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "14 listopada",
+      "body": "MegaETH co-founder Shuyao Kong said the restructuring affected employees who helped build the project’s blockchain, wallet and ecosystem."
+    },
     {
       "title": "Ethereum treasury firm BTCS sold ether at a loss to keep $64 million Aave loan healthy",
       "url": "https://www.coindesk.com/markets/2026/11/13/ethereum-treasury-firm-btcs-sold-ether-at-a-loss-to-keep-usd64-million-aave-loan-healthy",
@@ -33,20 +47,6 @@
       "source": "Cointelegraph",
       "date": "12 listopada",
       "body": "Ethlabs’ roadmap aims to help Ethereum withstand quantum attacks and give users a way to protect their accounts by 2027."
-    },
-    {
-      "title": "Deutsche Bank Goes Live With Crypto Custody After a Five-Year Buildup",
-      "url": "https://decrypt.co/383067/deutsche-bank-goes-live-with-crypto-custody-after-a-five-year-buildup",
-      "source": "Decrypt",
-      "date": "11 listopada",
-      "body": "Deutsche Bank’s custody service now holds Bitcoin, Ethereum and three stablecoins for institutional and corporate clients in Europe."
-    },
-    {
-      "title": "Bitmine posts $6.3B net loss for fiscal 2026 as Ether prices slide",
-      "url": "https://cointelegraph.com/news/bitmine-6b-net-loss-eth-treasury-holdings?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "11 listopada",
-      "body": "Bitmine booked $6.2 billion in unrealized losses on digital assets. It held 6.07 million ETH on Sunday, or 4.97% of Ether’s supply."
     }
   ]
 }
