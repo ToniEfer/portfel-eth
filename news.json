@@ -1,11 +1,39 @@
 {
-  "updated": "2026-11-14T17:59:00.458Z",
+  "updated": "2026-11-16T21:59:33.391Z",
   "sources": [
-    "CoinDesk",
+    "Decrypt",
     "Cointelegraph",
-    "Decrypt"
+    "CoinDesk"
   ],
   "items": [
+    {
+      "title": "Tom Lee Blames Nvidia and Anthropic IPO for Ethereum Plunge as Bitmine Buys the Dip",
+      "url": "https://decrypt.co/383364/tom-lee-blames-nvidia-anthropic-ipo-ethereum-plunge-bitmine-buys",
+      "source": "Decrypt",
+      "date": "16 listopada",
+      "body": "The firm’s stash fell to $11.8 billion from $14.3 billion a week earlier as ETH slid 28% in two weeks, a “waterfall” drop chairman Tom Lee blames on Nvidia fallout and cash-raising ahead of…"
+    },
+    {
+      "title": "Coinbase and Broadridge propose standard for tokenized stock disclosures",
+      "url": "https://cointelegraph.com/news/coinbase-broadridge-tokenized-stock-shareholder-notices?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "16 listopada",
+      "body": "The proposed standard aims to connect tokenized stockholders with corporate disclosures and voting materials across digital wallets, but would not create shareholder rights."
+    },
+    {
+      "title": "Vitalik Buterin Now ‘a Total Bull’ on leanPCS as Fast Track to Quantum-Safe Ethereum",
+      "url": "https://decrypt.co/383294/vitalik-buterin-now-a-total-bull-on-leanpcs-as-fast-track-to-quantum-safe-ethereum",
+      "source": "Decrypt",
+      "date": "16 listopada",
+      "body": "The Ethereum co-founder says proof aggregation could deliver a \"cryptographic proof singularity\" much sooner than developers expected."
+    },
+    {
+      "title": "Vitalik Buterin flips to ‘total bull’ on a faster route to quantum-safe Ethereum",
+      "url": "https://www.coindesk.com/tech/2026/11/16/vitalik-buterin-flips-to-total-bull-on-a-faster-route-to-quantum-safe-ethereum",
+      "source": "CoinDesk",
+      "date": "16 listopada",
+      "body": "A proposed system would combine bulky digital signatures into a shared proof, helping protect wallets without making every payment much more expensive."
+    },
     {
       "title": "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business",
       "url": "https://www.coindesk.com/business/2026/11/14/ethereum-scaling-project-megaeth-slashes-staff-by-20-as-it-pursues-ai-business",
@@ -19,34 +47,6 @@
       "source": "Cointelegraph",
       "date": "14 listopada",
       "body": "MegaETH co-founder Shuyao Kong said the restructuring affected employees who helped build the project’s blockchain, wallet and ecosystem."
-    },
-    {
-      "title": "Ethereum treasury firm BTCS sold ether at a loss to keep $64 million Aave loan healthy",
-      "url": "https://www.coindesk.com/markets/2026/11/13/ethereum-treasury-firm-btcs-sold-ether-at-a-loss-to-keep-usd64-million-aave-loan-healthy",
-      "source": "CoinDesk",
-      "date": "13 listopada",
-      "body": "The Nasdaq-listed company has 46,676 ETH backing its borrowings, and the loan could become eligible for liquidation if ether slides to around $1,700."
-    },
-    {
-      "title": "SoFi Brings Its Bank-Issued Stablecoin to Polygon’s Payments Stack",
-      "url": "https://decrypt.co/383096/sofi-brings-bank-issued-stablecoin-polygon-payments-stack",
-      "source": "Decrypt",
-      "date": "12 listopada",
-      "body": "SoFiUSD, the first stablecoin from a U.S. national bank, is now live on Polygon Open Money Stack alongside Ethereum and Solana."
-    },
-    {
-      "title": "Are Alt-L1s over? Security, costs drive smaller chains to Ethereum",
-      "url": "https://cointelegraph.com/magazine/are-alt-l1s-over-security-costs-drive-smaller-chains-to-ethereum?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "12 listopada",
-      "body": "L1 blockchains Zilliqa, Gnosis and Ronin join the Ethereum ecosystem as the costs of going it alone grow, and the security and liquidity advantages become too hard to resist."
-    },
-    {
-      "title": "Ethlabs drops Hegotá slot proposal in push for 2027 quantum readiness",
-      "url": "https://cointelegraph.com/news/ethlabs-ethereum-quantum-security-2027-quick-slots?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "12 listopada",
-      "body": "Ethlabs’ roadmap aims to help Ethereum withstand quantum attacks and give users a way to protect their accounts by 2027."
     }
   ]
 }
