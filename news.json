@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T21:59:33.391Z",
+  "updated": "2026-11-17T07:53:00.374Z",
   "sources": [
     "Decrypt",
     "Cointelegraph",
@@ -35,18 +35,18 @@
       "body": "A proposed system would combine bulky digital signatures into a shared proof, helping protect wallets without making every payment much more expensive."
     },
     {
-      "title": "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business",
-      "url": "https://www.coindesk.com/business/2026/11/14/ethereum-scaling-project-megaeth-slashes-staff-by-20-as-it-pursues-ai-business",
-      "source": "CoinDesk",
-      "date": "14 listopada",
-      "body": "Decentralized Finance total value locked on MegaETH dropped significantly from over $245 million to $8.8 million."
-    },
-    {
       "title": "MegaETH parent cuts 20% of staff amid restructuring, AI push",
       "url": "https://cointelegraph.com/news/megaeth-parent-cuts-20-percent-staff-ai-push?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
       "date": "14 listopada",
       "body": "MegaETH co-founder Shuyao Kong said the restructuring affected employees who helped build the project’s blockchain, wallet and ecosystem."
+    },
+    {
+      "title": "Are Alt-L1s over? Security, costs drive smaller chains to Ethereum",
+      "url": "https://cointelegraph.com/magazine/are-alt-l1s-over-security-costs-drive-smaller-chains-to-ethereum?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "12 listopada",
+      "body": "L1 blockchains Zilliqa, Gnosis and Ronin join the Ethereum ecosystem as the costs of going it alone grow, and the security and liquidity advantages become too hard to resist."
     }
   ]
 }
