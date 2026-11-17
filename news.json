@@ -1,52 +1,52 @@
 {
-  "updated": "2026-11-17T07:53:00.374Z",
+  "updated": "2026-11-17T20:53:15.558Z",
   "sources": [
     "Decrypt",
-    "Cointelegraph",
-    "CoinDesk"
+    "CoinDesk",
+    "Cointelegraph"
   ],
   "items": [
     {
-      "title": "Tom Lee Blames Nvidia and Anthropic IPO for Ethereum Plunge as Bitmine Buys the Dip",
-      "url": "https://decrypt.co/383364/tom-lee-blames-nvidia-anthropic-ipo-ethereum-plunge-bitmine-buys",
+      "title": "Ethereum Devs Weigh a Scaling Upgrade That Could Break 15,000 Apps",
+      "url": "https://decrypt.co/383462/ethereum-devs-scaling-upgrade-could-break-15000-apps",
       "source": "Decrypt",
-      "date": "16 listopada",
-      "body": "The firm’s stash fell to $11.8 billion from $14.3 billion a week earlier as ETH slid 28% in two weeks, a “waterfall” drop chairman Tom Lee blames on Nvidia fallout and cash-raising ahead of…"
+      "date": "17 listopada",
+      "body": "Developers warned on a core dev call that two scaling changes in the Glamsterdam upgrade break assumptions some contracts rely on—pitting a 3.3x capacity boost against the risk of…"
     },
     {
-      "title": "Coinbase and Broadridge propose standard for tokenized stock disclosures",
-      "url": "https://cointelegraph.com/news/coinbase-broadridge-tokenized-stock-shareholder-notices?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "16 listopada",
-      "body": "The proposed standard aims to connect tokenized stockholders with corporate disclosures and voting materials across digital wallets, but would not create shareholder rights."
-    },
-    {
-      "title": "Vitalik Buterin Now ‘a Total Bull’ on leanPCS as Fast Track to Quantum-Safe Ethereum",
-      "url": "https://decrypt.co/383294/vitalik-buterin-now-a-total-bull-on-leanpcs-as-fast-track-to-quantum-safe-ethereum",
+      "title": "Binance Hack Wallets Move $137 Million in Ethereum After Two Weeks of Silence",
+      "url": "https://decrypt.co/383446/binance-hack-wallets-move-ethereum-after-two-weeks",
       "source": "Decrypt",
-      "date": "16 listopada",
-      "body": "The Ethereum co-founder says proof aggregation could deliver a \"cryptographic proof singularity\" much sooner than developers expected."
+      "date": "17 listopada",
+      "body": "A wallet linked to October’s record Binance theft moved $63 million in ether, before analysts flagged a larger wave of transfers and reported Bitcoin swaps amid ongoing U.S."
     },
     {
-      "title": "Vitalik Buterin flips to ‘total bull’ on a faster route to quantum-safe Ethereum",
-      "url": "https://www.coindesk.com/tech/2026/11/16/vitalik-buterin-flips-to-total-bull-on-a-faster-route-to-quantum-safe-ethereum",
+      "title": "Ethereum's Glamsterdam upgrade risks breaking up to 15,000 automated apps",
+      "url": "https://www.coindesk.com/tech/2026/11/17/ethereum-s-glamsterdam-upgrade-risks-breaking-up-to-15-000-contracts",
       "source": "CoinDesk",
-      "date": "16 listopada",
-      "body": "A proposed system would combine bulky digital signatures into a shared proof, helping protect wallets without making every payment much more expensive."
+      "date": "17 listopada",
+      "body": "In addition to that broader estimate, independent audits have uncovered hundreds of separate compatibility problems, with core developers set to reconsider the changes Thursday."
     },
     {
-      "title": "MegaETH parent cuts 20% of staff amid restructuring, AI push",
-      "url": "https://cointelegraph.com/news/megaeth-parent-cuts-20-percent-staff-ai-push?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "14 listopada",
-      "body": "MegaETH co-founder Shuyao Kong said the restructuring affected employees who helped build the project’s blockchain, wallet and ecosystem."
+      "title": "Judge Acquits MIT Brothers in $25M Ethereum MEV Case, Ending Prosecution",
+      "url": "https://decrypt.co/383408/judge-acquits-mit-brothers-in-25m-ethereum-mev-case-ending-prosecution",
+      "source": "Decrypt",
+      "date": "17 listopada",
+      "body": "A federal judge ruled prosecutors failed to prove the material misrepresentation needed for wire fraud, a year after a jury deadlocked."
     },
     {
-      "title": "Are Alt-L1s over? Security, costs drive smaller chains to Ethereum",
-      "url": "https://cointelegraph.com/magazine/are-alt-l1s-over-security-costs-drive-smaller-chains-to-ethereum?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "title": "Binance hacker moves $63 million in stolen ether after 2 weeks of silence",
+      "url": "https://www.coindesk.com/business/2026/11/17/binance-hacker-moves-usd63-million-in-stolen-ether-after-two-weeks-of-silence",
+      "source": "CoinDesk",
+      "date": "17 listopada",
+      "body": "North Korea's TraderTraitor group transferred 34,279 ETH to three new wallets. The funds have not moved again, blockchain investigators say."
+    },
+    {
+      "title": "Goldman Sachs reports $1.22B in Ether ETFs as ETHA share count jumps",
+      "url": "https://cointelegraph.com/news/goldman-sachs-reports-122b-ether-etfs-etha-shares-jumps?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
       "source": "Cointelegraph",
-      "date": "12 listopada",
-      "body": "L1 blockchains Zilliqa, Gnosis and Ronin join the Ethereum ecosystem as the costs of going it alone grow, and the security and liquidity advantages become too hard to resist."
+      "date": "17 listopada",
+      "body": "Goldman Sachs increased its Ether ETF shares in Q3, bringing its reported holdings to $1.22 billion, while reshuffling its Bitcoin ETF positions."
     }
   ]
 }
