@@ -1,11 +1,17 @@
 {
-  "updated": "2026-11-17T20:53:15.558Z",
+  "updated": "2026-11-18T07:25:05.080Z",
   "sources": [
-    "Decrypt",
     "CoinDesk",
-    "Cointelegraph"
+    "Decrypt"
   ],
   "items": [
+    {
+      "title": "U.S. judge says Ethereum has ‘no terms of use,’ clears MIT brothers of $25 million fraud",
+      "url": "https://www.coindesk.com/policy/2026/11/18/u-s-judge-says-ethereum-has-no-terms-of-use-clears-mit-brothers-of-usd25-million-fraud",
+      "source": "CoinDesk",
+      "date": "18 listopada",
+      "body": "A federal judge acquitted Anton and James Peraire-Bueno, ruling that their 2023 trade against Ethereum trading bots involved no lie that anyone relied on, and closing the U.S."
+    },
     {
       "title": "Ethereum Devs Weigh a Scaling Upgrade That Could Break 15,000 Apps",
       "url": "https://decrypt.co/383462/ethereum-devs-scaling-upgrade-could-break-15000-apps",
@@ -40,13 +46,6 @@
       "source": "CoinDesk",
       "date": "17 listopada",
       "body": "North Korea's TraderTraitor group transferred 34,279 ETH to three new wallets. The funds have not moved again, blockchain investigators say."
-    },
-    {
-      "title": "Goldman Sachs reports $1.22B in Ether ETFs as ETHA share count jumps",
-      "url": "https://cointelegraph.com/news/goldman-sachs-reports-122b-ether-etfs-etha-shares-jumps?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "17 listopada",
-      "body": "Goldman Sachs increased its Ether ETF shares in Q3, bringing its reported holdings to $1.22 billion, while reshuffling its Bitcoin ETF positions."
     }
   ]
 }
