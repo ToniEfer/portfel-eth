@@ -1,10 +1,17 @@
 {
-  "updated": "2026-11-18T07:25:05.080Z",
+  "updated": "2026-11-18T20:28:59.457Z",
   "sources": [
-    "CoinDesk",
-    "Decrypt"
+    "Decrypt",
+    "CoinDesk"
   ],
   "items": [
+    {
+      "title": "Why CoinShares Just Sold All Its Ethereum and Half Its Solana",
+      "url": "https://decrypt.co/383570/why-coinshares-just-sold-all-ethereum-half-solana",
+      "source": "Decrypt",
+      "date": "18 listopada",
+      "body": "The crypto asset manager sold $16.6 million in Ethereum and $2.7 million in Solana, freeing up $19.3 million. Here's why."
+    },
     {
       "title": "U.S. judge says Ethereum has ‘no terms of use,’ clears MIT brothers of $25 million fraud",
       "url": "https://www.coindesk.com/policy/2026/11/18/u-s-judge-says-ethereum-has-no-terms-of-use-clears-mit-brothers-of-usd25-million-fraud",
@@ -39,13 +46,6 @@
       "source": "Decrypt",
       "date": "17 listopada",
       "body": "A federal judge ruled prosecutors failed to prove the material misrepresentation needed for wire fraud, a year after a jury deadlocked."
-    },
-    {
-      "title": "Binance hacker moves $63 million in stolen ether after 2 weeks of silence",
-      "url": "https://www.coindesk.com/business/2026/11/17/binance-hacker-moves-usd63-million-in-stolen-ether-after-two-weeks-of-silence",
-      "source": "CoinDesk",
-      "date": "17 listopada",
-      "body": "North Korea's TraderTraitor group transferred 34,279 ETH to three new wallets. The funds have not moved again, blockchain investigators say."
     }
   ]
 }
