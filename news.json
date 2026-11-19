@@ -1,10 +1,17 @@
 {
-  "updated": "2026-11-18T20:28:59.457Z",
+  "updated": "2026-11-19T07:22:04.713Z",
   "sources": [
-    "Decrypt",
-    "CoinDesk"
+    "CoinDesk",
+    "Decrypt"
   ],
   "items": [
+    {
+      "title": "Ethereum block builders received the most in a $3.4 million vault hack, data shows",
+      "url": "https://www.coindesk.com/tech/2026/11/19/ethereum-block-builders-received-the-most-in-a-usd3-4-million-vault-hack-data-shows",
+      "source": "CoinDesk",
+      "date": "19 listopada",
+      "body": "An automated trading bot copied the attack on K3 Capital's sBOLD vault, taking more than half the funds and paying most of its proceeds to get its transactions processed first."
+    },
     {
       "title": "Why CoinShares Just Sold All Its Ethereum and Half Its Solana",
       "url": "https://decrypt.co/383570/why-coinshares-just-sold-all-ethereum-half-solana",
@@ -32,13 +39,6 @@
       "source": "Decrypt",
       "date": "17 listopada",
       "body": "A wallet linked to October’s record Binance theft moved $63 million in ether, before analysts flagged a larger wave of transfers and reported Bitcoin swaps amid ongoing U.S."
-    },
-    {
-      "title": "Ethereum's Glamsterdam upgrade risks breaking up to 15,000 automated apps",
-      "url": "https://www.coindesk.com/tech/2026/11/17/ethereum-s-glamsterdam-upgrade-risks-breaking-up-to-15-000-contracts",
-      "source": "CoinDesk",
-      "date": "17 listopada",
-      "body": "In addition to that broader estimate, independent audits have uncovered hundreds of separate compatibility problems, with core developers set to reconsider the changes Thursday."
     },
     {
       "title": "Judge Acquits MIT Brothers in $25M Ethereum MEV Case, Ending Prosecution",
