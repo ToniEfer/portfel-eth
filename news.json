@@ -1,11 +1,18 @@
 {
-  "updated": "2026-11-20T07:12:14.472Z",
+  "updated": "2026-11-20T20:13:45.424Z",
   "sources": [
+    "Decrypt",
     "CoinDesk",
-    "Cointelegraph",
-    "Decrypt"
+    "Cointelegraph"
   ],
   "items": [
+    {
+      "title": "Cathie Wood Bets $91M on Anthropic IPO While Paring Crypto Exposure",
+      "url": "https://decrypt.co/383737/cathie-wood-bets-91m-anthropic-ipo-paring-crypto-exposure",
+      "source": "Decrypt",
+      "date": "20 listopada",
+      "body": "The firm bought 934,968 Anthropic shares across six ETFs on the Claude maker’s Nasdaq debut while trimming a combined $4.1 million from its Ethereum and Solana staking ETFs."
+    },
     {
       "title": "Ethereum’s next big upgrade is pushed into 2027 by apps it would break",
       "url": "https://www.coindesk.com/tech/2026/11/20/ethereum-s-next-big-upgrade-is-pushed-into-2027-by-apps-it-would-break",
@@ -26,13 +33,6 @@
       "source": "Cointelegraph",
       "date": "19 listopada",
       "body": "Phylax’s system lets decentralized protocols block potentially harmful transactions, but raises questions about potential censorship and Ethereum’s concentrated builder market."
-    },
-    {
-      "title": "Ethereum block builders received the most in a $3.4 million vault hack, data shows",
-      "url": "https://www.coindesk.com/tech/2026/11/19/ethereum-block-builders-received-the-most-in-a-usd3-4-million-vault-hack-data-shows",
-      "source": "CoinDesk",
-      "date": "19 listopada",
-      "body": "An automated trading bot copied the attack on K3 Capital's sBOLD vault, taking more than half the funds and paying most of its proceeds to get its transactions processed first."
     },
     {
       "title": "Why CoinShares Just Sold All Its Ethereum and Half Its Solana",
