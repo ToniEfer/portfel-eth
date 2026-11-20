@@ -1,11 +1,18 @@
 {
-  "updated": "2026-11-19T20:33:29.172Z",
+  "updated": "2026-11-20T07:12:14.472Z",
   "sources": [
-    "Cointelegraph",
     "CoinDesk",
+    "Cointelegraph",
     "Decrypt"
   ],
   "items": [
+    {
+      "title": "Ethereum’s next big upgrade is pushed into 2027 by apps it would break",
+      "url": "https://www.coindesk.com/tech/2026/11/20/ethereum-s-next-big-upgrade-is-pushed-into-2027-by-apps-it-would-break",
+      "source": "CoinDesk",
+      "date": "20 listopada",
+      "body": "Glamsterdam was originally targeted for December, but developers now say January is the earliest possible date as companies work to fix affected smart contracts."
+    },
     {
       "title": "Ethereum’s Glamsterdam upgrade could slip to May 2027 over compatibility concerns",
       "url": "https://cointelegraph.com/news/ethereum-glamsterdam-could-slip-to-may-2027?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
@@ -35,18 +42,11 @@
       "body": "The crypto asset manager sold $16.6 million in Ethereum and $2.7 million in Solana, freeing up $19.3 million. Here's why."
     },
     {
-      "title": "Ethereum Devs Weigh a Scaling Upgrade That Could Break 15,000 Apps",
-      "url": "https://decrypt.co/383462/ethereum-devs-scaling-upgrade-could-break-15000-apps",
-      "source": "Decrypt",
+      "title": "Goldman Sachs reports $1.22B in Ether ETFs as ETHA share count jumps",
+      "url": "https://cointelegraph.com/news/goldman-sachs-reports-122b-ether-etfs-etha-shares-jumps?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
       "date": "17 listopada",
-      "body": "Developers warned on a core dev call that two scaling changes in the Glamsterdam upgrade break assumptions some contracts rely on—pitting a 3.3x capacity boost against the risk of…"
-    },
-    {
-      "title": "Binance Hack Wallets Move $137 Million in Ethereum After Two Weeks of Silence",
-      "url": "https://decrypt.co/383446/binance-hack-wallets-move-ethereum-after-two-weeks",
-      "source": "Decrypt",
-      "date": "17 listopada",
-      "body": "A wallet linked to October’s record Binance theft moved $63 million in ether, before analysts flagged a larger wave of transfers and reported Bitcoin swaps amid ongoing U.S."
+      "body": "Goldman Sachs increased its Ether ETF shares in Q3, bringing its reported holdings to $1.22 billion, while reshuffling its Bitcoin ETF positions."
     }
   ]
 }
