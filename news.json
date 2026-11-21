@@ -1,11 +1,18 @@
 {
-  "updated": "2026-11-21T07:03:21.468Z",
+  "updated": "2026-11-21T19:13:07.552Z",
   "sources": [
     "CoinDesk",
     "Decrypt",
     "Cointelegraph"
   ],
   "items": [
+    {
+      "title": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
+      "url": "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated",
+      "source": "CoinDesk",
+      "date": "21 listopada",
+      "body": "BTCS cut its reported Aave debt by about $10 million in ten days, but falling ether prices are keeping its collateral under pressure."
+    },
     {
       "title": "Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment",
       "url": "https://www.coindesk.com/business/2026/11/20/fairmint-plans-tokenized-stock-venue-on-canton-ethereum-under-sec-experiment",
@@ -19,13 +26,6 @@
       "source": "Decrypt",
       "date": "20 listopada",
       "body": "The firm bought 934,968 Anthropic shares across six ETFs on the Claude maker’s Nasdaq debut while trimming a combined $4.1 million from its Ethereum and Solana staking ETFs."
-    },
-    {
-      "title": "Ethereum’s next big upgrade is pushed into 2027 by apps it would break",
-      "url": "https://www.coindesk.com/tech/2026/11/20/ethereum-s-next-big-upgrade-is-pushed-into-2027-by-apps-it-would-break",
-      "source": "CoinDesk",
-      "date": "20 listopada",
-      "body": "Glamsterdam was originally targeted for December, but developers now say January is the earliest possible date as companies work to fix affected smart contracts."
     },
     {
       "title": "Ethereum’s Glamsterdam upgrade could slip to May 2027 over compatibility concerns",
