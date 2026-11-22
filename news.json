@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T19:13:07.552Z",
+  "updated": "2026-11-22T19:36:08.318Z",
   "sources": [
     "CoinDesk",
     "Decrypt",
@@ -42,11 +42,11 @@
       "body": "Phylax’s system lets decentralized protocols block potentially harmful transactions, but raises questions about potential censorship and Ethereum’s concentrated builder market."
     },
     {
-      "title": "Why CoinShares Just Sold All Its Ethereum and Half Its Solana",
-      "url": "https://decrypt.co/383570/why-coinshares-just-sold-all-ethereum-half-solana",
-      "source": "Decrypt",
-      "date": "18 listopada",
-      "body": "The crypto asset manager sold $16.6 million in Ethereum and $2.7 million in Solana, freeing up $19.3 million. Here's why."
+      "title": "Goldman Sachs reports $1.22B in Ether ETFs as ETHA share count jumps",
+      "url": "https://cointelegraph.com/news/goldman-sachs-reports-122b-ether-etfs-etha-shares-jumps?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "17 listopada",
+      "body": "Goldman Sachs increased its Ether ETF shares in Q3, bringing its reported holdings to $1.22 billion, while reshuffling its Bitcoin ETF positions."
     }
   ]
 }
