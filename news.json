@@ -1,24 +1,31 @@
 {
-  "updated": "2026-11-22T19:36:08.318Z",
+  "updated": "2026-11-23T23:51:28.113Z",
   "sources": [
-    "CoinDesk",
+    "Cointelegraph",
     "Decrypt",
-    "Cointelegraph"
+    "CoinDesk"
   ],
   "items": [
     {
-      "title": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
-      "url": "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated",
-      "source": "CoinDesk",
-      "date": "21 listopada",
-      "body": "BTCS cut its reported Aave debt by about $10 million in ten days, but falling ether prices are keeping its collateral under pressure."
+      "title": "BTCS offloads $44M in ETH to reduce DeFi debt amid market downturn",
+      "url": "https://cointelegraph.com/news/btcs-offloads-44m-eth-reduce-defi-debt-market-downturn?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "23 listopada",
+      "body": "BTCS sold more than half its Ether holdings to reduce leverage following the market sell-off, while BitMine added another 7,819 ETH to its treasury."
     },
     {
-      "title": "Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment",
-      "url": "https://www.coindesk.com/business/2026/11/20/fairmint-plans-tokenized-stock-venue-on-canton-ethereum-under-sec-experiment",
+      "title": "Tom Lee Says Ethereum Is as Scarce as Bitcoin—And Bitmine Just Bought More",
+      "url": "https://decrypt.co/383800/tom-lee-ethereum-scarce-bitcoin-bitmine-buys-more",
+      "source": "Decrypt",
+      "date": "23 listopada",
+      "body": "Chairman Tom Lee argued ETH’s supply has grown just 0.90% annually since mid-2025—roughly matching Bitcoin’s 0.82% and far below Solana, XRP and Cardano."
+    },
+    {
+      "title": "Ethereum wallets holding $72 billion ETH are under threat of a future quantum attack",
+      "url": "https://www.coindesk.com/markets/2026/11/23/ethereum-wallets-holding-usd72-billion-eth-are-under-threat-of-a-future-quantum-attack",
       "source": "CoinDesk",
-      "date": "20 listopada",
-      "body": "The firm is the latest to join in building blockchain-based stock markets under the agency’s five-year \"innovation exemption\" for tokenized trading."
+      "date": "23 listopada",
+      "body": "Researchers find that accounts with visible public keys hold nearly 55% of ether outside staking, and propose a way to move them to quantum-resistant security."
     },
     {
       "title": "Cathie Wood Bets $91M on Anthropic IPO While Paring Crypto Exposure",
@@ -40,13 +47,6 @@
       "source": "Cointelegraph",
       "date": "19 listopada",
       "body": "Phylax’s system lets decentralized protocols block potentially harmful transactions, but raises questions about potential censorship and Ethereum’s concentrated builder market."
-    },
-    {
-      "title": "Goldman Sachs reports $1.22B in Ether ETFs as ETHA share count jumps",
-      "url": "https://cointelegraph.com/news/goldman-sachs-reports-122b-ether-etfs-etha-shares-jumps?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "17 listopada",
-      "body": "Goldman Sachs increased its Ether ETF shares in Q3, bringing its reported holdings to $1.22 billion, while reshuffling its Bitcoin ETF positions."
     }
   ]
 }
