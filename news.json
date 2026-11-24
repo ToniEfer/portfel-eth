@@ -1,11 +1,32 @@
 {
-  "updated": "2026-11-24T09:51:44.030Z",
+  "updated": "2026-11-24T22:24:26.734Z",
   "sources": [
-    "Cointelegraph",
     "Decrypt",
-    "CoinDesk"
+    "CoinDesk",
+    "Cointelegraph"
   ],
   "items": [
+    {
+      "title": "Ethereum Foundation Says AI Is a More Urgent Threat Than Quantum Computing",
+      "url": "https://decrypt.co/383927/ethereum-foundation-ai-more-urgent-threat-quantum-computing",
+      "source": "Decrypt",
+      "date": "24 listopada",
+      "body": "The Ethereum Foundation has doubled its protocol security team and is prioritizing a cryptographic overhaul as advances in AI threaten the mathematical assumptions that keep billions in…"
+    },
+    {
+      "title": "What the CFTC’s New Crypto Reserves Guidance Actually Allows—And What It Doesn’t",
+      "url": "https://decrypt.co/383906/cftc-new-crypto-reserves-guidance-actually-allows-what-it-doesnt",
+      "source": "Decrypt",
+      "date": "24 listopada",
+      "body": "Staff guidance lets swap venues and clearinghouses count Bitcoin, Ethereum, and stablecoins toward their 12-month operating-cost buffer. Here's the catch."
+    },
+    {
+      "title": "BTCS sells more than half its ether to repay $43.8 million in Aave debt",
+      "url": "https://www.coindesk.com/business/2026/11/24/btcs-sells-more-than-half-its-ether-to-repay-usd43-8-million-in-aave-debt",
+      "source": "CoinDesk",
+      "date": "24 listopada",
+      "body": "The firm's DeFi business, Imperium, temporarily pulled out of liquidity pools after generating $3.5 million in Q3 revenue."
+    },
     {
       "title": "Ethereum Foundation doubles protocol security team ahead of overhaul",
       "url": "https://cointelegraph.com/news/ethereum-foundation-doubles-protocol-security-team-amid-ai-quantum-overhaul?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
@@ -26,27 +47,6 @@
       "source": "Decrypt",
       "date": "23 listopada",
       "body": "Chairman Tom Lee argued ETH’s supply has grown just 0.90% annually since mid-2025—roughly matching Bitcoin’s 0.82% and far below Solana, XRP and Cardano."
-    },
-    {
-      "title": "Ethereum wallets holding $72 billion ETH are under threat of a future quantum attack",
-      "url": "https://www.coindesk.com/markets/2026/11/23/ethereum-wallets-holding-usd72-billion-eth-are-under-threat-of-a-future-quantum-attack",
-      "source": "CoinDesk",
-      "date": "23 listopada",
-      "body": "Researchers find that accounts with visible public keys hold nearly 55% of ether outside staking, and propose a way to move them to quantum-resistant security."
-    },
-    {
-      "title": "Cathie Wood Bets $91M on Anthropic IPO While Paring Crypto Exposure",
-      "url": "https://decrypt.co/383737/cathie-wood-bets-91m-anthropic-ipo-paring-crypto-exposure",
-      "source": "Decrypt",
-      "date": "20 listopada",
-      "body": "The firm bought 934,968 Anthropic shares across six ETFs on the Claude maker’s Nasdaq debut while trimming a combined $4.1 million from its Ethereum and Solana staking ETFs."
-    },
-    {
-      "title": "Ethereum’s Glamsterdam upgrade could slip to May 2027 over compatibility concerns",
-      "url": "https://cointelegraph.com/news/ethereum-glamsterdam-could-slip-to-may-2027?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "19 listopada",
-      "body": "Ethereum developers are weighing changes to gas pricing proposals that could disrupt existing smart contracts, after contacting at least 50 affected companies."
     }
   ]
 }
