@@ -1,11 +1,25 @@
 {
-  "updated": "2026-11-27T08:27:02.573Z",
+  "updated": "2026-11-27T21:14:26.972Z",
   "sources": [
+    "Decrypt",
     "Cointelegraph",
-    "CoinDesk",
-    "Decrypt"
+    "CoinDesk"
   ],
   "items": [
+    {
+      "title": "What's on the Ethereum Roadmap: Glamsterdam, Hegotá and Beyond",
+      "url": "https://decrypt.co/resources/whats-on-ethereum-roadmap-glamsterdam-hegota-beyond",
+      "source": "Decrypt",
+      "date": "27 listopada",
+      "body": "Ethereum has rolled out a steady stream of upgrades since 2022. Here’s how those changes fit together—and what’s still ahead."
+    },
+    {
+      "title": "Ethereum Sets December 15 Date for Delayed Glamsterdam Testnet Upgrade",
+      "url": "https://decrypt.co/384104/ethereum-sets-december-15-date-for-delayed-glamsterdam-testnet-upgrade",
+      "source": "Decrypt",
+      "date": "27 listopada",
+      "body": "Core developers will ship Glamsterdam's contested gas changes unaltered, after security concerns halted the Hoodi fork in October."
+    },
     {
       "title": "Ethereum devs set Glamsterdam’s Hoodi rollout for mid-December after delays",
       "url": "https://cointelegraph.com/news/ethereum-devs-set-glamsterdams-hoodi-rollout-for-mid-december-after-delays?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
@@ -33,20 +47,6 @@
       "source": "Decrypt",
       "date": "25 listopada",
       "body": "The Ethereum Foundation pulls its quantum-resistance deadline forward to end 2028, as AI labs say their next models are too dangerous."
-    },
-    {
-      "title": "Ethereum Foundation Says AI Is a More Urgent Threat Than Quantum Computing",
-      "url": "https://decrypt.co/383927/ethereum-foundation-ai-more-urgent-threat-quantum-computing",
-      "source": "Decrypt",
-      "date": "24 listopada",
-      "body": "The Ethereum Foundation has doubled its protocol security team and is prioritizing a cryptographic overhaul as advances in AI threaten the mathematical assumptions that keep billions in…"
-    },
-    {
-      "title": "What the CFTC’s New Crypto Reserves Guidance Actually Allows—And What It Doesn’t",
-      "url": "https://decrypt.co/383906/cftc-new-crypto-reserves-guidance-actually-allows-what-it-doesnt",
-      "source": "Decrypt",
-      "date": "24 listopada",
-      "body": "Staff guidance lets swap venues and clearinghouses count Bitcoin, Ethereum, and stablecoins toward their 12-month operating-cost buffer. Here's the catch."
     }
   ]
 }
