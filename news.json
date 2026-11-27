@@ -1,11 +1,25 @@
 {
-  "updated": "2026-11-25T21:39:39.390Z",
+  "updated": "2026-11-27T08:27:02.573Z",
   "sources": [
     "Cointelegraph",
-    "Decrypt",
-    "CoinDesk"
+    "CoinDesk",
+    "Decrypt"
   ],
   "items": [
+    {
+      "title": "Ethereum devs set Glamsterdam’s Hoodi rollout for mid-December after delays",
+      "url": "https://cointelegraph.com/news/ethereum-devs-set-glamsterdams-hoodi-rollout-for-mid-december-after-delays?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "date": "27 listopada",
+      "body": "Glamsterdam’s Hoodi upgrade was delayed in October after concerns that changes to gas pricing could break some existing smart contracts."
+    },
+    {
+      "title": "Ethereum's much-awaited Glamsterdam upgrade cleared for December test. Here's what to know",
+      "url": "https://www.coindesk.com/tech/2026/11/27/ethereum-s-much-awaited-glamsterdam-upgrade-cleared-for-december-test-here-s-what-to-know",
+      "source": "CoinDesk",
+      "date": "27 listopada",
+      "body": "Developers have agreed to keep the planned storage charges despite concerns about some existing smart contracts, ending seven weeks of delays to the next major test."
+    },
     {
       "title": "Ethereum Foundation backs Keccak-256 to counter quantum, AI threats",
       "url": "https://cointelegraph.com/news/ethereum-foundation-keccak-256-counter-quantum-ai-threats?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
@@ -21,13 +35,6 @@
       "body": "The Ethereum Foundation pulls its quantum-resistance deadline forward to end 2028, as AI labs say their next models are too dangerous."
     },
     {
-      "title": "Ether, DeFi fall twice as hard as bitcoin as equities selloff resumes",
-      "url": "https://www.coindesk.com/markets/2026/11/25/ether-defi-fall-twice-as-hard-as-bitcoin-as-equities-selloff-resumes",
-      "source": "CoinDesk",
-      "date": "25 listopada",
-      "body": "Bitcoin (BTC) is down 1.2% since midnight UTC as the stock selloff resumes, with ether (ETH) and DeFi tokens falling about twice as far."
-    },
-    {
       "title": "Ethereum Foundation Says AI Is a More Urgent Threat Than Quantum Computing",
       "url": "https://decrypt.co/383927/ethereum-foundation-ai-more-urgent-threat-quantum-computing",
       "source": "Decrypt",
@@ -40,13 +47,6 @@
       "source": "Decrypt",
       "date": "24 listopada",
       "body": "Staff guidance lets swap venues and clearinghouses count Bitcoin, Ethereum, and stablecoins toward their 12-month operating-cost buffer. Here's the catch."
-    },
-    {
-      "title": "Ethereum Foundation doubles protocol security team ahead of overhaul",
-      "url": "https://cointelegraph.com/news/ethereum-foundation-doubles-protocol-security-team-amid-ai-quantum-overhaul?utm_source=rss_feed&utm_medium=rss_tag_ethereum&utm_campaign=rss_partner_inbound",
-      "source": "Cointelegraph",
-      "date": "24 listopada",
-      "body": "The foundation said its next upgrade will be harder than the Merge, and the required pace of development will make it easier to ship bugs."
     }
   ]
 }
